@@ -21,7 +21,7 @@ https://drive.usercontent.google.com/download?id=11j0LXsaRpdR-wziixXZnsQZ0ZFm1K6
 While the brightness of night time in 2006 wow is rather dark compared to modern wow, this mod aims to darken things down significantly for a much more immersive feel. 
 Duskwood is even darker than the rest, making Darkshire actually true to its name! 
 
-https://cdn.discordapp.com/attachments/466627627554439178/825522807117971456/patch-Z.mpq
+https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-Z.MPQ
 
 ### 2.4 Pretty Night Sky
 https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=sharing
@@ -39,8 +39,10 @@ https://raw.githubusercontent.com/seacrabsam/patch-incubus/main/patch-I.mpq
 https://drive.google.com/file/d/10zxEnRWFmxRlgDC9KqCskQ2n07d_0GOD/view
 
 ### 2.9 Blood Enhanced/Splatter
-Patch-N.mpq
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-N-BloodEnhanced.gif)
+Patch-N.mpq: https://github.com/RetroCro/TurtleWoW-Mods/blob/main/patch-N.MPQ
 Video example: https://www.youtube.com/watch?v=RFXzQbEK2vc
+
 
 ### 2.10	Fog Pushback
 Pushes back fog significantly to increase view distance. 
@@ -52,6 +54,7 @@ https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=shari
 ### 2.12	Bikini Mod
 
 ### 2.13	A little extra for Female High Elves, Humans, Night Elves
+https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-F.MPQ
 
 ### 2.14	Autumn Elwynn Reskin
 
