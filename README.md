@@ -42,7 +42,7 @@ Alt Eyes: https://drive.google.com/file/d/1RVIJf_HHPLw8-Ghw4XSv5HFDoMmkPYpA/view
 https://drive.google.com/file/d/10zxEnRWFmxRlgDC9KqCskQ2n07d_0GOD/view
 
 ### 2.9 Blood Enhanced/Splatter
-![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-N-BloodEnhanced.gif){width=50% height=50%}
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-N-BloodEnhanced.gif)
 
 Video example: https://www.youtube.com/watch?v=RFXzQbEK2vc
 
