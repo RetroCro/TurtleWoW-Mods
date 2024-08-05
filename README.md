@@ -30,18 +30,23 @@ https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=shari
 https://raw.githubusercontent.com/seacrabsam/patch-druid/main/patch-F.mpq
 
 ### 2.6 Incubus
+This replaces the Warlock Succubus pet with an Incubus. 
 https://raw.githubusercontent.com/seacrabsam/patch-incubus/main/patch-I.mpq
 
 ### 2.7 High Elf Modifications
-?????????
+A few small mods aiming to modify the High Elf race, requires Turtle HD. 
+Void Elf skins: https://drive.google.com/file/d/1kYX86ARqfqUdVaXwnym1bZtVWPdmBaVh/view?usp=sharing
+Alt Eyes: https://drive.google.com/file/d/1RVIJf_HHPLw8-Ghw4XSv5HFDoMmkPYpA/view?usp=sharing
 
 ### 2.8 Water
 https://drive.google.com/file/d/10zxEnRWFmxRlgDC9KqCskQ2n07d_0GOD/view
 
 ### 2.9 Blood Enhanced/Splatter
-![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-N-BloodEnhanced.gif)
-Patch-N.mpq: https://github.com/RetroCro/TurtleWoW-Mods/blob/main/patch-N.MPQ
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-N-BloodEnhanced.gif){width=50% height=50%}
+
 Video example: https://www.youtube.com/watch?v=RFXzQbEK2vc
+
+Patch-N.mpq: https://github.com/RetroCro/TurtleWoW-Mods/raw/main/patch-N.MPQ
 
 
 ### 2.10	Fog Pushback
@@ -50,17 +55,43 @@ Pushes back fog significantly to increase view distance.
 https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=sharing
 
 ### 2.11	Warcraft 3 Cursors
+This mod made a little Warcraft 3 Cursor Interface Addon, should go well with Fiur's Warcraft 3 UI.
+
+https://www.mediafire.com/file/wb1l7gg0hpp0vz5/Cursor-Mod.rar/file
 
 ### 2.12	Bikini Mod
+If the way this particular bra looks in WoW bothers you then this mod is for you. 
 
 ### 2.13	A little extra for Female High Elves, Humans, Night Elves
-https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-F.MPQ
+This mod introduces geometry, animation and texture changes to female high elves, night elves and humans.
+https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-F.MPQ
 
 ### 2.14	Autumn Elwynn Reskin
+Replaces and edits a few textures in stormwind, elwynn, redridge, and westfall to add fall foliage, replace flowers with leaves etc. 
+[Image 1](https://i.imgur.com/L3X5ZZI.jpg)
+[Image 2](https://i.imgur.com/LimEb6M.jpg)
+[Image 3](https://i.imgur.com/e9IGEOw.jpg)
+[Image 4](https://i.imgur.com/EALBvMU.jpg)
+[Image 5](https://i.imgur.com/5lv5mvG.jpg)
+[Image 6](https://i.imgur.com/qjlxz1k.jpg)
+
+https://www.dropbox.com/s/nu7zpt75wozsqj8/patch-F.mpq?dl=0
+
 
 ### 2.15	Druid beast warrior forms for NE and TA
+This patch replaces your Bear form and Dire bear to a furbolg form. Brown for taurens black for Night elves and your cat form to a Tigon form (tiger boss in ZG) both taurens and Night elves have the same appearance. 
+28/01/2024 Update: Condensed Everything Into 1 File, Fixed Some Missing Textures, Added Black Tigon To Night Elves
+
+https://drive.google.com/file/d/1XCcPaRfb6l8lwfD3Oz7p3hXa7DGmu-Pl/view
 
 ### 2.16	Better underwear for High elves
+"Have you ever thought that underwear from classic models looks monotonous or boring?
+Well THIS MOD IS FOR YOU!
+I'm not the best at designing or texturing but I gave the high elves' underwear (for the moment only the female ones), a design according to their race and culture.
+Just drag and drop this mod into your "Data" folder and watch the change.
+The design will vary depending on the skin color you choose, so it will be a surprise every time you create a new character."
+
+https://drive.google.com/file/d/1EZyTMN8PlgliyGYJCn4_lNl5Lt0DULMM/view
 
 ### 2.17	Bigger mouse cursor
 Vanilla WoW client has a hard-coded 32x32 pixel sized mouse cursor. We can't adjust it by UI scale nor display resolution. 
@@ -72,13 +103,3 @@ It could even enlarge cursor into 3X or 4X size for 8K if needed, by its option.
 Download from GitHub: https://github.com/allfoxwy/dxvk/releases 
 
 Readme: https://github.com/allfoxwy/dxvk
-
-
-
-
-3	See Also
-
-
-Sound Mods
-
-
