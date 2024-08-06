@@ -24,6 +24,13 @@ Duskwood is even darker than the rest, making Darkshire actually true to its nam
 https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-Z.MPQ
 
 ### 2.4 Pretty Night Sky
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky1.jpg)
+
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky2.jpg)
+
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky3.jpg)
+
+
 https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=sharing
 
 ### 2.5 WotLK Feral Forms
@@ -44,7 +51,7 @@ Alt Eyes: https://drive.google.com/file/d/1RVIJf_HHPLw8-Ghw4XSv5HFDoMmkPYpA/view
 https://drive.google.com/file/d/10zxEnRWFmxRlgDC9KqCskQ2n07d_0GOD/view
 
 ### 2.9 Blood Enhanced/Splatter
-![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Patch-N-BloodEnhanced.gif)
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/Patch-N-BloodEnhanced.gif)
 
 Video example: https://www.youtube.com/watch?v=RFXzQbEK2vc
 
@@ -70,12 +77,19 @@ https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-F.MPQ
 
 ### 2.14	Autumn Elwynn Reskin
 Replaces and edits a few textures in stormwind, elwynn, redridge, and westfall to add fall foliage, replace flowers with leaves etc. 
+
 [Image 1](https://i.imgur.com/L3X5ZZI.jpg)
+
 [Image 2](https://i.imgur.com/LimEb6M.jpg)
+
 [Image 3](https://i.imgur.com/e9IGEOw.jpg)
+
 [Image 4](https://i.imgur.com/EALBvMU.jpg)
+
 [Image 5](https://i.imgur.com/5lv5mvG.jpg)
+
 [Image 6](https://i.imgur.com/qjlxz1k.jpg)
+
 
 https://www.dropbox.com/s/nu7zpt75wozsqj8/patch-F.mpq?dl=0
 
