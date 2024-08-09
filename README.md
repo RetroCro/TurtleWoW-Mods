@@ -136,6 +136,8 @@ https://github.com/Lexiebean/Turtle-WoW-Improved-2FA/raw/main/Merged/Patch-Y.mpq
 ### 1.19 Pink Herbs
 Turns (most) herbs pink for easy finding.
 
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PinkHerbs.jpg)
+
 https://github.com/seacrabsam/patch-herb
 
 
