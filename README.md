@@ -145,6 +145,9 @@ Really nice looking water texture replacement
 
 ![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater.jpg)
 
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater2.jpg)
+
+
 https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-W.MPQ
 
 
