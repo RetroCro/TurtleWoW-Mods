@@ -9,6 +9,8 @@
 
 **https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks**
 
+Latest Turtle Wow Download: https://turtle-eu.b-cdn.net/twmoa_1171.zip
+
 ## 1 Client Mods
 
 ### 1.1 Turtle HD
