@@ -143,7 +143,7 @@ https://github.com/seacrabsam/patch-herb
 ### 1.20 Epoch Water
 Really nice looking water texture replacement
 
-![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWazter.jpg)
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater.jpg)
 
 https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-W.MPQ
 
