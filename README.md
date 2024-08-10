@@ -140,7 +140,10 @@ Turns (most) herbs pink for easy finding.
 
 https://github.com/seacrabsam/patch-herb
 
+### 1.20 Epoch Water
+Really nice looking water texture replacement
 
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWazter.jpg)
 
 
 
