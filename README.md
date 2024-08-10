@@ -158,6 +158,8 @@ Note: Windows users can use the DXVK version, but performance can be worse. If s
 
 https://github.com/hannesmann/vanillafixes
 
+https://github.com/hannesmann/vanillafixes/releases
+
 ### 2.2 Vanilla-Tweaks
 Custom patch for the 1.12 client which enables:
 - Widescreen FoV fix
