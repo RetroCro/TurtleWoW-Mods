@@ -1,7 +1,15 @@
 # Personal backup of Turtle WoW's Client Mods, Client Fixes, and Tweaks
 
 ## 1 Client Mods
-From https://turtle-wow.fandom.com/wiki/Client_Mods
+Since the Turtle WoW website and forum are down many of the links from the Wiki are broken and do not work. I scoured through various archive services and cached pages to pull out the download links for all the client mods that I could.
+
+This is not a replacement for the Turtle WoW wiki nor should it be treated as such. Use the official wiki!!!
+
+https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki
+
+https://turtle-wow.fandom.com/wiki/Client_Mods
+
+https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks
 
 ### 1.1 Turtle HD
 This mod backports many character models and textures, as well as environment textures, from Legion and later WoW versions, to Turtle's vanilla client. 
