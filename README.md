@@ -124,7 +124,7 @@ Readme: https://github.com/allfoxwy/dxvk
 Improves the 2FA Interface so you can enter your 2FA in as text rather than clicking the numbers.
 
 There are 2 versions of this patch. Pick just one.
-
+	qq
 A base version that is just the 2FA changes.
 
 https://github.com/Lexiebean/Turtle-WoW-Improved-2FA/raw/main/2FA/Patch-Y.mpq
@@ -156,7 +156,7 @@ There are 2 versions: DXVK (Linux) and Non-DXVK (Windows). The DXVK version is a
 
 Note: Windows users can use the DXVK version, but performance can be worse. If so, erase all the files from the DXVK version and download the NON-DXVK verison. 
 
-https://github.com/doitsujin/dxvk/releases
+https://github.com/hannesmann/vanillafixes
 
 ### 2.2 Vanilla-Tweaks
 Custom patch for the 1.12 client which enables:
