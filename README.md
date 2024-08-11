@@ -252,26 +252,25 @@ https://raw.githubusercontent.com/hannesmann/AutoLogin/master/bin/AutoLogin.exe
 ### 3.1 Dungeon Quest Guide for Custom Content - Post by Speedz1337
 "There have been a lot of questions about what Turtle WoW quests there are out there and I wanted to make this post to gather all the custom quests there are currently in Turtle WoW."
 
-1. Deadmines
-2. Wailing Caverns
-3. Shadowfang Keep
-4. Stockades
-5. Crescent Grove
-6. Scarlet Monastery and Razorfen Downs
-
-7. Zul'Farrak
-8. Hateforge Quarry
-9. Sunken temple
-10. Blackrock Depths
-11. Lower Blackrock Spire
-12. Scholomance
-13. Dire Maul West and East
-14. Karazhan Crypts
-15. Black Morass
-16. Stormwind Vault
-17. Uldaman and Maraudon
-18. Gnomergan
-19. Stratholme
-20. Gilneas City
+- Deadmines
+- Wailing Caverns
+- Shadowfang Keep
+- Stockades
+- Crescent Grove
+- Scarlet Monastery and Razorfen Down
+- Zul'Farrak
+- Hateforge Quarry
+- Sunken temple
+- Blackrock Depths
+- Lower Blackrock Spire
+- Scholomance
+- Dire Maul West and East
+- Karazhan Crypts
+- Black Morass
+- Stormwind Vault
+- Uldaman and Maraudon
+- Gnomergan
+- Stratholme
+- Gilneas City
 
 ![](https://i.imgur.com/GPN1rCe.png)
