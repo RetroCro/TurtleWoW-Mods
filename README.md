@@ -153,7 +153,9 @@ https://github.com/seacrabsam/patch-herb
 ### 1.20 Epoch Water
 Really nice looking water texture replacement
 
-Slider Comparison: https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c0d977ee-5851-11ef-9396-d93975fe8866
+**[Default Water vs Epoch Water Slider Comparison](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c0d977ee-5851-11ef-9396-d93975fe8866)**
+
+ https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c0d977ee-5851-11ef-9396-d93975fe8866
 
 ![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater.jpg)
 
