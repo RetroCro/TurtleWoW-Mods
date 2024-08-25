@@ -16,7 +16,9 @@ Latest Turtle Wow Download: https://turtle-eu.b-cdn.net/twmoa_1171.zip
 ### 1.1 Turtle HD
 This mod backports many character models and textures, as well as environment textures, from Legion and later WoW versions, to Turtle's vanilla client. 
 
-Patch-A (HD models/textures & more): https://github.com/redmagejoe/TurtleHD/releases/download/v1.17.1-1.0b/patch-A.MPQ
+Install instructions: Download Patch-Z.MPQ and rename it to Patch-A.mpq. Copy mpq your twmoa_1171\Data folder. 
+
+Patch-A (HD models/textures & more): https://github.com/redmagejoe/TurtleHD/releases
 
 patch-B (World and environment visual upgrade): https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link
 
@@ -79,7 +81,10 @@ This mod made a little Warcraft 3 Cursor Interface Addon, should go well with Fi
 https://www.mediafire.com/file/wb1l7gg0hpp0vz5/Cursor-Mod.rar/file
 
 ### 1.12 Bikini Mod
-If the way this particular bra looks in WoW bothers you then this mod is for you. 
+Certain items like "Glorious Breastplate" and other "slutmog" item improvements...
+
+https://github.com/RetroCro/TurtleWoW-Mods/raw/main/Patch-F-BikiniMod.MPQ
+
 
 ### 1.13 A little extra for Female High Elves, Humans, Night Elves
 This mod introduces geometry, animation and texture changes to female high elves, night elves and humans.
