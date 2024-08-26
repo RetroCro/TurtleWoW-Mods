@@ -235,6 +235,8 @@ Beware! These solutions store your credentials in plain text readable by any pro
 #### 2.7.1 Turtle AutoLogin
 This is recommended for most users, who only have one or just a few accounts. This UI mod adjusts the main login screen and expands the "Remember username" feature to remember everything instead. Important: This mod saves your usernames and passwords in your TurtleWoW/WTF/Config.wtf file, so remember this before sharing this file!
 
+![](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/Turtle-AutoLogin.jpg)
+
 Download from the patch-y.mpq file from https://github.com/Haaxor1689/turtle-autologin/releases and place it into your <TurtleWoW/Data/ folder. Launch the game, and you should see on the top right that your accounts are being stored. You can log in and out to test this, and even set if an account should only ever log into a specific character.
 
 #### 2.7.2 (External) AutoLogin
