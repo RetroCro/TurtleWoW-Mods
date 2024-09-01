@@ -17,7 +17,6 @@ Latest Turtle Wow Download: https://turtle-eu.b-cdn.net/twmoa_1171.zip
 This mod backports many character models and textures, as well as environment textures, from Legion and later WoW versions, to Turtle's vanilla client. 
 
 **Patch-A (HD models/textures & more)**
-
 Patch-A Install Instructions: Copy MPQ your twmoa_1171\Data folder where all the other MPQ files are.
 
 Patch-A - Most Recent Stable Release: https://github.com/redmagejoe/TurtleHD/releases/download/v1.17.1-1.0b/patch-A.MPQ
