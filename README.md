@@ -13,7 +13,7 @@ Latest Turtle Wow Download: https://turtle-eu.b-cdn.net/twmoa_1171.zip
 
 ## 1 Client Mods
 
-### 1.1 Turtle HD
+### 1.1 Turtle HD - >>> WARNING THIS IS NO LONGER SUPPORTED <<<
 This mod backports many character models and textures, as well as environment textures, from Legion and later WoW versions, to Turtle's vanilla client. 
 
 #### 1.1.1 Patch-A - HD models/textures & more
