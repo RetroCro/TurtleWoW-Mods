@@ -27,6 +27,39 @@
 > <b>Turtle WoW does not officially support any HD or client mods so you will not be able to receive "official" support for issues caused by using these mods.</b>
 > They have a forum and discord channel dedicated to mods where you can get help from other users.
 
+<!-- ToC begin -->
+<a id="toc"></a>
+
+- [Turtle WoW - Vanilla Client Install & Setup Guide](#turtle-wow---vanilla-client-install--setup-guide)
+  - [Vanilla Tweaks](#vanilla-tweaks)
+  - [SuperWoW](#superwow)
+    - [Virus Warnings](#virus-warnings)
+  - [Nampower](#nampower)
+  - [UnitXP Service Pack 3](#unitxp-service-pack-3)
+  - [VanillaFixes](#vanillafixes)
+- [HD Textures / Mods](#hd-textures--mods)
+  - [Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor](#appletreys-classiic-hd-patch---updated-m2-items-and-wmo-buildings-wmo-structures-weapons-and-armor)
+  - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc. ](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
+  - [Redmagejoe's Environment HD Retexture](#redmagejoes-environment-hd-retexture)
+  - [💥 HD Character Models 💥](#-hd-character-models-)
+    - [Patch-A Option 1 - Watcher's - HD Character Models Only](#patch-a-option-1---watchers---hd-character-models-only)
+    - [Patch-A Option 2 - Turtle HD (by NeyMey)](#patch-a-option-2---turtle-hd-by-neymey)
+- [Other Mods](#other-mods)
+  - [Pretty Night Sky](#pretty-night-sky)
+  - [Wotlk Druid Feral Colors](#wotlk-druid-feral-colors)
+  - [Epoch Water](#epoch-water)
+  - [Fog Pushback](#fog-pushback)
+  - [Pink Herbs](#pink-herbs)
+  - [Auto-Login](#auto-login)
+- [Troubleshooting](#troubleshooting)
+  - [My game crashed when I was in a high populated area like Stormwind Trade district, etc](#my-game-crashed-when-i-was-in-a-high-populated-area-like-stormwind-trade-district-etc)
+  - [My video settings don't show the correct monitor resolution](#my-video-settings-dont-show-the-correct-monitor-resolution)
+- [Unsupported / Out of Date Client Mods](#unsupported--out-of-date-client-mods)
+  - [Redmagejoe's Turtle HD - >>> WARNING THIS IS NO LONGER SUPPORTED <<<](#redmagejoes-turtle-hd----warning-this-is-no-longer-supported-)
+<!-- ToC end -->
+
+
+
 
 # Turtle WoW - Vanilla Client Install & Setup Guide
 > [!NOTE]
