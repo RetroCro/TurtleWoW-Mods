@@ -342,7 +342,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=12005
 Patch for Turtle WoW client that adds account saving features with auto-login and auto-select character.
 Requires a recent enough version of SuperWow, currently >=1.4
 
-![](https://i.imgur.com/GXhE26Q.png)
+<img align="top" src="https://i.imgur.com/GXhE26Q.png" width="40%">
 
 https://github.com/MarcelineVQ/turtle-autologin
 
