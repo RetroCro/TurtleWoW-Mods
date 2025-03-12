@@ -49,8 +49,7 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	2. Create a new Textfile
 	3. Name it "WDB" and remove .txt at the end (if you can't see file extensions, you'll have to enable that. Google it, it depends on your OS)
 	It should look like this when you're done
-	
-	![](https://i.imgur.com/P5VCRFs.png)
+<img align="top" src="https://i.imgur.com/P5VCRFs.png" width="30%">
 
 ## Vanilla Tweaks
 > These are some custom patches for the old 1.12.1 World of Warcraft client, which lacks many of the conveniences of more modern clients.
@@ -62,8 +61,10 @@ The first client fix we will run is called [Vanilla Tweaks](https://github.com/b
 3. Rename WoW.exe to WoW-OriginalBackup.exe
 4. Rename WoW_tweaked.exe to WoW.exe
 
-### Custom Vanilla Tweaks Settings
-This is for advanced use cases I suggest using default values!
+
+<details>
+<summary>Custom Vanilla Tweaks Settings</summary>
+ This is for advanced use cases I suggest using default values!
 But if you really want to apply a different value than the default...
 
 Example:  
@@ -79,6 +80,8 @@ Open Terminal/Powershell at the TWoW directory.
 
 After patching WoW.exe, you must run /console CameraDistanceMax 100 in game for this to apply the max camera distance change.
 Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](https://github.com/brndd/vanilla-tweaks/blob/master/src/main.rs) for more documentation.
+
+</details>
 
 ## SuperWoW
 > made for the 1.12.1 version of World of Warcraft with the purpose of fixing client bugs and expanding the lua-based API used by user interface addons.
@@ -100,8 +103,9 @@ https://github.com/balakethelock/SuperAPI_Castlib
 
 
 ### Virus Warnings
-If at any point during this setup you see warning from your AV software please look this guide - https://github.com/pepopo978/SuperwowInstallation
-These are false alerts but do not ignore them, you will need to add exclusions/exceptions to your AV software for the main Turtle WoW folder, otherwise these client fixes and mods wont work. Why is this happening? Well these client fixes are injected into the WoW executable at startup which can trigger AV software.
+If at any point during this setup you see warning from your AV software please look this guide - https://github.com/pepopo978/SuperwowInstallation.
+
+**These are false alerts but do not ignore them**, you will need to add exclusions/exceptions to your AV software for the main Turtle WoW folder, otherwise these client fixes and mods wont work. Why is this happening? Well these client fixes are injected into the WoW executable at startup which can trigger AV software.
 
 ## Nampower
 >There is a design flaw in this version of the client. A player is not allowed to cast a second spell until after the client receives word of the completion of the previous spell. This means that in addition to the cast time, you have to wait for the time it takes a message to arrive from the server. For many U.S. based players connected to E.U. based realms, this can result in approximately a 20% drop in effective DPS.
@@ -113,7 +117,7 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
 3. Download the optional [NampowerSettings](https://github.com/pepopo978/NampowerSettings/archive/refs/heads/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
    	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
-<img align="top" src="https://i.imgur.com/OcKJG3S.png" width="50%">
+<img align="top" src="https://i.imgur.com/OcKJG3S.png" width="40%">
 
 Pepo's Fork: https://github.com/pepopo978/nampower
 Original nampower: https://github.com/namreeb/nampower
