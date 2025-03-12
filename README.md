@@ -158,14 +158,14 @@ Pepo's Fork: https://github.com/pepopo978/nampower<br>
 Original nampower: https://github.com/namreeb/nampower
 
 ## UnitXP Service Pack 3
->Adjust camera
-Background notifications
-Check line of sight in Lua
-Debug interface for in-game Lua
-Measure distance in Lua
-Performance tweak of disabling TCP delayed ACK
-Proper nameplates
-Screenshot produce JPEG file
+> Adjust camera<br>
+Background notifications<br>
+Check line of sight in Lua<br>
+Debug interface for in-game Lua<br>
+Measure distance in Lua<br>
+Performance tweak of disabling TCP delayed ACK<br>
+Proper nameplates<br>
+Screenshot produce JPEG file<br>
 Better Tab targeting functions
 
 
