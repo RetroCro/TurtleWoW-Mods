@@ -37,9 +37,11 @@
   - [Nampower](#nampower)
   - [UnitXP Service Pack 3](#unitxp-service-pack-3)
   - [VanillaFixes](#vanillafixes)
+- [Other Tweaks / Fixes](#other-tweaks--fixes)
+  - [Vanilla Multi Monitor Fix](#vanilla-multi-monitor-fix)
 - [HD Textures / Mods](#hd-textures--mods)
   - [Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor](#appletreys-classiic-hd-patch---updated-m2-items-and-wmo-buildings-wmo-structures-weapons-and-armor)
-  - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc. ](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
+  - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
   - [Redmagejoe's Environment HD Retexture](#redmagejoes-environment-hd-retexture)
   - [💥 HD Character Models 💥](#-hd-character-models-)
     - [Patch-A Option 1 - Watcher's - HD Character Models Only](#patch-a-option-1---watchers---hd-character-models-only)
@@ -55,7 +57,7 @@
   - [My game crashed when I was in a high populated area like Stormwind Trade district, etc](#my-game-crashed-when-i-was-in-a-high-populated-area-like-stormwind-trade-district-etc)
   - [My video settings don't show the correct monitor resolution](#my-video-settings-dont-show-the-correct-monitor-resolution)
 - [Unsupported / Out of Date Client Mods](#unsupported--out-of-date-client-mods)
-  - [Redmagejoe's Turtle HD - >>> WARNING THIS IS NO LONGER SUPPORTED <<<](#redmagejoes-turtle-hd----warning-this-is-no-longer-supported-)
+  - [Redmagejoe's Turtle HD](#redmagejoes-turtle-hd)
 <!-- ToC end -->
 
 
@@ -235,6 +237,22 @@ Run Vanillafixes.exe to start the game. You can create a shortcut to this if you
 
 https://github.com/hannesmann/vanillafixes
 
+# Other Tweaks / Fixes
+
+## Vanilla Multi Monitor Fix
+> This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected with differing supported resolutions.
+
+1. Download the latest [VanillaMultiMonitorFix release.zip](https://github.com/Mates1500/VanillaMultiMonitorFix/releases) from the releases page.
+	- Unzip and put VanillaMultiMonitorFix.dll in your main TWoW folder.
+	- Edit dlls.txt from your main TWoW folder and and remove the # comment from line 6 or where it says: 
+	  ```
+	  VanillaMultiMonitorFix.dll
+	  ```
+2. Set `VMMFix_preferred_monitor.txt`'s contents to your desired WoW monitor's index, as shown by running `ShowAllDisplayDevices.exe`.
+3. Launch the game using VanillaFixes as it load the dll that you uncommented
+
+https://github.com/Mates1500/VanillaMultiMonitorFix
+
 # HD Textures / Mods
 All mpq patches must be placed in the "Data" folder. You can run all of the HD patches below at the same time, but you should only have one Patch-A. See further below. If two mods have the same Patch-X name you will have to rename one to another letter.
 
@@ -246,7 +264,7 @@ https://drive.google.com/file/d/1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR/view
 
 https://forum.turtle-wow.org/viewtopic.php?t=16720
 
-## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc. 
+## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc
 This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
 
 Patch-H.mpq - https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0
@@ -285,6 +303,7 @@ You will need to download both his Patch A and Patch H mpq's if you decide to us
 https://forum.turtle-wow.org/viewtopic.php?t=16818
 
 # Other Mods
+
 ## Pretty Night Sky
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky1.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky2.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky3.jpg" width="33%">
 
@@ -370,7 +389,8 @@ This is an issue beyond the scope of this guide. Post all relevant info in the d
 
 # Unsupported / Out of Date Client Mods
 
-## Redmagejoe's Turtle HD - >>> WARNING THIS IS NO LONGER SUPPORTED <<<
-THIS PROJECT IS CURRENTLY NOT UPDATED FOR PATCH 1.17.2!
+## Redmagejoe's Turtle HD
+**>>> WARNING THIS IS NO LONGER SUPPORTED <<<**
+**THIS PROJECT IS CURRENTLY NOT UPDATED FOR PATCH 1.17.2!**
 https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 
