@@ -119,7 +119,7 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
 <img align="top" src="https://i.imgur.com/OcKJG3S.png" width="40%">
 
-Pepo's Fork: https://github.com/pepopo978/nampower
+Pepo's Fork: https://github.com/pepopo978/nampower<br>
 Original nampower: https://github.com/namreeb/nampower
 
 ## UnitXP Service Pack 3
@@ -215,13 +215,13 @@ https://forum.turtle-wow.org/viewtopic.php?t=16720
 
 ## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc. 
 This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
-Patch-H.mpq
-https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0
+
+Patch-H.mpq - https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0
 
 https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 
 ## Redmagejoe's Environment HD Retexture
-Patch-B.mpq from Redmagejoe's Turtle HD Project topic. Even though the rest of his Turtle HD is not compatible with 1.17.2, this patch-b still works.
+Patch-B.mpq from Redmagejoe's Turtle HD Project topic. Even though the rest of his Turtle HD project is not compatible with 1.17.2, this patch-b still works.
 
 https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link
 
@@ -234,7 +234,7 @@ Previously we were using Redmagejoe's Turtle HD Project Patch-A. He backported p
 Since that [project has been halted](https://forum.turtle-wow.org/viewtopic.php?t=2827) and it not compatible with TWoW 1.17.2, there are two alternatives to pick from....
 
 ### Patch-A Option 1 - Watcher's - HD Character Models Only
-This is similar to Redmagejoe's Patch-A but containing only HD Character models. I would consider this a safe pick since it's slimmed down which helps reduce the number of potential crashes.
+This is similar to Redmagejoe's Patch-A but contains only HD Character models. I would consider this a safe pick since it's slimmed down which helps reduce the number of potential crashes.
 
 Patch-A.mpq
 https://drive.google.com/file/d/1oRvnZ211KZM-vjcymqfKYMlHdfwG1-_t/edit
@@ -242,9 +242,10 @@ https://drive.google.com/file/d/1oRvnZ211KZM-vjcymqfKYMlHdfwG1-_t/edit
 https://forum.turtle-wow.org/viewtopic.php?t=12120
 
 ### Patch-A Option 2 - Turtle HD (by NeyMey)
-> "For the least amount of bugs I recommend using the optional patch A (with only player models)"
+Neymey has his own version of a [slimmed down Patch-A](https://drive.google.com/drive/folders/1a1x0oKfp0BGUOWZfleNgkABbHf1AIcBt). This is also a safe pick. 
 
-Neymey has his own version of a [slimmed down Patch-A](https://drive.google.com/drive/folders/1a1x0oKfp0BGUOWZfleNgkABbHf1AIcBt) and a [larger "full" version](https://drive.google.com/drive/folders/1OrMT2ec3K22h2BduHXbCNRhS6vCajT7c) which has creatures and other assets in HD as well.
+Neymey also has a [larger "full" version of Patch-A](https://drive.google.com/drive/folders/1OrMT2ec3K22h2BduHXbCNRhS6vCajT7c) which comes close to the original Redmagejoe's Patch-A. If you are willing to accept a higher chance of random crashes this is the patch with the most backported HD graphics.
+> NeyMey - "For the least amount of bugs I recommend using the optional patch A (with only player models)"
 
 You will need to download both his Patch A and Patch H mpq's if you decide to use NeyMey' version.
 
