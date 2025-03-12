@@ -365,7 +365,7 @@ Requires a recent enough version of SuperWow, currently >=1.4
 
 https://github.com/MarcelineVQ/turtle-autologin
 
-Original by Haaxor1689 - https://github.com/Haaxor1689/turtle-autologin/forks
+Original by Haaxor1689 - https://github.com/Haaxor1689/turtle-autologin
 
 
 # Troubleshooting
