@@ -93,7 +93,7 @@ Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](http
 3. [Download](https://github.com/balakethelock/SuperAPI/archive/refs/heads/master.zip) the optional compatibility addon, [SuperAPI](https://github.com/balakethelock/SuperAPI), which will add a minimap icon allowing you to change SuperWoW settings. 
 	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI
 	- Be sure to remove the "-master" from the folder name
-4. [Download](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip) optional addon,  [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib) which adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
+4. [Download](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip) optional addon,  [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib), which adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
 	- Unzip and put the SuperAPI_Castlib folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI_Castlib
 	- Be sure to remove the "-master" from the folder name
 
