@@ -106,10 +106,14 @@ These are false alerts but do not ignore them, you will need to add exclusions/e
 ## Nampower
 >There is a design flaw in this version of the client. A player is not allowed to cast a second spell until after the client receives word of the completion of the previous spell. This means that in addition to the cast time, you have to wait for the time it takes a message to arrive from the server. For many U.S. based players connected to E.U. based realms, this can result in approximately a 20% drop in effective DPS.
 
-We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampower) which even more client fixes such as spell queuing, automatic retry on error, and quickcasting.
+We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampower) which has even more client fixes such as spell queuing, automatic retry on error, and quickcasting.
 
 1. Download the [latest nampower.dll from the release](https://github.com/pepopo978/nampower/releases) page.
 2. Put nampower.dll in your main TWoW folder.
+3. Download the optional [NampowerSettings](https://github.com/pepopo978/NampowerSettings/archive/refs/heads/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
+   	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
+   	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
+<img align="top" src="https://i.imgur.com/OcKJG3S.png" width="50%">
 
 Pepo's Fork: https://github.com/pepopo978/nampower
 Original nampower: https://github.com/namreeb/nampower
