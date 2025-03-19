@@ -80,10 +80,10 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- Nvidia - https://www.nvidia.com/en-us/drivers/
 	- Reboot
 5. [Automatically clear WDB every launch (Windows)](https://forum.turtle-wow.org/viewtopic.php?t=539)
-	1. Delete the WDB folder
-	2. Create a new Textfile
-	3. Name it "WDB" and remove .txt at the end (if you can't see file extensions, you'll have to enable that. Google it, it depends on your OS)
-	It should look like this when you're done
+	- Delete the WDB folder
+	- Create a new Textfile
+	- Name it "WDB" and remove .txt at the end (if you can't see file extensions, you'll have to enable that. Google it, it depends on your OS)
+	- It should look like this when you're done
 <img align="top" src="https://i.imgur.com/P5VCRFs.png" width="30%">
 
 ## Vanilla Tweaks
