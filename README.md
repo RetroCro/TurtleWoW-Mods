@@ -54,11 +54,13 @@
   - [Pink Herbs](#pink-herbs)
   - [Auto-Login](#auto-login)
 - [Troubleshooting](#troubleshooting)
+  - [I am using the launcher and it's not working](#i-am-using-the-launcher-and-its-not-working)
   - [My game crashed when I was in a high populated area like Stormwind Trade district, etc](#my-game-crashed-when-i-was-in-a-high-populated-area-like-stormwind-trade-district-etc)
   - [My video settings don't show the correct monitor resolution](#my-video-settings-dont-show-the-correct-monitor-resolution)
 - [Unsupported / Out of Date Client Mods](#unsupported--out-of-date-client-mods)
   - [Redmagejoe's Turtle HD](#redmagejoes-turtle-hd)
 <!-- ToC end -->
+
 
 
 
