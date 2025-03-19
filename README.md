@@ -139,9 +139,26 @@ https://github.com/balakethelock/SuperAPI_Castlib
 
 
 ### Virus Warnings
-If at any point during this setup you see warning from your AV software please look this guide - https://github.com/pepopo978/SuperwowInstallation.
+<details>
+<summary>More Info</summary>
+	
+**These are false alerts but do not ignore them**
+You will need to add exclusions/exceptions to your AV software for the main Turtle WoW folder, otherwise these client fixes and mods wont work. Why is this happening? Well these client fixes are injected into the WoW executable at startup which can trigger AV software.	
 
-**These are false alerts but do not ignore them**, you will need to add exclusions/exceptions to your AV software for the main Turtle WoW folder, otherwise these client fixes and mods wont work. Why is this happening? Well these client fixes are injected into the WoW executable at startup which can trigger AV software.
+1. Right Click on the Start button
+2. Select Settings
+3. Select Update & Security
+4. Select Windows Security
+5. Select Virus & threat protection
+	- Real-time protection: Turn it off
+6. Scroll down to Virus and Thread Protection Settings
+7. Click Manage Settings
+8. Click Add or Remove Exclusions
+  - From the dropdown, select FOLDER
+  - For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
+
+https://github.com/pepopo978/SuperwowInstallation
+</details>
 
 ## Nampower
 >There is a design flaw in this version of the client. A player is not allowed to cast a second spell until after the client receives word of the completion of the previous spell. This means that in addition to the cast time, you have to wait for the time it takes a message to arrive from the server. For many U.S. based players connected to E.U. based realms, this can result in approximately a 20% drop in effective DPS.
