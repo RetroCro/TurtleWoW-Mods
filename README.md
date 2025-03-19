@@ -390,6 +390,9 @@ Original by Haaxor1689 - https://github.com/Haaxor1689/turtle-autologin
 
 
 # Troubleshooting
+## I am using the launcher and it's not working
+The Turtle WoW launcher **DOES NOT WORK** with any of the client tweaks (SuperWoW, Vanillafixes, Nampower, unit XP3, etc) posted above. You cannot use the launcher if you want to enable these. 
+
 ## My game crashed when I was in a high populated area like Stormwind Trade district, etc
 > This application has encountered a critical error:<br>
 > Exception:	0xC0000005 (ACCESS_VIOLATION)<br>
