@@ -156,8 +156,9 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 6. Scroll down to Virus and Thread Protection Settings
 7. Click Manage Settings
 8. Click Add or Remove Exclusions
-  - From the dropdown, select FOLDER
-  - For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
+	- From the dropdown, select FOLDER
+	- For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
+9. Go back and re-do the SuperWoW section once this is setup.
 
 https://github.com/pepopo978/SuperwowInstallation
 </details>
