@@ -129,7 +129,9 @@ Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](http
 	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI
 	- Be sure to remove the "-master" from the folder name
 <img align="top" src="https://i.imgur.com/PWVPBaN.png" width="40%">
-4. [Download](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip) optional addon,  [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib), which adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
+
+4. [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib) (Optional) - Adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
+   - [Download SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip)
 	- Unzip and put the SuperAPI_Castlib folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI_Castlib
 	- Be sure to remove the "-master" from the folder name
 
