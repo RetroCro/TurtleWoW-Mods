@@ -202,6 +202,9 @@ Without UnitXP SP3             |  With UnitXP SP3
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
 <img align="top" src="https://i.imgur.com/R9DQZ9L.png" width="40%">
 
+if you set up everything correctly you will see this configuration icon:
+![](https://i.imgur.com/xlenKVI.png)
+
 https://github.com/allfoxwy/UnitXP_SP3<br>
 https://github.com/allfoxwy/UnitXP_SP3_Addon
 
