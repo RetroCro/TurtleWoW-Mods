@@ -349,8 +349,8 @@ https://forum.turtle-wow.org/viewtopic.php?t=16818
 # Other Mods
 
 ## Pretty Night Sky
-
-<video src="https://raw.githubusercontent.com/RetroCro/TurtleWoW-Mods/refs/heads/main/Pictures/Undercity-TarrenMill.mp4"</video>
+<video src="https://raw.githubusercontent.com/RetroCro/TurtleWoW-Mods/refs/heads/main/Pictures/Undercity-TarrenMill.mp4" controls="controls" style="max-width: 730px;">
+</video>
 
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky1.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky2.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky3.jpg" width="33%">
 
