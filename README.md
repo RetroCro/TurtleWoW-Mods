@@ -384,6 +384,7 @@ Really nice looking water texture replacement
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater.jpg" width="50%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater2.jpg" width="50%">
 
 Patch-W.mpq - https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view
+
 (You will need to rename this to Patch-X or Patch-Y if also using Appletrey's CLASSIIC HD Patch)
 
 https://forum.turtle-wow.org/viewtopic.php?t=16918
