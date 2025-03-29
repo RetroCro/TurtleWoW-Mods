@@ -124,7 +124,7 @@ Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](http
 ## SuperWoW
 > made for the 1.12.1 version of World of Warcraft with the purpose of fixing client bugs and expanding the lua-based API used by user interface addons.
 
-[SuperWoW](https://github.com/balakethelock/SuperWoW) enables a lot of advanced lua features that are not available in the vanilla client. Lots of addons utilize or are greatly enhanced by it. 
+[SuperWoW](https://github.com/balakethelock/SuperWoW) enables a lot of advanced lua features that are not available in the vanilla client. Lots of addons utilize or are greatly enhanced by it. It also doubles the macro character limit - up to 511 characters.
 
 1. Download the [latest release zip file](https://github.com/balakethelock/SuperWoW/releases/tag/Release). 
 2. Put SuperWoWhook.dll and the other files into your main TWoW folder.
