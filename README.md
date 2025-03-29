@@ -383,7 +383,8 @@ Really nice looking water texture replacement
 
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater.jpg" width="50%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater2.jpg" width="50%">
 
-https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view
+Patch-W.mpq - https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view
+(You will need to rename this to Patch-X or Patch-Y if also using Appletrey's CLASSIIC HD Patch)
 
 https://forum.turtle-wow.org/viewtopic.php?t=16918
 
@@ -392,7 +393,7 @@ Pushes back fog significantly to increase view distance.
 
 <img align="top" src="https://i.imgur.com/2foC2hl.jpeg" width="48%"><img src="https://i.imgur.com/ecRqmfc.jpeg" width="50%">
 
-https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=sharing
+Patch-Y.mpq - https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=sharing
 
 https://forum.turtle-wow.org/viewtopic.php?t=10982
 
@@ -401,7 +402,7 @@ Turns (most) herbs pink/purple looking for easy finding.
 
 <img align="top" src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PinkHerbs.jpg" width="40%">
 
-https://forum.turtle-wow.org/viewtopic.php?t=12005
+Patch-J.mpq - https://forum.turtle-wow.org/viewtopic.php?t=12005
 
 
 ## Auto-Login
