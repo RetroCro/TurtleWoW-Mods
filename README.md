@@ -75,6 +75,7 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 3. Download and install both x86 and x64 Microsoft Visual C++ Redistributables
 	- https://aka.ms/vs/17/release/vc_redist.x86.exe
 	- https://aka.ms/vs/17/release/vc_redist.x64.exe
+ 	- Even better options is to download the "All-In-One" package from https://github.com/abbodi1406/vcredist/releases/download/v0.88.0/VisualCppRedist_AIO_x86_x64.exe
 4. Update your graphics drivers
 	- AMD - https://www.amd.com/en/support/download/drivers.html
 	- Nvidia - https://www.nvidia.com/en-us/drivers/
