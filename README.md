@@ -99,6 +99,7 @@ The new launcher has VanillaTweaks built in. Just configure it!
 
 <details>
 <summary>Setting up VanillaTweaks Manually - Click to Expand</summary>
+
 The first client fix we will run is called [Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). 
 
 1. Download [vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip](https://github.com/brndd/vanilla-tweaks/releases/download/v1.6.0/vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip) and unzip into your main TWoW folder.
@@ -109,7 +110,8 @@ The first client fix we will run is called [Vanilla Tweaks](https://github.com/b
 
 <details>
 <summary>Custom Vanilla Tweaks Settings</summary>
- This is for advanced use cases I suggest using default values!
+	
+This is for advanced use cases I suggest using default values!
 But if you really want to apply a different value than the default...
 
 Example:  
