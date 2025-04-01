@@ -67,9 +67,6 @@
 
 
 # Turtle WoW - Vanilla Client Install & Setup Guide
-> [!NOTE]
-> This setup guide does not utilize the official Turtle WoW Launcher which comes with the download. 
-> If you decide to use the launcher this guide and these client fixes/mods probably won't work.
 
 The vanilla client is very old. Simple quality of life things like auto loot do not work in the vanilla client. So let's patch WoW.exe and fix some of these issues:
 
