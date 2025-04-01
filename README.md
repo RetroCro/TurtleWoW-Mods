@@ -80,8 +80,12 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- Nvidia - https://www.nvidia.com/en-us/drivers/
 	- Reboot
 5. [Automatically clear WDB every launch (Windows)](https://forum.turtle-wow.org/viewtopic.php?t=539)
-	- Delete the WDB folder
-	- Create a new Textfile
+
+	> What is WDB and why do this?
+	> It's just a local cache folder. The reason you want to do this is because conflicts can happen and your client will believe incorrect information. For example, a lot of people didn't clear WDB when Survival was introduced, and incorrectly have items that do not work because they claim to require Survival 25 when in fact they only require Survival 1. Also, if two servers have conflicting information about an item, your cache wins and the server loses, and you always want the server to win.
+
+	- Delete the WDB folder (if it exists)
+	- Right Click -> New -> Text Document
 	- Name it "WDB" and remove .txt at the end (if you can't see file extensions, you'll have to enable that. Google it, it depends on your OS)
 	- It should look like this when you're done
 <img align="top" src="https://i.imgur.com/P5VCRFs.png" width="30%">
