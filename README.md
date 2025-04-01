@@ -92,17 +92,20 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 ## Vanilla Tweaks
 > These are some custom patches for the old 1.12.1 World of Warcraft client, which lacks many of the conveniences of more modern clients.
 
+This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, and more!
+
 The new launcher has VanillaTweaks built in. Just configure it!
 ![image](https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530)
 
-
-The first client fix we will run is called [Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, and more!
+<details>
+<summary>Setting up VanillaTweaks Manually - Click to Expand</summary>
+The first client fix we will run is called [Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). 
 
 1. Download [vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip](https://github.com/brndd/vanilla-tweaks/releases/download/v1.6.0/vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip) and unzip into your main TWoW folder.
 2. Open your main TWoW directory and drag WoW.exe on top of vanilla_tweaks.exe. This will create a new file called WoW_tweaked.exe, which has all the patches applied with their default settings
 3. Rename WoW.exe to WoW-OriginalBackup.exe
 4. Rename WoW_tweaked.exe to WoW.exe
-
+</details>
 
 <details>
 <summary>Custom Vanilla Tweaks Settings</summary>
