@@ -156,10 +156,13 @@ https://github.com/balakethelock/SuperAPI_Castlib
 ### When I try using SuperWoW, my game gets an Application Error or Critical Error
 <details>
 <summary>Check your DEP Settings - More Info</summary>
+	
 Go to Control Panel > System and Security > System > Advanced system settings. 
 Under Performance, click Settings, then the Data Execution Prevention tab.
 
 Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list. (Remember to remove this later if it doesn’t help you.)
+
+It's very important that you reboot after making this change!
 </details>
 
 ### Virus Warnings
