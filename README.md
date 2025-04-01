@@ -95,7 +95,7 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 
 This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, and more!
 
-The new launcher has VanillaTweaks built in. Just configure it!
+The new launcher has most of the important VanillaTweaks features built in. Just configure it!
 ![image](https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530)
 
 <details>
