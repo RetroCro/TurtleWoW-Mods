@@ -73,14 +73,14 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 1. Download the game - https://forum.turtle-wow.org/viewtopic.php?t=7709
 2. Unzip into your C drive - example: C:\twmoa_1172\twmoa_1172 or C:\twmoa_1172
 3. Download and install both x86 and x64 Microsoft Visual C++ Redistributables
-	- https://aka.ms/vs/17/release/vc_redist.x86.exe
-	- https://aka.ms/vs/17/release/vc_redist.x64.exe
- 	- Even better options is to download the "All-In-One" package from https://github.com/abbodi1406/vcredist/releases/download/v0.88.0/VisualCppRedist_AIO_x86_x64.exe
-4. Update your graphics drivers
+	- Manually download BOTH the [x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) and [x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) from Microsoft 
+	- Or...
+ 	- Even better options is to download the ["All-In-One" package](https://github.com/abbodi1406/vcredist/releases/download/v0.88.0/VisualCppRedist_AIO_x86_x64.exe)
+5. Update your graphics drivers
 	- AMD - https://www.amd.com/en/support/download/drivers.html
 	- Nvidia - https://www.nvidia.com/en-us/drivers/
 	- Reboot
-5. [Automatically clear WDB every launch (Windows)](https://forum.turtle-wow.org/viewtopic.php?t=539)
+6. [Automatically clear WDB every launch (Windows)](https://forum.turtle-wow.org/viewtopic.php?t=539)
 
 	> What is WDB and why do this?
 	> It's just a local cache folder. The reason you want to do this is because conflicts can happen and your client will believe incorrect information. For example, a lot of people didn't clear WDB when Survival was introduced, and incorrectly have items that do not work because they claim to require Survival 25 when in fact they only require Survival 1. Also, if two servers have conflicting information about an item, your cache wins and the server loses, and you always want the server to win.
