@@ -159,7 +159,7 @@ Go to Control Panel > System and Security > System > Advanced system settings.
 Under Performance, click Settings, then the Data Execution Prevention tab.
 
 Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list. (Remember to remove this later if it doesn’t help you.)
-<details>
+</details>
 
 ### Virus Warnings
 <details>
