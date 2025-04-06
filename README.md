@@ -99,7 +99,7 @@ This will enable widescreen FoV, right click auto loot, increase max camera dist
 
 The new launcher has most of the important VanillaTweaks features built in. Just configure it!
 
-<img align="top center" src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" width="40%">
+<img align="center" src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" width="50%"><br>
 
 <details>
 <summary>Setting up VanillaTweaks Manually - Click to Expand</summary>
