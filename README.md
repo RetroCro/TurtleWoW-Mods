@@ -295,7 +295,7 @@ You are now ready to start the optimized vanilla wow client!
 Run Vanillafixes.exe to start the game. You can create a shortcut to this if you want to put the icon on your desktop or something.
 
 If you did everything correctly you should see this popup:
-![](https://i.imgur.com/JMWCb4S.png)
+<img align="center" src="https://i.imgur.com/JMWCb4S.png" width="50%">
 
 https://github.com/hannesmann/vanillafixes
 
