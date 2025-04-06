@@ -264,6 +264,7 @@ UnitXP_SP3.dll
 # Set Asynchronus computations via DXVK to address 
 # potential microstuttering and other graphical issues
 dxvk.enableAsync = True
+dxvk.gplAsyncCache = True
 
 # Uncomment to set framerate limit
 d3d9.maxFrameRate = 244
@@ -280,6 +281,10 @@ dxvk.numCompilerThreads = 4
 
 # Disabled because VanillaFixes sets process DPI awareness
 d3d9.dpiAware = False
+
+# If you want to show FPS and other GPU stats in game uncomment one of the lines below. The top one has more details the bottom one is just an fps counter.
+# dxvk.hud = fps,frametimes,gpuload,memory,scale=0.75,opacity=0.5
+# dxvk.hud = fps,scale=0.75,opacity=0.5
 ```
 
 > [!TIP]
