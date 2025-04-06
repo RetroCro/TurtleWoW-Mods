@@ -89,7 +89,8 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- Right Click -> New -> Text Document
 	- Name it "WDB" and remove .txt at the end (if you can't see file extensions, you'll have to enable that. Google it, it depends on your OS)
 	- It should look like this when you're done
-<img align="top" src="https://i.imgur.com/P5VCRFs.png" width="30%">
+
+<img align="top center" src="https://i.imgur.com/P5VCRFs.png" width="30%">
 
 ## Vanilla Tweaks
 > These are some custom patches for the old 1.12.1 World of Warcraft client, which lacks many of the conveniences of more modern clients.
@@ -97,7 +98,8 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, and more!
 
 The new launcher has most of the important VanillaTweaks features built in. Just configure it!
-![image](https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530)
+
+<img align="top center" src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" width="40%">
 
 <details>
 <summary>Setting up VanillaTweaks Manually - Click to Expand</summary>
@@ -142,7 +144,7 @@ Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](http
 3. [Download](https://github.com/balakethelock/SuperAPI/archive/refs/heads/master.zip) the optional compatibility addon, [SuperAPI](https://github.com/balakethelock/SuperAPI), which will add a minimap icon allowing you to change SuperWoW settings. 
 	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI
 	- Be sure to remove the "-master" from the folder name
-<img align="top" src="https://i.imgur.com/PWVPBaN.png" width="40%">
+<img align="top center" src="https://i.imgur.com/PWVPBaN.png" width="30%">
 
 4. [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib) (Optional) - Adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
    - [Download SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip)
@@ -198,7 +200,7 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
 3. Download the optional [NampowerSettings](https://github.com/pepopo978/NampowerSettings/archive/refs/heads/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
    	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
-<img align="top" src="https://i.imgur.com/OcKJG3S.png" width="40%">
+<img align="top center" src="https://i.imgur.com/OcKJG3S.png" width="40%">
 
 Pepo's Fork: https://github.com/pepopo978/nampower<br>
 Original nampower: https://github.com/namreeb/nampower
@@ -223,11 +225,12 @@ Without UnitXP SP3             |  With UnitXP SP3
 	- Unzip and put the UnitXP_SP3.dll in your main TWoW folder.
 	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1172\Interface\AddOns\UnitXP_SP3_Addon
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
-<img align="center" src="https://i.imgur.com/R9DQZ9L.png" width="60%">
+
+<img align="top center" src="https://i.imgur.com/R9DQZ9L.png" width="30%">
 
 if you set up everything correctly you will see this configuration icon:
 
-<img align="center" src="https://i.imgur.com/xlenKVI.png" width="30%">
+<img align="top center" src="https://i.imgur.com/xlenKVI.png" width="20%">
 
 https://github.com/allfoxwy/UnitXP_SP3<br>
 https://github.com/allfoxwy/UnitXP_SP3_Addon
@@ -295,7 +298,8 @@ You are now ready to start the optimized vanilla wow client!
 Run Vanillafixes.exe to start the game. You can create a shortcut to this if you want to put the icon on your desktop or something.
 
 If you did everything correctly you should see this popup:
-<img align="center" src="https://i.imgur.com/JMWCb4S.png" width="50%">
+
+<img align="center" src="https://i.imgur.com/JMWCb4S.png" width="25%">
 
 https://github.com/hannesmann/vanillafixes
 
