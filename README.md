@@ -32,9 +32,10 @@
 <a id="toc"></a>
 
 - [Turtle WoW - Vanilla Client Install & Setup Guide](#turtle-wow---vanilla-client-install--setup-guide)
+  - [Automatically Clear WDB Folder Every Time You Launch Turtle WoW](#automatically-clear-wdb-folder-every-time-you-launch-turtle-wow)
   - [Vanilla Tweaks](#vanilla-tweaks)
   - [SuperWoW](#superwow)
-    - [Virus Warnings](#virus-warnings)
+    - [Game crashing when trying to use SuperWoW? ](#game-crashing-when-trying-to-use-superwow-)
   - [Nampower](#nampower)
   - [UnitXP Service Pack 3](#unitxp-service-pack-3)
   - [VanillaFixes](#vanillafixes)
@@ -59,9 +60,15 @@
   - [I am using the launcher and it's not working](#i-am-using-the-launcher-and-its-not-working)
   - [My game crashed when I was in a high populated area like Stormwind Trade district, etc](#my-game-crashed-when-i-was-in-a-high-populated-area-like-stormwind-trade-district-etc)
   - [My video settings don't show the correct monitor resolution](#my-video-settings-dont-show-the-correct-monitor-resolution)
+- [Troubleshooting / FAQ](#troubleshooting--faq)
+  - [When I try using SuperWoW, my game gets an Application Error or Critical Error, or DLL entry point error:](#when-i-try-using-superwow-my-game-gets-an-application-error-or-critical-error-or-dll-entry-point-error)
+  - [Virus Warnings](#virus-warnings)
+  - [Other things to check or try:](#other-things-to-check-or-try)
+  - [Error Logs](#error-logs)
 - [Unsupported / Out of Date Client Mods](#unsupported--out-of-date-client-mods)
   - [Redmagejoe's Turtle HD](#redmagejoes-turtle-hd)
 <!-- ToC end -->
+
 
 # Turtle WoW - Vanilla Client Install & Setup Guide
 
@@ -135,13 +142,13 @@ This is the default and recommended way to apply VanillaTweaks.
 <summary>Option 2 - Apply Custom Settings using Command Line</summary>
 <br>
 
-> ### ⚠ Warning ⚠
+> ## ⚠ Warning ⚠
 > If you don't know what you're doing this can really break your game! Make sure you read the help printout and documentation when messing with these settings. 
 
 Option 2 is for advanced use cases when you want to set a custom value for one or more tweaks.<br>
 
 
-> # 📜 Example
+> ### 📜 Example
 > 1) The default game Field of View (FoV) value in radians is 1.5708. Vanilla Tweaks sets it to 1.925 (Widescren FoV). 
 >    - You want to go even wider and apply the maximum FoV possible: 3.14. <br>
 > 2) The max camera distance LIMIT is 50. Vanilla Tweaks does not change this value by default. 
@@ -195,47 +202,14 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 	- Unzip and put the SuperAPI_Castlib folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI_Castlib
 	- Be sure to remove the "-master" from the folder name
 
+### Game crashing when trying to use SuperWoW? 
+See [Troubleshooting / FAQ](#troubleshooting--faq) 🫡🫡🫡
+
 https://github.com/balakethelock/SuperWoW<br>
 https://github.com/balakethelock/SuperAPI<br>
 https://github.com/balakethelock/SuperAPI_Castlib
-
-
-
-### When I try using SuperWoW, my game gets an Application Error or Critical Error
-<details>
-<summary>Check your DEP Settings - More Info</summary>
-	
-Go to Control Panel > System and Security > System > Advanced system settings. 
-Under Performance, click Settings, then the Data Execution Prevention tab.
-
-Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list. (Remember to remove this later if it doesn’t help you.)
-
-It's very important that you reboot after making this change!
-
-
-### Virus Warnings
-<details>
-<summary>More Info</summary>
-	
-**These are false alerts but do not ignore them**
-You will need to add exclusions/exceptions to your AV software for the main Turtle WoW folder, otherwise these client fixes and mods wont work. Why is this happening? Well these client fixes are injected into the WoW executable at startup which can trigger AV software.	
-
-1. Right Click on the Start button
-2. Select Settings
-3. Select Update & Security
-4. Select Windows Security
-5. Select Virus & threat protection
-	- Real-time protection: Turn it off
-6. Scroll down to Virus and Thread Protection Settings
-7. Click Manage Settings
-8. Click Add or Remove Exclusions
-	- From the dropdown, select FOLDER
-	- For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
-9. Go back and re-do the SuperWoW section once this is setup.
-
 https://github.com/pepopo978/SuperwowInstallation
-</details>
-</details>
+
 </details>
 
 ## Nampower
@@ -259,15 +233,7 @@ Original nampower: https://github.com/namreeb/nampower
 </details>
 
 ## UnitXP Service Pack 3
-> Adjust camera<br>
-Background notifications<br>
-Check line of sight in Lua<br>
-Debug interface for in-game Lua<br>
-Measure distance in Lua<br>
-Performance tweak of disabling TCP delayed ACK<br>
-Proper nameplates<br>
-Screenshot produce JPEG file<br>
-Better Tab targeting functions
+> **Features**: Adjust camera, Background notifications, Check line of sight in Lua, Debug interface for in-game Lua, Measure distance in Lua, Performance tweak of disabling TCP delayed ACK, Proper nameplates, Screenshot produce JPEG file, Better Tab targeting function, And more.
 
 <details>
 <summary>UnitXP Service Pack 3 Install Guide</summary><br>
@@ -281,11 +247,11 @@ Without UnitXP SP3             |  With UnitXP SP3
 	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1172\Interface\AddOns\UnitXP_SP3_Addon
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
 
-<img align="center" src="https://i.imgur.com/R9DQZ9L.png" width="30%">
+<img align="center" src="https://i.imgur.com/R9DQZ9L.png" width="50%">
 
 if you set up everything correctly you will see this configuration icon:
 
-<img align="center" src="https://i.imgur.com/xlenKVI.png" width="20%">
+<img align="center" src="https://i.imgur.com/xlenKVI.png" width="40%">
 
 https://github.com/allfoxwy/UnitXP_SP3<br>
 https://github.com/allfoxwy/UnitXP_SP3_Addon
@@ -359,7 +325,7 @@ Run Vanillafixes.exe to start the game. You can create a shortcut to this if you
 
 If you did everything correctly you should see this popup:
 
-<img align="center" src="https://i.imgur.com/JMWCb4S.png" width="25%">
+<img align="center" src="https://i.imgur.com/JMWCb4S.png" width="35%">
 
 https://github.com/hannesmann/vanillafixes
 </details>
@@ -368,6 +334,9 @@ https://github.com/hannesmann/vanillafixes
 
 ## Vanilla Multi Monitor Fix
 > This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected with differing supported resolutions.
+
+<details>
+<summary>Vanilla Multi Monitor Fix Install Guide</summary>
 
 1. Download the latest [VanillaMultiMonitorFix release.zip](https://github.com/Mates1500/VanillaMultiMonitorFix/releases) from the releases page.
 	- Unzip and put VanillaMultiMonitorFix.dll in your main TWoW folder.
@@ -379,6 +348,7 @@ https://github.com/hannesmann/vanillafixes
 3. Launch the game using VanillaFixes as it load the dll that you uncommented
 
 https://github.com/Mates1500/VanillaMultiMonitorFix
+</details>
 
 # ⭐Turtle WoW HD Graphics, Textures, and Mods⭐
 ![](https://i.imgur.com/aieolVP.jpeg)
@@ -530,6 +500,60 @@ This can happen for various reasons such as:
  - Other OS or Graphics settings
  
 This is an issue beyond the scope of this guide. Post all relevant info in the discord support channel before you try installing any mods mentioned above.
+
+# Troubleshooting / FAQ
+
+## When I try using SuperWoW, my game gets an Application Error or Critical Error, or DLL entry point error:
+<details>
+<summary>Check your DEP Settings</summary>
+
+1. Go to Control Panel > System and Security > System > Advanced system settings. 
+2. Under Performance, click Settings, then the Data Execution Prevention tab.
+
+Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list.
+
+It's very important that you reboot after making this change!
+</details>
+
+## Virus Warnings
+<details>
+<summary>How to Fix Virus Warning - SuperWoW</summary>
+
+**These are false alerts but do not ignore them**
+You will need to add exclusions/exceptions to your AV software for the main Turtle WoW folder, otherwise these client fixes and mods wont work. Why is this happening? Well these client fixes are injected into the WoW executable at startup which can trigger AV software.	
+
+1. Right Click on the Start button
+2. Select Settings -> Select Update & Security -> Select Windows Security
+3. Select Virus & threat protection -> Manage Settings
+	- Real-time protection: Turn it off
+4. Go back to Virus & threat protection -> Scroll all the way down to Exclusions -> Click Add an Exclusion
+	- From the dropdown, select FOLDER
+	- For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
+5. Check the Virus and Threat Protection -> Current Threats -> Protection History -> make sure there's no entries saying SuperWoW is blocked.
+6. Go back and re-do the SuperWoW section once this is setup.
+<img align="center" src="https://i.imgur.com/tvxm5xS.png" width="40%">
+
+</details>
+
+## Other things to check or try:
+Some other stuff stuff you can check:
+
+- Did you delete your WDB folder? 
+- Did you install both VCredist x86 and 64 or the All-in-One?
+- Make sure your game isn't saved in a write-protected directory such as Program Files, Downloads, Documents etc. 
+	Try moving it to like C:\TWoW or somewhere or edit the folder properties and give your account full control.
+- Right Click WoW and run as admin?
+- Did you try removing mpq mods (if any)?
+- Did you try backing up your config.wtf or even WTF folder? Try to run the game it should generate a default config and launch the game with default settings.
+- Did you try changing your dlls.txt to just vfpatcher and SuperWoW?
+- Are you using VanillaFixes or the dxvk version? Try deleting the d3d9.dll file and use the non dxvk version
+- Delete everything and download a fresh CLEAN copy of turtlewow unzipped and DO NOT run the launcher.
+
+## Error Logs
+- Look at twmoa_1172\Logs folder 
+- Look at twmoa_1172\Errors folder -> (scroll to the bottom of the txt file) might have some clues
+
+
 
 # Unsupported / Out of Date Client Mods
 
