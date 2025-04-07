@@ -14,6 +14,7 @@
 		🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a><br>
 		⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a><br>
 		⚗️ <a href="https://turtle-wow.fandom.com/wiki/Client_Mods">Turtle WoW - Client Mods</a><br>
+		🔊 <a href="https://turtle-wow.fandom.com/wiki/Sound_Mods">Turtle WoW - Sound Mods</a><br>
 		🪓 <a href="https://forum.turtle-wow.org/viewforum.php?f=29&sid=d8169699dbac9a393102f4478d15fd4b">Turtle WoW - Modding Forum</a><br>
 		⌨ <a href="https://discord.com/channels/466622455805378571/1158807751850475690">Turtle WoW Discord - Mod Support Channel</a><br>
 </p>
@@ -62,89 +63,132 @@
   - [Redmagejoe's Turtle HD](#redmagejoes-turtle-hd)
 <!-- ToC end -->
 
-
-
-
-
 # Turtle WoW - Vanilla Client Install & Setup Guide
 
-The vanilla client is very old. Simple quality of life things like auto loot do not work in the vanilla client. So let's patch WoW.exe and fix some of these issues:
+The vanilla client is very old. Simple quality of life things like auto loot do not work in the vanilla client. So let's tweak the vanilla client and fix some of these issues!
+<details>
+<summary>➡️➡️ STEP 1 - START HERE!!!! ⬅️⬅️</summary>
 
-1. Download the game - https://forum.turtle-wow.org/viewtopic.php?t=7709
-2. Unzip into your C drive - example: C:\twmoa_1172\twmoa_1172 or C:\twmoa_1172
-3. Download and install both x86 and x64 Microsoft Visual C++ Redistributables
-	- Manually download BOTH the [x86](https://aka.ms/vs/17/release/vc_redist.x86.exe) and [x64](https://aka.ms/vs/17/release/vc_redist.x64.exe) from Microsoft 
-	- Or...
- 	- Even better option is to download the ["All-In-One" package](https://github.com/abbodi1406/vcredist/releases/download/v0.88.0/VisualCppRedist_AIO_x86_x64.exe)
-5. Update your graphics drivers
-	- AMD - https://www.amd.com/en/support/download/drivers.html
-	- Nvidia - https://www.nvidia.com/en-us/drivers/
-	- Reboot
-6. [Automatically clear WDB every launch (Windows)](https://forum.turtle-wow.org/viewtopic.php?t=539)
+1. Download the game:
+	- https://forum.turtle-wow.org/viewtopic.php?t=7709
+	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
 
-	> What is WDB and why do this?
-	> It's just a local cache folder. The reason you want to do this is because conflicts can happen and your client will believe incorrect information. For example, a lot of people didn't clear WDB when Survival was introduced, and incorrectly have items that do not work because they claim to require Survival 25 when in fact they only require Survival 1. Also, if two servers have conflicting information about an item, your cache wins and the server loses, and you always want the server to win.
+2. Unzip somewhere easy to find such as <br>```C:\twmoa_1172\twmoa_1172``` or ```C:\twmoa_1172``` or ```E:\Games```
 
-	- Delete the WDB folder (if it exists)
-	- Right Click -> New -> Text Document
-	- Name it "WDB" and remove .txt at the end (if you can't see file extensions, you'll have to enable that. Google it, it depends on your OS)
-	- It should look like this when you're done
+3. Download and install Microsoft Visual C++ Redistributables - x86 and x64
+	- **Yes, BOTH!! It doesn't matter that you're running a 64 bit Windows. Download BOTH!!**
+		- From Microsoft - [vc_redist.x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  and [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+	Or...
+ 	- Download the latest ["All-In-One" VisualCppRedist_AIO_x86_x64.exe](https://github.com/abbodi1406/vcredist/releases) which has both
+4. Update your graphics drivers
+	- [AMD Graphics Drivers](https://www.amd.com/en/support/download/drivers.html)
+	- [Nvidia Graphics Drivers](https://www.nvidia.com/en-us/drivers/)
+	- [Intel Graphics Drivers](https://www.intel.com/content/www/us/en/search.html#sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])
+	<br>
 
-<img align="top center" src="https://i.imgur.com/P5VCRFs.png" width="30%">
+
+5. **Reboot** after installing the drivers
+</details>
+
+## Automatically Clear WDB Folder Every Time You Launch Turtle WoW
+<details>
+<summary>What is the WDB folder and why do this?</summary>
+
+>It's a local cache folder that saves various game data. Instead of contacting the server the game will default to this cached data. This data will often times get out of sync with the server and that's when you'll start seeing weird bugs, crashes, and other random issues with your game. 
+>TurtleWoW recommends deleting the WDB folder frequently. 
+
+The steps below will prevent the WDB folder from ever being created so you never have to manually delete it.
+
+1. Delete the WDB folder (if it exists)
+2. Right Click an empty area of the main TurtleWoW folder -> New -> Text Document
+3. Name it "WDB" and remove .txt at the end. 
+	- If you don't see the .txt at the end, you will need to [Enable Show File Extensions in Explorer](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/#how-to-show-file-extensions-in-windows-10) and ensure the .txt is removed from the filename.
+4. It should look like this when you're done
+
+<p align="center"><img align="top center" src="https://i.imgur.com/P5VCRFs.png" height="400"></p>
+
+https://forum.turtle-wow.org/viewtopic.php?t=539
+</details>
 
 ## Vanilla Tweaks
-> These are some custom patches for the old 1.12.1 World of Warcraft client, which lacks many of the conveniences of more modern clients.
+> [!Note]
+> This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, enable more sound channels, and way way more!
 
-This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, and more!
-
-The new launcher has most of the important VanillaTweaks features built in. Just configure it!
-
-<img align="center" src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" width="50%"><br>
+I will list three ways to apply VanillaTweaks. The first two options are my recommended ways of going about it. 
 
 <details>
-<summary>Setting up VanillaTweaks Manually - Click to Expand</summary>
+<summary>Option 1 - Apply Manually using Drag and Drop</summary>
+<br>
 
-The first client fix we will run is called [Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). 
+This is the default and recommended way to apply VanillaTweaks. 
 
-1. Download [vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip](https://github.com/brndd/vanilla-tweaks/releases/download/v1.6.0/vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip) and unzip into your main TWoW folder.
-2. Open your main TWoW directory and drag WoW.exe on top of vanilla_tweaks.exe. This will create a new file called WoW_tweaked.exe, which has all the patches applied with their default settings
-3. Rename WoW.exe to WoW-OriginalBackup.exe
-4. Rename WoW_tweaked.exe to WoW.exe
+1. Download [vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip](https://github.com/brndd/vanilla-tweaks/releases/download/v1.6.0/vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip) 
+2. Unzip the folder and put the files in your main TWoW folder.
+3. From the main TWoW folder, click on WoW.exe and drag it on top of vanilla_tweaks.exe. 
+4. This will create a new file called WoW_tweaked.exe, which has all the tweaks applied. Nice!
+5. Let's make sure we have a copy of the original WoW.exe backed up somewhere before we continue... just in case you mess things up 😉
+6. Rename WoW.exe to WoW-OriginalBackup.exe
+7. Rename WoW_tweaked.exe to WoW.exe - This part is important!!!
 </details>
 
 <details>
-<summary>Custom Vanilla Tweaks Settings</summary>
-	
-This is for advanced use cases I suggest using default values!
-But if you really want to apply a different value than the default...
+<summary>Option 2 - Apply Custom Settings using Command Line</summary>
+<br>
 
-Example:  
-The default game Field of View (FoV) value in radians is 1.5708. Vanilla Tweaks sets it to 1.925. You want to apply the maximum fov possible: 3.14. 
-The max camera distance LIMIT is 50. Vanilla Tweaks does not change this value, but you want to increase it to 100. 
+> ### ⚠ Warning ⚠
+> If you don't know what you're doing this can really break your game! Make sure you read the help printout and documentation when messing with these settings. 
 
-Open Terminal/Powershell at the TWoW directory.
+Option 2 is for advanced use cases when you want to set a custom value for one or more tweaks.<br>
 
 
-```
-.\vanilla-tweaks.exe --fov 3.14 --maxcameradistance 100 WoW.exe
-```
+> # 📜 Example
+> 1) The default game Field of View (FoV) value in radians is 1.5708. Vanilla Tweaks sets it to 1.925 (Widescren FoV). 
+>    - You want to go even wider and apply the maximum FoV possible: 3.14. <br>
+> 2) The max camera distance LIMIT is 50. Vanilla Tweaks does not change this value by default. 
+>    - You want to increase it to 100. 
 
-After patching WoW.exe, you must run /console CameraDistanceMax 100 in game for this to apply the max camera distance change.
-Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](https://github.com/brndd/vanilla-tweaks/blob/master/src/main.rs) for more documentation.
 
+1. Download [vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip](https://github.com/brndd/vanilla-tweaks/releases/download/v1.6.0/vanilla-tweaks_v1.6.0_x86_64-pc-windows-gnu.zip) 
+2. Unzip the folder and put the files in your main TWoW folder.
+3. Make a copy of WoW.exe in case you mess things up!
+4. Press and hold Ctrl + Shift and right click an empty spot in the TWoW folder.
+5. Select "Open PowerShell window here"
+6. Type out your command and press enter. Example below using the previous use case:
+``` .\vanilla-tweaks.exe --fov 3.14 --maxcameradistance 100 WoW.exe```
+1. For this example the max camera distance tweak requires one last command that has to be typed in game. So after patching WoW.exe, you'll need to start the game and open the chat box and type this command in order to fully apply the max camera distance change:2
+```/console CameraDistanceMax 100``` 
+
+What are the commands?
+	- Type ``` .\vanilla-tweaks.exe --help```
+	- Look at the [VanillaTweaks README](https://github.com/brndd/vanilla-tweaks/blob/master/README.md) 
+	- Look at the source code of [/src/main.rs](https://github.com/brndd/vanilla-tweaks/blob/master/src/main.rs) for more documentation.
+</details>
+
+<details>
+<summary>Option 3 - Apply Using The Launcher</summary>
+
+<br>Option 3 is the newest way which can be done using the official TWoW Launcher. Be aware, the launcher is brand new and in rapid development. I would suggest using option 1 or 2 until the launcher is in a more stable state.
+
+The new launcher has most, but not all, of the important Tweaks built in. After you configure these settings you can close the launcher. Do not start the game from the launcher if you plan to use any of the other tweaks below.
+
+<p align="center"><img src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" height="300"></p>
+
+[Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). 
 </details>
 
 ## SuperWoW
-> made for the 1.12.1 version of World of Warcraft with the purpose of fixing client bugs and expanding the lua-based API used by user interface addons.
+> [!Note]
+> SuperWoW enables a lot of advanced lua features that are not available in the vanilla client. Lots of addons utilize or are greatly enhanced by it. It also doubles the macro character limit - up to 511 characters. And much more!
 
-[SuperWoW](https://github.com/balakethelock/SuperWoW) enables a lot of advanced lua features that are not available in the vanilla client. Lots of addons utilize or are greatly enhanced by it. It also doubles the macro character limit - up to 511 characters.
+<details>
+<summary>SuperWoW Install Guide</summary><br>
 
 1. Download the [latest release zip file](https://github.com/balakethelock/SuperWoW/releases/tag/Release). 
 2. Put SuperWoWhook.dll and the other files into your main TWoW folder.
 3. [Download](https://github.com/balakethelock/SuperAPI/archive/refs/heads/master.zip) the optional compatibility addon, [SuperAPI](https://github.com/balakethelock/SuperAPI), which will add a minimap icon allowing you to change SuperWoW settings. 
 	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI
 	- Be sure to remove the "-master" from the folder name
-<img align="top center" src="https://i.imgur.com/PWVPBaN.png" width="30%">
+	<img align="center" src="https://i.imgur.com/PWVPBaN.png" width="30%">
 
 4. [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib) (Optional) - Adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
    - [Download SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip)
@@ -154,6 +198,8 @@ Look [here](https://github.com/brndd/vanilla-tweaks/tree/master) and [here](http
 https://github.com/balakethelock/SuperWoW<br>
 https://github.com/balakethelock/SuperAPI<br>
 https://github.com/balakethelock/SuperAPI_Castlib
+
+
 
 ### When I try using SuperWoW, my game gets an Application Error or Critical Error
 <details>
@@ -165,7 +211,7 @@ Under Performance, click Settings, then the Data Execution Prevention tab.
 Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list. (Remember to remove this later if it doesn’t help you.)
 
 It's very important that you reboot after making this change!
-</details>
+
 
 ### Virus Warnings
 <details>
@@ -189,9 +235,15 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 
 https://github.com/pepopo978/SuperwowInstallation
 </details>
+</details>
+</details>
 
 ## Nampower
+> [!Note]
 >There is a design flaw in this version of the client. A player is not allowed to cast a second spell until after the client receives word of the completion of the previous spell. This means that in addition to the cast time, you have to wait for the time it takes a message to arrive from the server. For many U.S. based players connected to E.U. based realms, this can result in approximately a 20% drop in effective DPS.
+
+<details>
+<summary>Nampower Install Guide</summary><br>
 
 We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampower) which has even more client fixes such as spell queuing, automatic retry on error, and quickcasting.
 
@@ -200,10 +252,11 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
 3. Download the optional [NampowerSettings](https://github.com/pepopo978/NampowerSettings/archive/refs/heads/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
    	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
-<img align="top center" src="https://i.imgur.com/OcKJG3S.png" width="40%">
+   	<img align="center" src="https://i.imgur.com/OcKJG3S.png" width="40%">
 
 Pepo's Fork: https://github.com/pepopo978/nampower<br>
 Original nampower: https://github.com/namreeb/nampower
+</details>
 
 ## UnitXP Service Pack 3
 > Adjust camera<br>
@@ -216,6 +269,8 @@ Proper nameplates<br>
 Screenshot produce JPEG file<br>
 Better Tab targeting functions
 
+<details>
+<summary>UnitXP Service Pack 3 Install Guide</summary><br>
 
 Without UnitXP SP3             |  With UnitXP SP3
 :-------------------------:|:-------------------------:
@@ -226,17 +281,22 @@ Without UnitXP SP3             |  With UnitXP SP3
 	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1172\Interface\AddOns\UnitXP_SP3_Addon
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
 
-<img align="top center" src="https://i.imgur.com/R9DQZ9L.png" width="30%">
+<img align="center" src="https://i.imgur.com/R9DQZ9L.png" width="30%">
 
 if you set up everything correctly you will see this configuration icon:
 
-<img align="top center" src="https://i.imgur.com/xlenKVI.png" width="20%">
+<img align="center" src="https://i.imgur.com/xlenKVI.png" width="20%">
 
 https://github.com/allfoxwy/UnitXP_SP3<br>
 https://github.com/allfoxwy/UnitXP_SP3_Addon
+</details>
+
 
 ## VanillaFixes
 > A client modification for World of Warcraft 1.6.1-1.12.1 to eliminate stutter and animation lag. 
+
+<details>
+<summary>VanillaFixes Install Guide</summary><br>
 
  [VanillaFixes](https://github.com/hannesmann/vanillafixes) enables Vulkan graphics instead of the old DirectX 9 used by the vanilla client. We will use VanillaFixes to launch the game and it will load all the previous tweaks as well. This will be our game "launcher".
 
@@ -245,7 +305,7 @@ https://github.com/allfoxwy/UnitXP_SP3_Addon
 3. Download the latest dxvk-gplasync-2.x.x.zip file from the [releases](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) page.
 4. Open the unzipped async folder -> Open the x32 folder -> Copy d3d9.dll from the x32 folder to the main TWoW folder. Say yes if prompted to overwrite.
 
-6. Open dlls.txt from the TWoW folder using notepad and edit it like below:
+5. Open dlls.txt from the TWoW folder using notepad and edit it like below:
 
 ```
 # If you use nampower (https://github.com/namreeb/nampower), it will be loaded by this line
@@ -259,7 +319,7 @@ SuperWoWhook.dll
 UnitXP_SP3.dll
 ```
 
-7. Open dxvk.conf from the TWoW folder using notepad and edit it like below. See additional comments below
+1. Open dxvk.conf from the TWoW folder using notepad and edit it like below. See additional comments below
 
 ```
 # DXVK configuration for World of Warcraft
@@ -302,6 +362,7 @@ If you did everything correctly you should see this popup:
 <img align="center" src="https://i.imgur.com/JMWCb4S.png" width="25%">
 
 https://github.com/hannesmann/vanillafixes
+</details>
 
 # Other Tweaks / Fixes
 
