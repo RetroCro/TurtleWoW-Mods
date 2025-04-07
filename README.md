@@ -544,7 +544,7 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 	  <br>
 	- Try moving it to like `C:\TWoW`
 	<br>
-	- Edit the folder properties and give your account full control:
+	- Edit the folder properties and give your account full control:<br>
 	  <img align="center" src="https://i.imgur.com/NDprslq.png" width="40%">
 	  
 
