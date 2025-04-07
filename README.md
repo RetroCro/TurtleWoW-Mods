@@ -202,11 +202,11 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 	- Unzip and put the SuperAPI_Castlib folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI_Castlib
 	- Be sure to remove the "-master" from the folder name
 
-### Game crashing when trying to use SuperWoW? 
-See [Troubleshooting / FAQ](#troubleshooting--faq) 🫡🫡🫡
+**😱❌ Game crashing when trying to use SuperWoW? ❌⚠️**
+See [Troubleshooting / FAQ](#troubleshooting--faq)
 
-https://github.com/balakethelock/SuperWoW<br>
-https://github.com/balakethelock/SuperAPI<br>
+https://github.com/balakethelock/SuperWoW
+https://github.com/balakethelock/SuperAPI
 https://github.com/balakethelock/SuperAPI_Castlib
 https://github.com/pepopo978/SuperwowInstallation
 
@@ -561,4 +561,3 @@ Some other stuff stuff you can check:
 **>>> WARNING THIS IS NO LONGER SUPPORTED <<<**
 **THIS PROJECT IS CURRENTLY NOT UPDATED FOR PATCH 1.17.2!**
 https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
-
