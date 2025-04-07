@@ -364,22 +364,30 @@ If you don't need vanilla tweaks, superwow, or vanillafixes (you think you don't
 ## Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor
 
 <img align="top" src="https://i.ibb.co/5hS9N35/classiic-hc-cover.jpg" width="50%"><img src="https://i.ibb.co/m5m7bgZf/orcinn-hd.png" width="46%">
-patch-W.mpq
-https://drive.google.com/file/d/1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR/view
+
+<details>
+<summary>Appletrey's CLASSIIC HD Patch</summary>
+
+[Patch-W](https://drive.google.com/file/d/1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR/view)
+
+[Video Showcase](https://www.youtube.com/@appletrey/videos
 
 https://forum.turtle-wow.org/viewtopic.php?t=16720
+
+</details>
 
 ## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc
 This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
 
-Patch-H.mpq - https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0
+[Patch-H](https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0)
 
 https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 
 ## Redmagejoe's Environment HD Retexture
 Patch-B.mpq from Redmagejoe's Turtle HD Project topic. Even though the rest of his Turtle HD project is not compatible with 1.17.2, this patch-b still works.
 
-https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link
+
+[Patch-B](https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link)
 
 https://forum.turtle-wow.org/viewtopic.php?t=2827
 
@@ -397,9 +405,9 @@ This is similar to Redmagejoe's Patch-A but contains only HD Character models so
 
 **<u>Watcher's (Slim) - Patch-A</u>**
 Size: ~615.1 MB
-Last Updated: Apr 4, 2025 
+Last Updated: Apr 4, 2025 🟢
 
-https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit
+[Patch-A](https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit)
 
 https://forum.turtle-wow.org/viewtopic.php?t=12120
 
@@ -414,7 +422,7 @@ Neymey has his own version of a slimmed down Patch-A. This is also a safe pick b
 
 **<u>NeyMey's (Slim) - Patch-A</u>**
 Size: ~615.1 MB
-Last Updated: Apr 4, 2025 
+Last Updated: Dec 29, 2024 🟡
 
 [Patch-A](https://drive.google.com/file/d/1tH4u-qEG6370al6RqnX231UXjZ0Xfzgk/view?usp=drive_link)
 
@@ -424,16 +432,17 @@ https://forum.turtle-wow.org/viewtopic.php?t=16818
 <details>
 <summary>Option 2b - NeyMey's (Full)</summary>
 
-Neymey has a [larger "full" version of Patch-A which comes close to the original Redmagejoe's Patch-A. If you are willing to accept a higher chance of random crashes this is the patch with the most backported HD graphics.
+Neymey has a larger "full" version of Patch-A which comes close to the original Redmagejoe's Patch-A. If you are willing to accept a higher chance of random crashes this is the patch with the most backported HD graphics.
 
 The full version requires both Patch A and Patch H.
 
 **<u>NeyMey's (Full) - Patch-A + Patch-H</u>**
 Size: ~1.9 GB
-Patch-A Last Updated: Jan 12, 2025
-Patch-H Last Updated: Dec 29, 2024
+Patch-A Last Updated: Jan 12, 2025 🟡
+Patch-H Last Updated: Dec 29, 2024 🟠
 
 [Patch-A](https://drive.google.com/file/d/1ZvjkvccbpWzB43_bB54kAdTsyrzkF4OJ/view?usp=drive_link)
+
 [Patch-H](https://drive.google.com/file/d/1EvuQFMx8VjazYAuI0J6OxF5lxJZXso0v/view?usp=drive_link)
 
 https://forum.turtle-wow.org/viewtopic.php?t=16818
@@ -443,8 +452,8 @@ https://forum.turtle-wow.org/viewtopic.php?t=16818
 # Other Mods
 
 ## Pretty Night Sky
-<video src="https://raw.githubusercontent.com/RetroCro/TurtleWoW-Mods/refs/heads/main/Pictures/Undercity-TarrenMill.mp4" controls="controls" style="max-width: 730px;">
-</video>
+
+![Watch the video](https://retrocro.github.io/TurtleWoW-Mods/Pictures/Undercity-TarrenMill.mp4)
 
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky1.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky2.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky3.jpg" width="33%">
 
