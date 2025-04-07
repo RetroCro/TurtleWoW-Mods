@@ -66,11 +66,11 @@
   - [Error Logs](#error-logs)
 - [Unsupported / Out of Date Client Mods](#unsupported--out-of-date-client-mods)
   - [Redmagejoe's Turtle HD](#redmagejoes-turtle-hd)
-
 <!-- ToC end -->
 
 
-# Turtle WoW - Vanilla Client Install & Setup Guide {#turtle-wow---vanilla-client-install--setup-guide}
+
+# Turtle WoW - Vanilla Client Install & Setup Guide
 
 The vanilla client is very old. Simple quality of life things like auto loot do not work in the vanilla client. So let's tweak the vanilla client and fix some of these issues!
 <details>
@@ -97,7 +97,7 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 5. **Reboot** after installing the drivers
 </details>
 
-## Automatically Clear WDB Folder Every Time You Launch Turtle WoW {#automatically-clear-wdb-folder-every-time-you-launch-turtle-wow}
+## Automatically Clear WDB Folder Every Time You Launch Turtle WoW
 <details>
 <summary>What is the WDB folder and why do this?</summary>
 
@@ -117,7 +117,7 @@ The steps below will prevent the WDB folder from ever being created so you never
 https://forum.turtle-wow.org/viewtopic.php?t=539
 </details>
 
-## Vanilla Tweaks {#vanilla-tweaks}
+## Vanilla Tweaks
 > [!Note]
 > This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, enable more sound channels, and way way more!
 
@@ -183,7 +183,7 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 [Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). 
 </details>
 
-## SuperWoW {#superwow}
+## SuperWoW
 > [!Note]
 > SuperWoW enables a lot of advanced lua features that are not available in the vanilla client. Lots of addons utilize or are greatly enhanced by it. It also doubles the macro character limit - up to 511 characters. And much more!
 
@@ -212,7 +212,7 @@ https://github.com/pepopo978/SuperwowInstallation
 
 </details>
 
-## Nampower {#nampower}
+## Nampower
 > [!Note]
 >There is a design flaw in this version of the client. A player is not allowed to cast a second spell until after the client receives word of the completion of the previous spell. This means that in addition to the cast time, you have to wait for the time it takes a message to arrive from the server. For many U.S. based players connected to E.U. based realms, this can result in approximately a 20% drop in effective DPS.
 
@@ -232,7 +232,7 @@ Pepo's Fork: https://github.com/pepopo978/nampower<br>
 Original nampower: https://github.com/namreeb/nampower
 </details>
 
-## UnitXP Service Pack 3 {#unitxp-service-pack-3}
+## UnitXP Service Pack 3
 > **Features**: Adjust camera, Background notifications, Check line of sight in Lua, Debug interface for in-game Lua, Measure distance in Lua, Performance tweak of disabling TCP delayed ACK, Proper nameplates, Screenshot produce JPEG file, Better Tab targeting function, And more.
 
 <details>
@@ -258,7 +258,7 @@ https://github.com/allfoxwy/UnitXP_SP3_Addon
 </details>
 
 
-## VanillaFixes {#vanillafixes}
+## VanillaFixes
 > A client modification for World of Warcraft 1.6.1-1.12.1 to eliminate stutter and animation lag. 
 
 <details>
@@ -330,9 +330,9 @@ If you did everything correctly you should see this popup:
 https://github.com/hannesmann/vanillafixes
 </details>
 
-# Other Tweaks / Fixes {#other-tweaks--fixes}
+# Other Tweaks / Fixes
 
-## Vanilla Multi Monitor Fix {#vanilla-multi-monitor-fix}
+## Vanilla Multi Monitor Fix
 > This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected with differing supported resolutions.
 
 <details>
@@ -350,11 +350,11 @@ https://github.com/hannesmann/vanillafixes
 https://github.com/Mates1500/VanillaMultiMonitorFix
 </details>
 
-# ⭐Turtle WoW HD Graphics, Textures, and Mods⭐ {#turtle-wow-hd-graphics-textures-and-mods}
+# ⭐Turtle WoW HD Graphics, Textures, and Mods⭐
 ![](https://i.imgur.com/aieolVP.jpeg)
 All mpq patches must be placed in the "Data" folder. You can run all of the HD patches below at the same time, but you should only have one Patch-A. See further below. If two unrelated mods have the same Patch-X name you will have to rename one to another letter.
 
-## Using Mods with the Launcher {#using-mods-with-the-launcher}
+## Using Mods with the Launcher
 <details>
 <summary>More Details - Click to Expand</summary>
 If you don't need vanilla tweaks, superwow, or vanillafixes (you think you don't but you do) and just want to try the HD graphics... The launcher supports loading extra mpq's from the Data folder:
@@ -362,7 +362,7 @@ If you don't need vanilla tweaks, superwow, or vanillafixes (you think you don't
 ![](https://i.imgur.com/7b4YfXh.png)
 </details>
 
-## Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor {#appletreys-classiic-hd-patch---updated-m2-items-and-wmo-buildings-wmo-structures-weapons-and-armor}
+## Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor
 
 <img align="top" src="https://i.ibb.co/5hS9N35/classiic-hc-cover.jpg" width="50%"><img src="https://i.ibb.co/m5m7bgZf/orcinn-hd.png" width="46%">
 patch-W.mpq
@@ -370,27 +370,27 @@ https://drive.google.com/file/d/1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR/view
 
 https://forum.turtle-wow.org/viewtopic.php?t=16720
 
-## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc {#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc}
+## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc
 This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
 
 Patch-H.mpq - https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0
 
 https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 
-## Redmagejoe's Environment HD Retexture {#redmagejoes-environment-hd-retexture}
+## Redmagejoe's Environment HD Retexture
 Patch-B.mpq from Redmagejoe's Turtle HD Project topic. Even though the rest of his Turtle HD project is not compatible with 1.17.2, this patch-b still works.
 
 https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link
 
 https://forum.turtle-wow.org/viewtopic.php?t=2827
 
-## 💥HD Character Models💥 {#hd-character-models}
+## 💥HD Character Models💥
 ![](https://i.imgur.com/JdMaqso.jpeg)
 Previously we were using Redmagejoe's Turtle HD Project Patch-A. He backported playable races with their Legion HD models. His patch also had updates for all NPCs and creatures in the world with their Legion HD versions where available. 
 
 Since that [project has been halted](https://forum.turtle-wow.org/viewtopic.php?t=2827) and it not compatible with TWoW 1.17.2, there are two alternatives to pick from....
 
-### Patch-A Option 1 - Watcher's - HD Character Models Only {#patch-a-option-1---watchers---hd-character-models-only}
+### Patch-A Option 1 - Watcher's - HD Character Models Only
 This is similar to Redmagejoe's Patch-A but contains only HD Character models. I would consider this a safe pick since it's slimmed down which helps reduce the number of potential crashes.
 
 Patch-A.mpq
@@ -398,7 +398,7 @@ https://drive.google.com/file/d/1oRvnZ211KZM-vjcymqfKYMlHdfwG1-_t/edit
 
 https://forum.turtle-wow.org/viewtopic.php?t=12120
 
-### Patch-A Option 2 - Turtle HD (by NeyMey) {#patch-a-option-2---turtle-hd-by-neymey}
+### Patch-A Option 2 - Turtle HD (by NeyMey)
 Neymey has his own version of a [slimmed down Patch-A](https://drive.google.com/drive/folders/1a1x0oKfp0BGUOWZfleNgkABbHf1AIcBt). This is also a safe pick. 
 
 Neymey also has a [larger "full" version of Patch-A](https://drive.google.com/drive/folders/1OrMT2ec3K22h2BduHXbCNRhS6vCajT7c) which comes close to the original Redmagejoe's Patch-A. If you are willing to accept a higher chance of random crashes this is the patch with the most backported HD graphics.
@@ -408,9 +408,9 @@ You will need to download both his Patch A and Patch H mpq's if you decide to us
 
 https://forum.turtle-wow.org/viewtopic.php?t=16818
 
-# Other Mods {#other-mods}
+# Other Mods
 
-## Pretty Night Sky {#pretty-night-sky}
+## Pretty Night Sky
 <video src="https://raw.githubusercontent.com/RetroCro/TurtleWoW-Mods/refs/heads/main/Pictures/Undercity-TarrenMill.mp4" controls="controls" style="max-width: 730px;">
 </video>
 
@@ -418,7 +418,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=16818
 
 https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=sharing
 
-## Wotlk Druid Feral Colors {#wotlk-druid-feral-colors}
+## Wotlk Druid Feral Colors
 <img align="top" src="https://i.imgur.com/YMabqVh.jpeg" width="34%" height="25%"><img src="https://i.imgur.com/nQrjNMJ.jpeg" width="49%">
 
 01 - White: [(Download Link)](https://mega.nz/file/hr5G0DiD#-id6zNqMDF5upseVhT4KF7k96XDayksUuZovC9YunLQ)  
@@ -438,7 +438,7 @@ https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=shari
 
 https://forum.turtle-wow.org/viewtopic.php?t=16108
 
-## Epoch Water {#epoch-water}
+## Epoch Water
 Really nice looking water texture replacement
 
 **[Default Water vs Epoch Water Slider Comparison](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c0d977ee-5851-11ef-9396-d93975fe8866)**
@@ -451,7 +451,7 @@ Patch-W.mpq - https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/
 
 https://forum.turtle-wow.org/viewtopic.php?t=16918
 
-## Fog Pushback {#fog-pushback}
+## Fog Pushback
 Pushes back fog significantly to increase view distance. 
 
 <img align="top" src="https://i.imgur.com/2foC2hl.jpeg" width="48%"><img src="https://i.imgur.com/ecRqmfc.jpeg" width="50%">
@@ -460,7 +460,7 @@ Patch-Y.mpq - https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/
 
 https://forum.turtle-wow.org/viewtopic.php?t=10982
 
-## Pink Herbs {#pink-herbs}
+## Pink Herbs
 Turns (most) herbs pink/purple looking for easy finding.
 
 <img align="top" src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PinkHerbs.jpg" width="40%">
@@ -468,7 +468,7 @@ Turns (most) herbs pink/purple looking for easy finding.
 Patch-J.mpq - https://forum.turtle-wow.org/viewtopic.php?t=12005
 
 
-## Auto-Login {#auto-login}
+## Auto-Login
 Patch for Turtle WoW client that adds account saving features with auto-login and auto-select character.
 Requires a recent enough version of SuperWow, currently >=1.4
 
@@ -479,18 +479,18 @@ https://github.com/MarcelineVQ/turtle-autologin
 Original by Haaxor1689 - https://github.com/Haaxor1689/turtle-autologin
 
 
-# Troubleshooting {#troubleshooting}
-## I am using the launcher and it's not working {#i-am-using-the-launcher-and-its-not-working}
+# Troubleshooting
+## I am using the launcher and it's not working
 The Turtle WoW launcher **DOES NOT WORK** with any of the client tweaks (SuperWoW, Vanillafixes, Nampower, unit XP3, etc) posted above. You cannot use the launcher if you want to enable these. 
 
-## My game crashed when I was in a high populated area like Stormwind Trade district, etc {#my-game-crashed-when-i-was-in-a-high-populated-area-like-stormwind-trade-district-etc}
+## My game crashed when I was in a high populated area like Stormwind Trade district, etc
 > This application has encountered a critical error:<br>
 > Exception:	0xC0000005 (ACCESS_VIOLATION)<br>
 > The memory could not be "read"
 
 This is a known issue when using these HD texture mods especially if you use the larger ~2gb "full" Patch-A. There is a conflict somewhere with one of the HD files in the mpq and custom changes made by Turtle WoW. I don't have a fix for this. 
 
-## My video settings don't show the correct monitor resolution {#my-video-settings-dont-show-the-correct-monitor-resolution}
+## My video settings don't show the correct monitor resolution
 <img src="https://i.imgur.com/AkJu10j.png" width="600">
 
 This can happen for various reasons such as:
@@ -501,9 +501,9 @@ This can happen for various reasons such as:
  
 This is an issue beyond the scope of this guide. Post all relevant info in the discord support channel before you try installing any mods mentioned above.
 
-# Troubleshooting / FAQ {#troubleshooting--faq}
+# Troubleshooting / FAQ
 
-## When I try using SuperWoW, my game gets an Application Error or Critical Error, or DLL entry point error: {#when-i-try-using-superwow-my-game-gets-an-application-error-or-critical-error-or-dll-entry-point-error}
+## When I try using SuperWoW, my game gets an Application Error or Critical Error, or DLL entry point error:
 <details>
 <summary>Check your DEP Settings</summary>
 
@@ -515,7 +515,7 @@ Select Turn on DEP for all programs and services except those I select, and add 
 It's very important that you reboot after making this change!
 </details>
 
-## Virus Warnings {#virus-warnings}
+## Virus Warnings
 <details>
 <summary>How to Fix Virus Warning - SuperWoW</summary>
 
@@ -535,7 +535,7 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 
 </details>
 
-## Other things to Check or Try: {#other-things-to-check-or-try}
+## Other things to Check or Try:
 
 - Delete your WDB folder? 
 - Did you install both VCredist x86 and 64 or the All-in-One?
@@ -555,15 +555,15 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 - Are you using VanillaFixes or the dxvk version? Try deleting the d3d9.dll file and use the non dxvk version
 - Delete everything and download a fresh CLEAN copy of turtlewow unzipped and DO NOT run the launcher.
 
-## Error Logs {#error-logs}
+## Error Logs
 - Look at twmoa_1172\Logs folder 
 - Look at twmoa_1172\Errors folder -> (scroll to the bottom of the txt file) might have some clues
 
 
 
-# Unsupported / Out of Date Client Mods {#unsupported--out-of-date-client-mods}
+# Unsupported / Out of Date Client Mods
 
-## Redmagejoe's Turtle HD {#redmagejoes-turtle-hd}
+## Redmagejoe's Turtle HD
 **>>> WARNING THIS IS NO LONGER SUPPORTED <<<**
 **THIS PROJECT IS CURRENTLY NOT UPDATED FOR PATCH 1.17.2!**
 https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
