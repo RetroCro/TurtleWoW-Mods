@@ -453,7 +453,11 @@ https://forum.turtle-wow.org/viewtopic.php?t=16818
 
 ## Pretty Night Sky
 
-![Watch the video](https://retrocro.github.io/TurtleWoW-Mods/Pictures/Undercity-TarrenMill.mp4)
+<video src="https://www.youtube.com/watch?v=oq0IgUoAk0g"></video>
+
+[https://youtu.be/oq0IgUoAk0g](https://www.youtube.com/watch?v=oq0IgUoAk0g)
+
+![Watch the video](https://www.youtube.com/watch?v=oq0IgUoAk0g)
 
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky1.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky2.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky3.jpg" width="33%">
 
