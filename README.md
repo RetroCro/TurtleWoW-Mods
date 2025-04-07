@@ -310,7 +310,7 @@ dxvk.numCompilerThreads = 4
 # Disabled because VanillaFixes sets process DPI awareness
 d3d9.dpiAware = False
 
-# If you want to show FPS and other GPU stats in game uncomment one of the lines below. The top one has more details the bottom one is just an fps counter.
+# If you want to show FPS and other GPU stats in game un   comment one of the lines below. The top one has more details the bottom one is just an fps counter.
 # dxvk.hud = fps,frametimes,gpuload,memory,scale=0.75,opacity=0.5
 # dxvk.hud = fps,scale=0.75,opacity=0.5
 ```
@@ -399,7 +399,7 @@ This is similar to Redmagejoe's Patch-A but contains only HD Character models so
 Size: ~615.1 MB
 Last Updated: Apr 4, 2025 
 
-https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/
+https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit
 
 https://forum.turtle-wow.org/viewtopic.php?t=12120
 
@@ -410,7 +410,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=12120
 <details>
 <summary>Option 2a - NeyMey's (Slim)</summary>
 
-Neymey has his own version of a [slimmed down Patch-A](https://drive.google.com/drive/folders/1a1x0oKfp0BGUOWZfleNgkABbHf1AIcBt). This is also a safe pick but hasn't seen any updates in a while.
+Neymey has his own version of a slimmed down Patch-A. This is also a safe pick but hasn't seen any updates in a while.
 
 **<u>NeyMey's (Slim) - Patch-A</u>**
 Size: ~615.1 MB
