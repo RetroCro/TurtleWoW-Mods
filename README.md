@@ -35,7 +35,6 @@
   - [Automatically Clear WDB Folder Every Time You Launch Turtle WoW](#automatically-clear-wdb-folder-every-time-you-launch-turtle-wow)
   - [Vanilla Tweaks](#vanilla-tweaks)
   - [SuperWoW](#superwow)
-    - [Game crashing when trying to use SuperWoW? ](#game-crashing-when-trying-to-use-superwow-)
   - [Nampower](#nampower)
   - [UnitXP Service Pack 3](#unitxp-service-pack-3)
   - [VanillaFixes](#vanillafixes)
