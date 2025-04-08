@@ -40,9 +40,10 @@
   - [VanillaFixes](#vanillafixes)
 - [Other Tweaks / Fixes](#other-tweaks--fixes)
   - [Vanilla Multi Monitor Fix](#vanilla-multi-monitor-fix)
+  - [Increase Addon Script Memory Setting](#increase-addon-script-memory-setting)
 - [⭐Turtle WoW HD Graphics, Textures, and Mods⭐](#turtle-wow-hd-graphics-textures-and-mods)
-  - [Using Mods with the Launcher](#using-mods-with-the-launcher)
-  - [Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor](#appletreys-classiic-hd-patch---updated-m2-items-and-wmo-buildings-wmo-structures-weapons-and-armor)
+  - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
+  - [Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor](#appletreys-classiic-hd-patch---updated-items-buildings-structures-weapons-and-armor)
   - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
   - [Redmagejoe's Environment HD Retexture](#redmagejoes-environment-hd-retexture)
   - [💥HD Character Models💥](#hd-character-models)
@@ -54,24 +55,24 @@
   - [Epoch Water](#epoch-water)
   - [Fog Pushback](#fog-pushback)
   - [Pink Herbs](#pink-herbs)
-  - [Auto-Login](#auto-login)
-- [Troubleshooting](#troubleshooting)
+  - [Turtle Auto Login](#turtle-auto-login)
+- [🆘🆘 Troubleshooting / FAQ 🆘🆘](#-troubleshooting--faq-)
+  - [🔎 How to get Support 🔍](#-how-to-get-support-)
   - [I am using the launcher and it's not working](#i-am-using-the-launcher-and-its-not-working)
-  - [My game crashed when I was in a high populated area like Stormwind Trade district, etc](#my-game-crashed-when-i-was-in-a-high-populated-area-like-stormwind-trade-district-etc)
-  - [My video settings don't show the correct monitor resolution](#my-video-settings-dont-show-the-correct-monitor-resolution)
-  - [When I try using SuperWoW, my game gets an Application Error or Critical Error, or DLL entry point error:](#when-i-try-using-superwow-my-game-gets-an-application-error-or-critical-error-or-dll-entry-point-error)
+  - [I'm using MPQ mods and my game randomly crashes](#im-using-mpq-mods-and-my-game-randomly-crashes)
+  - [The Video Settings Don't Show My Resolution or Max Resolution is 1600x1200](#the-video-settings-dont-show-my-resolution-or-max-resolution-is-1600x1200)
+  - [I get an Application Error or Critical Error When Trying to Use SuperWoW](#i-get-an-application-error-or-critical-error-when-trying-to-use-superwow)
   - [Virus Warnings](#virus-warnings)
+  - [VanillaFixes Common Issues](#vanillafixes-common-issues)
   - [Other things to Check or Try:](#other-things-to-check-or-try)
   - [Where can I find the Error Logs](#where-can-i-find-the-error-logs)
-- [Unsupported / Out of Date Client Mods](#unsupported--out-of-date-client-mods)
-  - [Redmagejoe's Turtle HD](#redmagejoes-turtle-hd)
-
+- [🛑 Unsupported / Out of Date Client Mods 🛑](#-unsupported--out-of-date-client-mods-)
 <!-- ToC end -->
 
 
 # Turtle WoW - Vanilla Client Install & Setup Guide
-
 The vanilla client is very old. Simple quality of life things like auto loot do not work in the vanilla client. So let's tweak the vanilla client and fix some of these issues!
+
 <details>
 <summary>➡️➡️ STEP 1 - START HERE!!!! ⬅️⬅️</summary>
 
@@ -79,24 +80,28 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- https://forum.turtle-wow.org/viewtopic.php?t=7709
 	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
 
-2. Unzip somewhere easy to find such as <br>```C:\twmoa_1172\twmoa_1172``` or ```C:\twmoa_1172``` or ```E:\Games```
+2. Unzip somewhere easy to find such as <br>
+	- ```C:\twmoa_1172\twmoa_1172``` or 
+	- ```C:\TurtleWoW``` or 
+	- ```E:\Games```
+
 
 3. Download and install Microsoft Visual C++ Redistributables - x86 and x64
-	- **Yes, BOTH!! It doesn't matter that you're running a 64 bit Windows. Download BOTH!!**
+	- **Yes, BOTH!! It doesn't matter that you're running 64 bit Windows. Download BOTH!!**
 		- From Microsoft - [vc_redist.x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  and [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 	Or...
- 	- Download the latest ["All-In-One" VisualCppRedist_AIO_x86_x64.exe](https://github.com/abbodi1406/vcredist/releases) which has both
+ 	- ✅Recommended - ["All-In-One" VisualCppRedist_AIO_x86_x64.exe](https://github.com/abbodi1406/vcredist/releases) which has both the x86 and x64 for all major versions.
 4. Update your graphics drivers
 	- [AMD Graphics Drivers](https://www.amd.com/en/support/download/drivers.html)
 	- [Nvidia Graphics Drivers](https://www.nvidia.com/en-us/drivers/)
 	- [Intel Graphics Drivers](https://www.intel.com/content/www/us/en/search.html#sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])
 	<br>
 
-
-5. **Reboot** after installing the drivers
+5. ⚡⚡ **Reboot** after installing the drivers ⚡⚡
 </details>
 
 ## Automatically Clear WDB Folder Every Time You Launch Turtle WoW
+
 <details>
 <summary>What is the WDB folder and why do this?</summary>
 
@@ -111,14 +116,14 @@ The steps below will prevent the WDB folder from ever being created so you never
 	- If you don't see the .txt at the end, you will need to [Enable Show File Extensions in Explorer](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/#how-to-show-file-extensions-in-windows-10) and ensure the .txt is removed from the filename.
 4. It should look like this when you're done
 
-<p align="center"><img align="top center" src="https://i.imgur.com/P5VCRFs.png" height="400"></p>
+<p align="center"><img align="center" src="https://i.imgur.com/P5VCRFs.png" height="400"></p>
 
 https://forum.turtle-wow.org/viewtopic.php?t=539
 </details>
 
 ## Vanilla Tweaks
 > [!Note]
-> This will enable widescreen FoV, right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, enable more sound channels, and way way more!
+> This will enable widescreen FoV, increase farclip (max render distance), enable right click auto loot, increase max camera distance, nameplate range to match TBC, allow the game to use more than 2GB of memory, enable more sound channels, and way way more!
 
 I will list three ways to apply VanillaTweaks. The first two options are my recommended ways of going about it. 
 
@@ -139,6 +144,7 @@ This is the default and recommended way to apply VanillaTweaks.
 
 <details>
 <summary>Option 2 - Apply Custom Settings using Command Line</summary>
+
 <br>
 
 > ## ⚠ Warning ⚠
@@ -180,6 +186,7 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 <p align="center"><img src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" height="300"></p>
 
 [Vanilla Tweaks](https://github.com/brndd/vanilla-tweaks). 
+
 </details>
 
 ## SuperWoW
@@ -194,15 +201,17 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 3. [Download](https://github.com/balakethelock/SuperAPI/archive/refs/heads/master.zip) the optional compatibility addon, [SuperAPI](https://github.com/balakethelock/SuperAPI), which will add a minimap icon allowing you to change SuperWoW settings. 
 	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI
 	- Be sure to remove the "-master" from the folder name
-	<img align="center" src="https://i.imgur.com/PWVPBaN.png" width="30%">
+	
+	<p align="center"><img src="https://i.imgur.com/PWVPBaN.png" width="30%"></p><br>
 
 4. [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib) (Optional) - Adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
    - [Download SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip)
 	- Unzip and put the SuperAPI_Castlib folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI_Castlib
 	- Be sure to remove the "-master" from the folder name
 
+
 **😱❌ Game crashing when trying to use SuperWoW? ❌⚠️**
-See [Troubleshooting / FAQ](#troubleshooting--faq)
+See [Troubleshooting / FAQ](#troubleshooting--faq) 🫡
 
 https://github.com/balakethelock/SuperWoW
 https://github.com/balakethelock/SuperAPI
@@ -225,14 +234,16 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
 3. Download the optional [NampowerSettings](https://github.com/pepopo978/NampowerSettings/archive/refs/heads/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
    	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
-   	<img align="center" src="https://i.imgur.com/OcKJG3S.png" width="40%">
+   	<p align="center"><img src="https://i.imgur.com/OcKJG3S.png" width="40%"></p>
 
-Pepo's Fork: https://github.com/pepopo978/nampower<br>
+Pepo's Fork: https://github.com/pepopo978/nampower
 Original nampower: https://github.com/namreeb/nampower
+
 </details>
 
 ## UnitXP Service Pack 3
-> **Features**: Adjust camera, Background notifications, Check line of sight in Lua, Debug interface for in-game Lua, Measure distance in Lua, Performance tweak of disabling TCP delayed ACK, Proper nameplates, Screenshot produce JPEG file, Better Tab targeting function, And more.
+> [!Note]
+> Features: Adjust camera, Background notifications, Check line of sight in Lua, Debug interface for in-game Lua, Measure distance in Lua,  Various network, TCP, ACK tweaks, Proper nameplates, Screenshot in JPEG file, Better Tab targeting function, And more!
 
 <details>
 <summary>UnitXP Service Pack 3 Install Guide</summary><br>
@@ -246,31 +257,40 @@ Without UnitXP SP3             |  With UnitXP SP3
 	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1172\Interface\AddOns\UnitXP_SP3_Addon
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
 
-<img align="center" src="https://i.imgur.com/R9DQZ9L.png" width="50%">
+<p align="center"><img src="https://i.imgur.com/R9DQZ9L.png" width="50%"></p>
 
 if you set up everything correctly you will see this configuration icon:
 
-<img align="center" src="https://i.imgur.com/xlenKVI.png" width="40%">
+<p align="center"><img src="https://i.imgur.com/xlenKVI.png" width="40%"></p>
 
 https://github.com/allfoxwy/UnitXP_SP3<br>
 https://github.com/allfoxwy/UnitXP_SP3_Addon
+
 </details>
 
-
 ## VanillaFixes
-> A client modification for World of Warcraft 1.6.1-1.12.1 to eliminate stutter and animation lag. 
+> [!Note]
+> One of the most popular client fixes! Reduces issues with game stuttering and animation lag, enables Vulkan graphics instead of the default and old DirectX 9, Can be used to load other DLL mods into the game such as SuperWoW.
 
+ We will use VanillaFixes to launch the game and it will load all the previous DLL mods if you've been following from the start. 
+ 
+ **This will be our real game "launcher"**
+ 
 <details>
-<summary>VanillaFixes Install Guide</summary><br>
-
- [VanillaFixes](https://github.com/hannesmann/vanillafixes) enables Vulkan graphics instead of the old DirectX 9 used by the vanilla client. We will use VanillaFixes to launch the game and it will load all the previous tweaks as well. This will be our game "launcher".
+<summary>VanillaFixes Install Guide</summary>
 
 1. Download the latest vanillafixes-X.X.X-dxvk.zip from the [releases](https://github.com/hannesmann/vanillafixes/releases) page.
 2. Unzip and put all the files in your main TWoW folder.
 3. Download the latest dxvk-gplasync-2.x.x.zip file from the [releases](https://gitlab.com/Ph42oN/dxvk-gplasync/-/releases) page.
-4. Open the unzipped async folder -> Open the x32 folder -> Copy d3d9.dll from the x32 folder to the main TWoW folder. Say yes if prompted to overwrite.
+4. Unzip and open the folder all the way into the x32 folder -> Copy d3d9.dll from the x32 folder to the main TWoW folder. 
+	- If you copied all the files from steps 1-2, then you'll see a popup asking if you want to replace the d3d9.dll file. 
+	- Click "✔️ Replace the files in the destination"
+	  <br>
 
-5. Open dlls.txt from the TWoW folder using notepad and edit it like below:
+</details>
+
+<details>
+<summary>Open **dlls.txt** from the TWoW folder using notepad and edit it like below:</summary>
 
 ```
 # If you use nampower (https://github.com/namreeb/nampower), it will be loaded by this line
@@ -284,7 +304,11 @@ SuperWoWhook.dll
 UnitXP_SP3.dll
 ```
 
-1. Open dxvk.conf from the TWoW folder using notepad and edit it like below. See additional comments below
+</details>
+
+<details>
+<summary>Open **dxvk.conf** from the TWoW folder using notepad and edit it like below:</summary>
+
 
 ```
 # DXVK configuration for World of Warcraft
@@ -310,28 +334,38 @@ dxvk.numCompilerThreads = 4
 # Disabled because VanillaFixes sets process DPI awareness
 d3d9.dpiAware = False
 
-# If you want to show FPS and other GPU stats in game un   comment one of the lines below. The top one has more details the bottom one is just an fps counter.
+# If you want to show detailed GPU graphs and data in-game uncomment the line below.  
 # dxvk.hud = fps,frametimes,gpuload,memory,scale=0.75,opacity=0.5
+
+# If you just want a basic FPS counter uncomment this next line.
 # dxvk.hud = fps,scale=0.75,opacity=0.5
 ```
 
-> [!TIP]
-> If the game seems to be running worse or you are having other graphical issues after installing VanillaFixes DXVK, then erase those files that came in the dxvk zip and use the **non dxvk** from the release page ex: vanillafixes-1.5.2.zip
+</details>
 
-You are now ready to start the optimized vanilla wow client!
+You are now ready to start the optimized vanilla wow client - **Run Vanillafixes.exe to start the game.** 
 
-Run Vanillafixes.exe to start the game. You can create a shortcut to this if you want to put the icon on your desktop or something.
+If you did everything correctly you should see a popup similar to this:
 
-If you did everything correctly you should see this popup:
+<p align="center"><img src="https://i.imgur.com/JMWCb4S.png" width="35%"></p>
 
-<img align="center" src="https://i.imgur.com/JMWCb4S.png" width="35%">
+> [!Note]
+🛑 DXVK was designed and made for running 3D (Windows) applications on <u>**Linux**</u> using Wine. 🛑
+> While using DXVK on Windows *may* generally work and *may* improve your performance, **it may also do the opposite!!!**
+
+
+There are two versions of VanillaFixes, one with DXVK and one without. We just finished setting up the version WITH DXVK. 
+- If performance is better than before - Great!
+- If performance is worse - Delete the files that were in the dxvk zip and download the zip without DXVK - `vanillafixes-1.x.x.zip`
 
 https://github.com/hannesmann/vanillafixes
+
 </details>
 
 # Other Tweaks / Fixes
 
 ## Vanilla Multi Monitor Fix
+> [!Note]
 > This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected with differing supported resolutions.
 
 <details>
@@ -349,53 +383,85 @@ https://github.com/hannesmann/vanillafixes
 https://github.com/Mates1500/VanillaMultiMonitorFix
 </details>
 
-# ⭐Turtle WoW HD Graphics, Textures, and Mods⭐
-![](https://i.imgur.com/aieolVP.jpeg)
-All mpq patches must be placed in the "Data" folder. You can run all of the HD patches below at the same time, but you should only have one Patch-A. See further below. If two unrelated mods have the same Patch-X name you will have to rename one to another letter.
-
-## Using Mods with the Launcher
+## Increase Addon Script Memory Setting
 <details>
-<summary>More Details - Click to Expand</summary>
-If you don't need vanilla tweaks, superwow, or vanillafixes (you think you don't but you do) and just want to try the HD graphics... The launcher supports loading extra mpq's from the Data folder:
+<summary>Increase Addon Script Memory Guide</summary>
 
-![](https://i.imgur.com/7b4YfXh.png)
+1. Start TWoW
+2. Login to your account but don't select a character.
+3. Click the Addons button in the bottom left corner
+4. Set Script Memory (MB) to 0 - This allows the game to use as much memory as it needs for your AddOns.
+   <p align="center"><img src="https://i.imgur.com/aAAXrRl.png" width="50%"></p>
+
 </details>
 
-## Appletrey's CLASSIIC HD Patch - Updated M2 (Items) and WMO (Buildings), WMO structures, Weapons and Armor
 
-<img align="top" src="https://i.ibb.co/5hS9N35/classiic-hc-cover.jpg" width="50%"><img src="https://i.ibb.co/m5m7bgZf/orcinn-hd.png" width="46%">
+# ⭐Turtle WoW HD Graphics, Textures, and Mods⭐
+![](https://i.imgur.com/aieolVP.jpeg)
+
+> [!Note]
+> All mpq patches must be placed in the `TurtleWoW\Data` folder. You can multiple graphic mpq patches at the same time. If two mods have the same Patch-X name you will have to rename one of them to another letter not in use.
+
+## Using MPQ Mods with the Launcher
+<details>
+<summary>Enable MPQ Mods using the Launcher</summary>
+
+The launcher supports loading extra mpq's from the Data folder. Maybe you don't need VanillaTweaks, SuperWoW, or VanillaFixes and just want to try the HD graphics? I don't recommend using the launcher but here's how to do it.
+
+<p align="center"><img src="https://i.imgur.com/7b4YfXh.png" width="30%"></p>
+
+</details>
+
+## Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor
+
+<p align="center"><img src="https://i.ibb.co/5hS9N35/classiic-hc-cover.jpg" width="50%"><img src="https://i.ibb.co/m5m7bgZf/orcinn-hd.png" width="46%"></p><br>
+
+> [!Note]
+> Custom M2 Items and Environments, Massive Gear overhauls, WMO Buildings updated. Model, vehicles, structures updated. Custom outpost spikes, walls, gates, and so much more.
 
 <details>
 <summary>Appletrey's CLASSIIC HD Patch</summary>
 
+👀 [Video Showcase](https://www.youtube.com/@appletrey/videos) 👀
+
+Custom and improved HD models. 
+
 [Patch-W](https://drive.google.com/file/d/1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR/view)
 
-[Video Showcase](https://www.youtube.com/@appletrey/videos
 
 https://forum.turtle-wow.org/viewtopic.php?t=16720
 
 </details>
 
 ## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc
-This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
+> [!Note]
+> This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
 
 [Patch-H](https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0)
 
 https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 
 ## Redmagejoe's Environment HD Retexture
-Patch-B.mpq from Redmagejoe's Turtle HD Project topic. Even though the rest of his Turtle HD project is not compatible with 1.17.2, this patch-b still works.
+> [!Note]
+> Contains an extensive collection HD textures for things like grass, environments and buildings, etc.
 
+<details>
+<summary>Redmagejoe's HD Environment</summary>
+
+‼️ This project as a whole has been discontinued but Patch-B still works. Keeping it available for now. ‼️
 
 [Patch-B](https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link)
 
 https://forum.turtle-wow.org/viewtopic.php?t=2827
+https://github.com/redmagejoe/TurtleHD
+
+</details>
 
 ## 💥HD Character Models💥
-![](https://i.imgur.com/JdMaqso.jpeg)
-Previously we were using Redmagejoe's Turtle HD Project Patch-A. He backported playable races with their Legion HD models. His patch also had updates for all NPCs and creatures in the world with their Legion HD versions where available. 
+<p align="center"><img src="https://i.imgur.com/JdMaqso.jpeg"></p>
 
-Since that [project has been halted](https://forum.turtle-wow.org/viewtopic.php?t=2827) and it not compatible with TWoW 1.17.2, there are two alternatives to pick from....
+> [!Note]
+> Replaces playable races with their Legion HD models. Updates NPCs and creatures in the world with their Legion HD versions where available.
 
 ### Option 1 - Watcher's - HD Character Models Only
 <details>
@@ -429,6 +495,7 @@ Last Updated: Dec 29, 2024 🟡
 https://forum.turtle-wow.org/viewtopic.php?t=16818
 
 </details>
+
 <details>
 <summary>Option 2b - NeyMey's (Full)</summary>
 
@@ -449,20 +516,36 @@ https://forum.turtle-wow.org/viewtopic.php?t=16818
 
 </details>
 
+
 # Other Mods
 
 ## Pretty Night Sky
-
-<video src="https://www.youtube.com/embed/oq0IgUoAk0g?si=5c-Pv9xq0gaxrZWJ"></video>
-
-[![YouTube](https://i.ytimg.com/vi/oq0IgUoAk0g/maxresdefault.jpg)](https://www.youtube.com/watch?v=oq0IgUoAk0g)
-
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky1.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky2.jpg" width="33%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PrettyNightSky3.jpg" width="33%">
 
-https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=sharing
+<details>
+<summary>Pretty Night Sky</summary>
+
+Demo Video - Flight from Undercity to Tarren Mill:
+[![YouTube](https://i.ytimg.com/vi/oq0IgUoAk0g/maxresdefault.jpg)](https://www.youtube.com/watch?v=oq0IgUoAk0g)
+
+
+[Patch-9](https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=sharing)
+
+You might try renaming this to Patch-Y or another letter near the end of alphabet since other HD mods can overwrite this one.
+
+https://forum.turtle-wow.org/viewtopic.php?t=10776
+
+</details>
 
 ## Wotlk Druid Feral Colors
-<img align="top" src="https://i.imgur.com/YMabqVh.jpeg" width="34%" height="25%"><img src="https://i.imgur.com/nQrjNMJ.jpeg" width="49%">
+> [!Note]
+> OG Wotlk models have 5 different skin colors based on the hair/fur color of your NE/Tauren Druid. This let's you pick from 5 different sets of Feral form skins. 
+
+<details>
+<summary>Wotlk Druid Feral Colors</summary>
+
+<img align="top" src="https://i.imgur.com/YMabqVh.jpeg" width="34%" height="25%"><img src="https://i.imgur.com/nQrjNMJ.jpeg" width="49%">></p>
+
 
 01 - White: [(Download Link)](https://mega.nz/file/hr5G0DiD#-id6zNqMDF5upseVhT4KF7k96XDayksUuZovC9YunLQ)  
 [![Image](https://i.imgur.com/hXpKhb4.jpeg)](https://i.imgur.com/hXpKhb4.jpeg)  
@@ -481,70 +564,174 @@ https://drive.google.com/file/d/1qu99ZS-SQFfTtYodBmZWYiHmxL8QtUY4/view?usp=shari
 
 https://forum.turtle-wow.org/viewtopic.php?t=16108
 
-## Epoch Water
-Really nice looking water texture replacement
+</details>
 
-**[Default Water vs Epoch Water Slider Comparison](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c0d977ee-5851-11ef-9396-d93975fe8866)**
+## Epoch Water
+> [!Note]
+> This is by far the best looking water texture replacement I've seen in Vanilla.
+
+[Preview - Default Water vs Epoch Water Slider Comparison](https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=c0d977ee-5851-11ef-9396-d93975fe8866)
+
+<details>
+<summary>Epoch Water</summary>
 
 <img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater.jpg" width="50%"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/EpochWater2.jpg" width="50%">
 
-Patch-W.mpq - https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view
+[Patch-W](https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view)
 
-(You will need to rename this to Patch-X or Patch-Y if also using Appletrey's CLASSIIC HD Patch)
+You probably want to rename this to Patch-X or Patch-Y as other HD mods can overwrite it such as Appletrey's CLASSIIC HD Patch.
 
 https://forum.turtle-wow.org/viewtopic.php?t=16918
 
+</details>
+
+
 ## Fog Pushback
-Pushes back fog significantly to increase view distance. 
+> [!Note]
+> Pushes back fog significantly to increase view distance. 
 
-<img align="top" src="https://i.imgur.com/2foC2hl.jpeg" width="48%"><img src="https://i.imgur.com/ecRqmfc.jpeg" width="50%">
+<img src="https://i.imgur.com/2foC2hl.jpeg" width="48%"><img src="https://i.imgur.com/ecRqmfc.jpeg" width="50%">
 
-Patch-Y.mpq - https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=sharing
+<details>
+<summary>Fog Pushback</summary>
+
+1. 📌 Optional + Recommended - Apply VanillaTweaks first which increases the max farclip distance LIMIT to 10,000
+2. Put mpq in the Data folder -> Start game
+3. Open Chat and type: `/console farclip 1000` 
+	- 777 is the default maximum
+	- I have tested even higher numbers (currently using 1797), but the higher you go the more likely you will encounter crashes!
+
+[Patch-Y](https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=sharing)
+
+> A few other mods also use Patch-Y for their name so you may need to rename this mpq to another unused letter
 
 https://forum.turtle-wow.org/viewtopic.php?t=10982
 
+</details>
+
+
 ## Pink Herbs
-Turns (most) herbs pink/purple looking for easy finding.
 
-<img align="top" src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PinkHerbs.jpg" width="40%">
+> [!Note]
+> Changes herbs color to a bright pink/purple color for easier finding.
 
-Patch-J.mpq - https://forum.turtle-wow.org/viewtopic.php?t=12005
+<details>
+<summary>Pink Herbs</summary>
 
+<p align="center"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PinkHerbs.jpg" width="40%"></p>
 
-## Auto-Login
-Patch for Turtle WoW client that adds account saving features with auto-login and auto-select character.
-Requires a recent enough version of SuperWow, currently >=1.4
+[Patch-J](https://forum.turtle-wow.org/viewtopic.php?t=12005)
 
-<img align="top" src="https://i.imgur.com/GXhE26Q.png" width="40%">
+</details>
+
+## Turtle Auto Login
+
+> [!Note]
+> Patch for Turtle WoW that can allows you to setup multiple accounts with auto-login, auto-select character, and custom account labels.
+
+<details>
+<summary>🔑 Options 1 - Requires SuperWoW</summary>
+
+<p align="center"><img src="https://i.imgur.com/GXhE26Q.png" width="40%"></p>
+
+This version is newer and has more features than the original. It does requires a recent enough version of SuperWow, currently >=1.4. 
+
+[Download the Newer Version](https://github.com/MarcelineVQ/turtle-autologin/archive/refs/heads/main.zip)
 
 https://github.com/MarcelineVQ/turtle-autologin
 
-Original by Haaxor1689 - https://github.com/Haaxor1689/turtle-autologin
+</details>
+
+<details>
+<summary>🗝️ Options 2 - Basic OG Version</summary>
+
+1. [Download the OG version](https://github.com/Haaxor1689/turtle-autologin/releases/download/release/Patch-Y.mpq) 
+2. Place MPQ file inside your `TurtleWoW\Data` folder.
+
+[Original by Haaxor1689](https://github.com/Haaxor1689/turtle-autologin)
+
+</details>
 
 
-# Troubleshooting
+# 🆘🆘 Troubleshooting / FAQ 🆘🆘
+
+## 🔎 How to get Support 🔍
+Post all the relevant info to the discord support channel (link at the top of this guide):
+
+- Laptop or Desktop - Custom/Prebuild? Model?
+- Graphics Card - Dedicated AMD/Nvidia, Internal/CPU, Combination? Model/Driver.
+- Operating System - Windows, MacOS, Virtual Machine, or some hipster nix distro?
+- Screenshots or video of the issue
+- Your settings - In-Game, Addons, or Config Files?
+- Error Logs
+- What changes/tweaks/mods/etc have you added/modified/removed?
+- How you start the game - Launcher, WoW.exe, VanillaFixes, other?
+- When does the issue occur?
+- What things you've tried so far to fix the issue...
+
+**Explaining your issue with as much detail as possible will ensure you get proper support.**
+
 ## I am using the launcher and it's not working
-The Turtle WoW launcher **DOES NOT WORK** with any of the client tweaks (SuperWoW, Vanillafixes, Nampower, unit XP3, etc) posted above. You cannot use the launcher to start the game if you want to enable these. You have to run the game from either WoW.exe or like VanillaFixes.
+<details>
+<summary>Simple Fix for Launcher Issues</summary>
 
-## My game crashed when I was in a high populated area like Stormwind Trade district, etc
-> This application has encountered a critical error:<br>
-> Exception:	0xC0000005 (ACCESS_VIOLATION)<br>
-> The memory could not be "read"
+My simple fix: **Don't use it until it's more stable**
 
-This is a known issue when using these HD texture mods especially if you use the larger ~2gb "full" Patch-A. There is a conflict somewhere with one of the HD files in the mpq and custom changes made by Turtle WoW. I don't have a fix for this. 
+The Turtle WoW launcher is brand new and constantly being updated. Lots of issues have been reported by users trying to use it in it's most basic default state. My recommendation, at this time, is to bypass the launcher entirely. Stick to what we know works and has been working and we will re-visit using the launcher when it stabilizes Soon™.
 
-## My video settings don't show the correct monitor resolution
-<img src="https://i.imgur.com/AkJu10j.png" width="600">
+Remember:
+- You should **NOT** be trying to start the game from the launcher if you want to use any of the tweaks above. Yes, you can configure *some*  tweaks through it, but you're supposed to close it once configured and run WoW.exe or VanillaFixes.exe manually to actually start the game. 
+- You don't need the launcher to get TurtleWoW updates. They can push updates to you while the game is running. 
+- It's not required to play the game.
+- There's no need to add yet another thing to the mix along with the 20+ other tweaks and mods you probably installed without testing. 
+
+</details>
+
+## I'm using MPQ mods and my game randomly crashes
+> This application has encountered a critical error
+> Exception:	0xC0000005 (ACCESS_VIOLATION)
+> The memory could not be "read" or "written"
+
+<details>
+<summary>Crashes Caused by MPQ Mods - Easy and quick fix!!</summary>
+
+Just kidding! There is no easy or quick fix for these. 💀 
+
+This is a common and known issue when using various HD graphics/texture mods especially if you use got a bunch different ones. A lot of crashes happen near flight masters or in busy areas with tons of players like the Stormwind Trade district, etc. 
+
+ Basically, these are **REALLY HARD** to troubleshoot. If you can replicate the crash it will be very useful for narrowing down the root cause. Otherwise it's like finding a needle in a haystack. 
+
+Causes:
+- Some graphic, texture, or other asset could have been incorrectly backported to the vanilla client.  
+- The DBC (DataBaseClient) files within the MPQ's contain tens, maybe even hundreds, of thousands of database entries about items, NPCs, environment, world, and a lot more... A bad entry here could be why the crash is happening. 
+- TurtleWoW could have rolled out some update and something as simple as a new hairstyle could crash your game
+- The main HD Patch (Patch-A) is a repeat offender when it comes to crashes.
+	- This should be the first mpq you remove when trying to isolate which mpq mod is causing the crash.
+
+</details>
+
+## The Video Settings Don't Show My Resolution or Max Resolution is 1600x1200
+<details>
+<summary>Can't Change Game Resolution / Not Showing My Resolution</summary>
 
 This can happen for various reasons such as:
  - You're running the game from a laptop which has internal graphics and dedicated graphics.
  - You have multiple monitors and/or different resolutions between them. 
- - Your drivers aren't up to date. 
- - Other OS or Graphics settings
- 
-This is an issue beyond the scope of this guide. Post all relevant info in the discord support channel before you try installing any mods mentioned above.
+ - You are missing or have outdated drivers.
+ - Windows Settings
+ - AMD/Nvidia Control Panel settings missing or misconfigured.
+ - You have a huge modern 21:9 monitor running at like 5120x1440. Maybe you're even using some software to split the screen into multiple virtual monitors? ☠️
 
-## When I try using SuperWoW, my game gets an Application Error or Critical Error, or DLL entry point error:
+ This is what you should be seeing if you set everything up correctly. 
+ - Normal and widescreen resolutions in the dropdown list
+ - Monitor detected and the Refresh Rating is not blank.
+ - Shaders enabled at the bottom
+<p align="center"><img src="https://i.imgur.com/AkJu10j.png" width="600"></p>
+
+</details>
+
+## I get an Application Error or Critical Error When Trying to Use SuperWoW
+
 <details>
 <summary>Check your DEP Settings</summary>
 
@@ -572,46 +759,67 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 	- For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
 5. Check the Virus and Threat Protection -> Current Threats -> Protection History -> make sure there's no entries saying SuperWoW is blocked.
 6. Go back and re-do the SuperWoW section once this is setup.
-<img align="center" src="https://i.imgur.com/tvxm5xS.png" width="40%">
+<p align="center"><img src="https://i.imgur.com/tvxm5xS.png" width="40%"></p>
 
 </details>
 
+## VanillaFixes Common Issues
+While using DXVK on Windows may generally work it is not supported *do not support it** officially. Many issues with running DXVK on Windows are outside of our control and cannot be fixed within DXVK.
+
+https://github.com/doitsujin/dxvk/wiki/Windows
+
 ## Other things to Check or Try:
+Here's a list of things to check when something isn't working. May or may not be applicable to your issue.
+
+<details>
+<summary>Big List of Things to Try...</summary>
+
+👏 Probably because you didn't follow the guide from the start and now it's not working? 👏
 
 - Delete your WDB folder? 
 - Did you install both VCredist x86 and 64 or the All-in-One?
 - Make sure your game isn't saved in a write-protected directory such as Program Files, Downloads, Documents etc. 
-	  <img align="center" src="https://i.imgur.com/pPEJXAG.png" width="40%">
-	  <br>
 	- Try moving it to like `C:\TWoW`
-	<br>
-	- Edit the folder properties and give your account full control:<br>
-	  <img align="center" src="https://i.imgur.com/NDprslq.png" width="40%">
-	  
+	- Check the attributes to make sure the folder isn't set to  Read-only:
+	  <p align="center"><img src="https://i.imgur.com/pPEJXAG.png" width="40%"></p>
+	  <br>
 
-- Right Click WoW and run as admin?
-- Did you try removing mpq mods (if any)?
-- Did you try backing up your config.wtf or even WTF folder? Try to run the game it should generate a default config and launch the game with default settings.
-- Did you try changing your dlls.txt to just vfpatcher and SuperWoW?
+	- You can try editing the folder properties and give your user account full control:
+	  <p align="center"><img src="https://i.imgur.com/NDprslq.png" width="40%"></p>
+
+<br>
+
+- Be sure you right click WoW/VanillaFixes and select Run as Administrator
+- Did you try removing ALL mpq mods (if any)?
+- Did you try backing up your config.wtf and WTF folder, deleting those files, and relaunching the game to see if it will starts with default config settings? The game should generate a new config.wtf and WTF folder structure.
+- Remove everything from your dlls.txt and test re-add them one by one
 - Are you using VanillaFixes or the dxvk version? Try deleting the d3d9.dll file and use the non dxvk version
-- Delete everything and download a fresh CLEAN copy of turtlewow unzipped and DO NOT run the launcher.
+
+When all else fails - Delete the whole TWoW folder, download a fresh CLEAN copy, and start from the top. DO NOT run the launcher.
+
+</details>
 
 ## Where can I find the Error Logs
-- Look at twmoa_1172\Logs folder 
+
+- There can be some log files in your main TWoW folder if you use nampower or other dll mods.
+- There are log files in the TWoW\Logs folder 
 	- gx.log
 	- GlueXML.log
 	- FrameXML.log
 	- Sound.log
 	- cpu.log
 	- twloader.log
-- Look at twmoa_1172\Errors folder -> (scroll to the bottom of the txt file) might have some clues
-	- 2025-01-01 22.02.09 Crash.txt
+- There are log files in the TWoW\Errors folder -> Open the txt file and scroll to the bottom. You might see some clues there but often times it's pretty cryptic.
+	- When your game crashes a log file is put in the Errors folder and will be named similar to `2025-01-01 22.02.09 Crash.txt`
 
+</details>
 
+# 🛑 Unsupported / Out of Date Client Mods 🛑
 
-# Unsupported / Out of Date Client Mods
-
-## Redmagejoe's Turtle HD
+<h2>Redmagejoe's Turtle HD</h2>
 **>>> WARNING THIS IS NO LONGER SUPPORTED <<<**
 **THIS PROJECT IS CURRENTLY NOT UPDATED FOR PATCH 1.17.2!**
+
+If you used this in the past you will need to remove the MPQ files!!!
+
 https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
