@@ -630,7 +630,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=10982
 > Patch for Turtle WoW that can allows you to setup multiple accounts with auto-login, auto-select character, and custom account labels.
 
 <details>
-<summary>🔑 Options 1 - Requires SuperWoW</summary>
+<summary>🔑 Option 1 - Requires SuperWoW</summary>
 
 <p align="center"><img src="https://i.imgur.com/GXhE26Q.png" width="40%"></p>
 
@@ -643,7 +643,7 @@ https://github.com/MarcelineVQ/turtle-autologin
 </details>
 
 <details>
-<summary>🗝️ Options 2 - Basic OG Version</summary>
+<summary>🗝️ Option 2 - Basic OG Version</summary>
 
 1. [Download the OG version](https://github.com/Haaxor1689/turtle-autologin/releases/download/release/Patch-Y.mpq) 
 2. Place MPQ file inside your `TurtleWoW\Data` folder.
@@ -764,7 +764,28 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 </details>
 
 ## VanillaFixes Common Issues
-While using DXVK on Windows may generally work it is not supported *do not support it** officially. Many issues with running DXVK on Windows are outside of our control and cannot be fixed within DXVK.
+While using DXVK on Windows may generally work it is not supported officially. 
+
+DXVK will by default prevent the Vulkan driver from entering full-screen exclusive mode, which is necessary for a number of games to work and also allows users to tab out. However, depending on your setup and graphics driver, this may come with a number of drawbacks:
+
+- Variable refresh rate may not work.
+- HDR may not work properly.
+- Performance may be degraded, especially on multi-monitor systems.
+- Frame latency may be higher.
+
+In order to enable full-screen exclusive, set `dxvk.allowFse = True` via a [configuration file](https://github.com/doitsujin/dxvk/wiki/Configuration).
+
+Third-party software that interacts with D3D11 and/or Vulkan at the API level will often interfere with DXVK and cause it to crash or not work as expected. This includes the following applications:
+
+- Any overlay provided by game launchers (Steam, Epic Games Store, Uplay, Origin)
+- The **Nvidia GeForce Experience** overlay
+- The RivaTuner Statistics Server overlay
+- Open Broadcaster Software recording
+- Certain game mods (e.g. FiveM)
+- 
+**DO NOT** replace Windows DLLs in `System32` or `SysWOW64` with DXVK's. This **will** break your Windows install.
+
+Make sure to use the 32-bit DLLs for 32-bit games. Windows applications will never load DLLs of the wrong architecture.
 
 https://github.com/doitsujin/dxvk/wiki/Windows
 
