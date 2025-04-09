@@ -844,3 +844,45 @@ When all else fails - Delete the whole TWoW folder, download a fresh CLEAN copy,
 If you used this in the past you will need to remove the MPQ files!!!
 
 https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
+
+# Addons I Use
+<details>
+	
+<summary>Addons List</summary>
+
+- !!inspect
+- !notoggle
+- antispam
+- AutoDecline
+- Bagshui
+- BetterCharacterStats
+- CleveRoidMacros
+- Decursive
+- GryllsExpBar
+- HCQuest
+- HCWarn
+- HealersMate
+- LevelRange-Turtle
+- Magnify
+- MikScrollingBattleText
+- MikScrollingBattleTextOptions
+- NampowerSettings
+- pfQuest
+- pfQuest-turtle
+- pfUI
+- pfUI-addonskinner
+- pfUI-CustomMedia
+- pfUI-eliteoverlay
+- pfUI-fonts
+- pfUI-RainbowHealthBar
+- SilentServer
+- SoloRaidTargetIcons
+- SuperAPI
+- SuperAPI_Castlib
+- TurtleChatColors
+- TurtleHardcoreChatTamer
+- unitscan-turtle-hc
+- UnitXP_SP3_Addon
+- VendorList
+
+</details>
