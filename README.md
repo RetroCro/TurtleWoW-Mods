@@ -651,6 +651,13 @@ https://forum.turtle-wow.org/viewtopic.php?t=10982
 
 </details>
 
+## Untested Mods
+
+### Darker Nights
+I tested this only briefly for 1.17.2 to make sure it wouldnt instantly crash me and it didn't. I didn't test enough to say how well it works but I am leaving the download here for now. 
+- Darker Nights mod loses the dark effect when it rains. The ambient brightness is only set for default weather.
+- [Download](https://github.com/RetroCro/TurtleWoW-Mods/raw/refs/heads/main/Archive/Darker%20Nights.zip)
+
 
 ## Pink Herbs
 
