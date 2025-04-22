@@ -344,6 +344,7 @@ https://github.com/allfoxwy/UnitXP_SP3_Addon
 Open **dlls.txt** from the TWoW folder using notepad and edit it like below:
 
 ```
+twdiscord.dll
 # If you use nampower (https://github.com/namreeb/nampower), it will be loaded by this line
 nampower.dll
 # If you use SuperWoW (https://github.com/balakethelock/SuperWoW), it will be loaded by this line
