@@ -33,12 +33,17 @@
 <a id="toc"></a>
 
 - [Turtle WoW - Vanilla Client Install & Setup Guide](#turtle-wow---vanilla-client-install--setup-guide)
+- [➡️➡️ STEP 1 - START HERE!!!! ⬅️⬅️](#-step-1---start-here-)
   - [Automatically Clear WDB Folder Every Time You Launch Turtle WoW](#automatically-clear-wdb-folder-every-time-you-launch-turtle-wow)
   - [Vanilla Tweaks](#vanilla-tweaks)
   - [SuperWoW](#superwow)
   - [Nampower](#nampower)
   - [UnitXP Service Pack 3](#unitxp-service-pack-3)
   - [VanillaFixes](#vanillafixes)
+    - [VanillaFixes (Normal Version)](#vanillafixes-normal-version)
+    - [VanillaFixes (DXVK Version)](#vanillafixes-dxvk-version)
+      - [Edit DLLS.TXT](#edit-dllstxt)
+      - [Edit DXVK.CONF](#edit-dxvkconf)
 - [Other Tweaks / Fixes](#other-tweaks--fixes)
   - [Vanilla Multi Monitor Fix](#vanilla-multi-monitor-fix)
   - [Increase Addon Script Memory Setting](#increase-addon-script-memory-setting)
@@ -48,13 +53,15 @@
   - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
   - [Redmagejoe's Environment HD Retexture](#redmagejoes-environment-hd-retexture)
   - [💥HD Character Models💥](#hd-character-models)
-    - [Option 1 - Watcher's - HD Character Models Only](#option-1---watchers---hd-character-models-only)
-    - [Option 2 - Turtle HD (by NeyMey)](#option-2---turtle-hd-by-neymey)
+    - [Option 1 - Turtle HD Patch-A - NEW RELEASE!](#option-1---turtle-hd-patch-a---new-release)
+    - [Option 2 - Watcher's - HD Character Models Only](#option-2---watchers---hd-character-models-only)
 - [Other Mods](#other-mods)
   - [Pretty Night Sky](#pretty-night-sky)
   - [Wotlk Druid Feral Colors](#wotlk-druid-feral-colors)
   - [Epoch Water](#epoch-water)
   - [Fog Pushback](#fog-pushback)
+  - [Untested Mods](#untested-mods)
+    - [Darker Nights](#darker-nights)
   - [Pink Herbs](#pink-herbs)
   - [Turtle Auto Login](#turtle-auto-login)
 - [🆘🆘 Troubleshooting / FAQ 🆘🆘](#-troubleshooting--faq-)
@@ -67,8 +74,12 @@
   - [VanillaFixes Common Issues](#vanillafixes-common-issues)
   - [Other things to Check or Try:](#other-things-to-check-or-try)
   - [Where can I find the Error Logs](#where-can-i-find-the-error-logs)
+  - [My PC is Garbage/I need max performance config](#my-pc-is-garbagei-need-max-performance-config)
 - [🛑 Unsupported / Out of Date Client Mods 🛑](#-unsupported--out-of-date-client-mods-)
+- [Addons I Use](#addons-i-use)
+- [My config files](#my-config-files)
 <!-- ToC end -->
+
 
 
 # Turtle WoW - Vanilla Client Install & Setup Guide
@@ -348,9 +359,9 @@ UnitXP_SP3.dll
 
 <details><summary>
 
-#### Edit **DXVK.CONF**</summary>
+#### Edit DXVK.CONF</summary>
 
-Open dxvk.conf from the TWoW folder using notepad and edit it like below:
+Open **dxvk.conf** from the TWoW folder using notepad and edit it like below:
 
 ```
 # DXVK configuration for World of Warcraft
@@ -503,13 +514,30 @@ https://github.com/redmagejoe/TurtleHD
 <p align="center"><img src="https://i.imgur.com/JdMaqso.jpeg"></p>
 
 > [!Note]
-> Replaces playable races with their Legion HD models. Updates NPCs and creatures in the world with their Legion HD versions where available.
+> Patch-A replaces playable races with their Legion HD models or other downported models from newer expansions.
 
-### Option 1 - Watcher's - HD Character Models Only
+### Option 1 - Turtle HD Patch-A - NEW RELEASE!
 <details>
-<summary>Option 1 - Watcher's (Slim)</summary>
+<summary>Option 1 - Patch-A by Falarson+NeyMey with fixes from Watchers3D</summary>
 
-This is similar to Redmagejoe's Patch-A but contains only HD Character models so it's slimmed down which helps reduce the number of potential crashes. Also gets updated pretty frequently so I would consider this a safe pick.
+Latest and greatest Turtle HD mod includes updates models for - Characters, NPC's, Creatures, Mounts, and More!
+
+**<u>Patch-A.mpq</u>**
+Size: 2.72 GB
+Last Updated: Apr 22, 2025 🟢
+
+[Patch-A](https://drive.usercontent.google.com/download?id=1qYRgtJZqm_D39s3ZYdUXT4YgwZLigzZx&export=download&authuser=0)
+
+https://forum.turtle-wow.org/viewtopic.php?t=18689
+
+</details>
+
+
+### Option 2 - Watcher's - HD Character Models Only
+<details>
+<summary>Option 2 - Watcher's (Slim) Patch-A</summary>
+
+Watcher's Patch-A contains only HD Character models. It's slimmed down which helps reduce the number of potential crashes. Gets updated pretty frequently so I would consider this a safe pick if you just want HD character models.
 
 **<u>Watcher's (Slim) - Patch-A</u>**
 Size: ~615.1 MB
@@ -518,43 +546,6 @@ Last Updated: Apr 4, 2025 🟢
 [Patch-A](https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit)
 
 https://forum.turtle-wow.org/viewtopic.php?t=12120
-
-</details>
-
-### Option 2 - Turtle HD (by NeyMey)
-
-<details>
-<summary>Option 2a - NeyMey's (Slim)</summary>
-
-Neymey has his own version of a slimmed down Patch-A. This is also a safe pick but hasn't seen any updates in a while.
-
-**<u>NeyMey's (Slim) - Patch-A</u>**
-Size: ~615.1 MB
-Last Updated: Dec 29, 2024 🟡
-
-[Patch-A](https://drive.google.com/file/d/1tH4u-qEG6370al6RqnX231UXjZ0Xfzgk/view?usp=drive_link)
-
-https://forum.turtle-wow.org/viewtopic.php?t=16818
-
-</details>
-
-<details>
-<summary>Option 2b - NeyMey's (Full)</summary>
-
-Neymey has a larger "full" version of Patch-A which comes close to the original Redmagejoe's Patch-A. If you are willing to accept a higher chance of random crashes this is the patch with the most backported HD graphics.
-
-The full version requires both Patch A and Patch H.
-
-**<u>NeyMey's (Full) - Patch-A + Patch-H</u>**
-Size: ~1.9 GB
-Patch-A Last Updated: Jan 12, 2025 🟡
-Patch-H Last Updated: Dec 29, 2024 🟠
-
-[Patch-A](https://drive.google.com/file/d/1ZvjkvccbpWzB43_bB54kAdTsyrzkF4OJ/view?usp=drive_link)
-
-[Patch-H](https://drive.google.com/file/d/1EvuQFMx8VjazYAuI0J6OxF5lxJZXso0v/view?usp=drive_link)
-
-https://forum.turtle-wow.org/viewtopic.php?t=16818
 
 </details>
 
@@ -884,6 +875,31 @@ When all else fails - Delete the whole TWoW folder, download a fresh CLEAN copy,
 
 </details>
 
+## My PC is Garbage/I need max performance config
+<details>
+	
+<summary>config.wtf settings to try</summary>
+
+```
+SET DistCull "1"
+SET farclip "177"
+SET frillDensity "1"
+SET gxMultisample "1"
+SET lodDist "59"
+SET anisotropic "1"
+SET particleDensity "0.25"
+SET shadowLevel "1"
+SET SkyCloudLOD "0"
+SET SkySunGlare "0"
+SET SmallCull "2"
+SET specular "0"
+SET texLodBias "1"
+SET unitDrawDist "100"
+SET weatherDensity "0"
+```
+
+</details>
+
 # 🛑 Unsupported / Out of Date Client Mods 🛑
 
 <h2>Redmagejoe's Turtle HD</h2>
@@ -939,26 +955,4 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 # My config files
 - [config.wtf](https://gist.githubusercontent.com/RetroCro/62cd73d9bbc64d365e0de444c6289823/raw/324c4fbb0e266688439c0c27888cf117e977d719/turtle-wow-config.wtf)
 
-<details>
-	
-<summary>My PC is Garbage/I need max performance config</summary>
 
-```
-SET DistCull "1"
-SET farclip "177"
-SET frillDensity "1"
-SET gxMultisample "1"
-SET lodDist "59"
-SET anisotropic "1"
-SET particleDensity "0.25"
-SET shadowLevel "1"
-SET SkyCloudLOD "0"
-SET SkySunGlare "0"
-SET SmallCull "2"
-SET specular "0"
-SET texLodBias "1"
-SET unitDrawDist "100"
-SET weatherDensity "0"
-```
-
-</details>
