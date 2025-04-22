@@ -523,7 +523,9 @@ https://github.com/redmagejoe/TurtleHD
 Latest and greatest Turtle HD mod includes updates models for - Characters, NPC's, Creatures, Mounts, and More!
 
 **<u>Patch-A.mpq</u>**
+
 Size: 2.72 GB
+
 Last Updated: Apr 22, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1qYRgtJZqm_D39s3ZYdUXT4YgwZLigzZx&export=download&authuser=0)
@@ -540,7 +542,9 @@ https://forum.turtle-wow.org/viewtopic.php?t=18689
 Watcher's Patch-A contains only HD Character models. It's slimmed down which helps reduce the number of potential crashes. Gets updated pretty frequently so I would consider this a safe pick if you just want HD character models.
 
 **<u>Watcher's (Slim) - Patch-A</u>**
+
 Size: ~615.1 MB
+
 Last Updated: Apr 4, 2025 🟢
 
 [Patch-A](https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit)
