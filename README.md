@@ -495,19 +495,22 @@ https://forum.turtle-wow.org/viewtopic.php?t=16720
 
 https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 
-## Redmagejoe's Environment HD Retexture
+## NeyMey's Environment HD Retexture
 > [!Note]
 > Contains an extensive collection HD textures for things like grass, environments and buildings, etc.
 
 <details>
-<summary>Redmagejoe's HD Environment</summary>
+<summary>Patch-B - NeyMey's HD Environment</summary>
 
-‼️ This project as a whole has been discontinued but Patch-B still works. Keeping it available for now. ‼️
+**<u>Patch-B.mpq</u>**
 
-[Patch-B](https://drive.google.com/file/d/1GQ932XSzsFMKozhGd-a8HPetQI79xcXb/view?usp=share_link)
+Size: 758.1 MB
 
-https://forum.turtle-wow.org/viewtopic.php?t=2827
-https://github.com/redmagejoe/TurtleHD
+Last Updated: Apr 22, 2025 🟢
+
+[Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
+
+https://forum.turtle-wow.org/viewtopic.php?t=18689
 
 </details>
 
