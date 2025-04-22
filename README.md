@@ -529,8 +529,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=18689
 </details>
 
 ## Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor
-
-<p align="center"><img src="https://i.ibb.co/5hS9N35/classiic-hc-cover.jpg" width="50%"><img src="https://i.ibb.co/m5m7bgZf/orcinn-hd.png" width="50%"></p><br>
+<img src="https://i.imgur.com/fLXq9bg.jpeg" width="50%"><img src="https://i.imgur.com/ZdZ0wr5.png" width="50%">
 
 > [!Note]
 > Custom M2 Items and Environments, Massive Gear overhauls, WMO Buildings updated. Model, vehicles, structures updated. Custom outpost spikes, walls, gates, and so much more.
