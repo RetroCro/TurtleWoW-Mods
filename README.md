@@ -51,7 +51,7 @@
   - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
   - [Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor](#appletreys-classiic-hd-patch---updated-items-buildings-structures-weapons-and-armor)
   - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
-  - [Redmagejoe's Environment HD Retexture](#redmagejoes-environment-hd-retexture)
+  - [NeyMey's Environment HD Retexture](#neymeys-environment-hd-retexture)
   - [💥HD Character Models💥](#hd-character-models)
     - [Option 1 - Turtle HD Patch-A - NEW RELEASE!](#option-1---turtle-hd-patch-a---new-release)
     - [Option 2 - Watcher's - HD Character Models Only](#option-2---watchers---hd-character-models-only)
