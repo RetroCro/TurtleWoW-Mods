@@ -481,7 +481,7 @@ Latest and greatest Turtle HD mod includes updates models for - Characters, NPC'
 
 Size: 2.72 GB
 
-Last Updated: Apr 22, 2025 🟢
+Last Updated: Apr 29, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1qYRgtJZqm_D39s3ZYdUXT4YgwZLigzZx&export=download&authuser=0)
 
