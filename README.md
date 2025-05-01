@@ -344,14 +344,8 @@ Open **dlls.txt** from the TWoW folder using notepad and edit it like below:
 
 ```
 twdiscord.dll
-# If you use nampower (https://github.com/namreeb/nampower), it will be loaded by this line
 nampower.dll
-# If you use SuperWoW (https://github.com/balakethelock/SuperWoW), it will be loaded by this line
 SuperWoWhook.dll
-# If you use VanillaMultiMonitorFix (https://github.com/Mates1500/VanillaMultiMonitorFix), it will be loaded by this line
-# VanillaMultiMonitorFix.dll
-
-# Add your own DLLs below
 UnitXP_SP3.dll
 ```
 
@@ -359,7 +353,7 @@ UnitXP_SP3.dll
 
 <details><summary>
 
-#### Edit DXVK.CONF</summary>
+#### Edit DXVK.CONF (ONLY IF YOU ARE USING DXVK Version!! SKIP OTHERWISE</summary>
 
 Open **dxvk.conf** from the TWoW folder using notepad and edit it like below:
 
@@ -405,11 +399,6 @@ If you did everything correctly you should see a popup similar to this:
 > [!Note]
 🛑 DXVK was designed and made for running 3D (Windows) applications on <u>**Linux**</u> using Wine. 🛑
 > While using DXVK on Windows *may* generally work and *may* improve your performance, **it may also do the opposite!!!**
-
-
-There are two versions of VanillaFixes, one with DXVK and one without. We just finished setting up the version WITH DXVK. 
-- If performance is better than before - Great!
-- If performance is worse - Delete the files that were in the dxvk zip and download the zip without DXVK - `vanillafixes-1.x.x.zip`
 
 https://github.com/hannesmann/vanillafixes
 
