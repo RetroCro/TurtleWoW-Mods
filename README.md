@@ -34,7 +34,7 @@
 <a id="toc"></a>
 
 - [Turtle WoW - Vanilla Client Install & Setup Guide](#turtle-wow---vanilla-client-install--setup-guide)
-- [➡️➡️STEP 1 - START HERE⬅️⬅️](#step-1---start-here)
+- [➡️➡️STEP 1 - START HERE⬅️⬅️](#%EF%B8%8F%EF%B8%8Fstep-1---start-here%EF%B8%8F%EF%B8%8F)
   - [Automatically Clear WDB Folder Every Time You Launch Turtle WoW](#automatically-clear-wdb-folder-every-time-you-launch-turtle-wow)
   - [Vanilla Tweaks](#vanilla-tweaks)
   - [SuperWoW](#superwow)
