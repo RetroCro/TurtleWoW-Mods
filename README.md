@@ -47,7 +47,7 @@
 - [⭐Turtle WoW HD Graphics, Textures, and Mods⭐](#turtle-wow-hd-graphics-textures-and-mods)
   - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
   - [💥HD Character Models💥](#hd-character-models)
-  - [🏜️NeyMey's Environment HD Retexture🏜️](#neymeys-environment-hd-retexture)
+  - [🏜️NeyMey's Environment HD Retexture🏜️](#%EF%B8%8Fneymeys-environment-hd-retexture%EF%B8%8F)
   - [Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor](#appletreys-classiic-hd-patch---updated-items-buildings-structures-weapons-and-armor)
   - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
 - [Other Mods](#other-mods)
