@@ -235,9 +235,13 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 See [Troubleshooting / FAQ](#troubleshooting--faq) 🫡
 
 [SuperWoW](https://github.com/balakethelock/SuperWoW)
+
 [SuperAPI](https://github.com/balakethelock/SuperAPI)
+
 [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib)
+
 [pepopo978's SuperWoW Installation Guide](https://github.com/pepopo978/SuperwowInstallation)
+
 [List of Addons that Use SuperWoW](https://turtle-wow.fandom.com/wiki/Addons#SuperWoW_Addons)
 
 </details>
@@ -264,6 +268,7 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
    	<p align="center"><img src="https://i.imgur.com/OcKJG3S.png" width="40%"></p>
 
 [Pepo's Fork](https://github.com/pepopo978/nampower)
+
 [Original nampower](https://github.com/namreeb/nampower)
 
 </details>
@@ -290,7 +295,7 @@ Without UnitXP SP3             |  With UnitXP SP3
 
 <p align="center"><img src="https://i.imgur.com/R9DQZ9L.png" width="50%"></p>
 
-if you set up everything correctly you will see this configuration icon:
+If you set up everything correctly you will see this configuration icon:
 
 <p align="center"><img src="https://i.imgur.com/xlenKVI.png" width="40%"></p>
 
@@ -308,20 +313,20 @@ https://github.com/allfoxwy/UnitXP_SP3_Addon
 
 <details><summary>
 	
-### VanillaFixes (Normal Version)</summary>
+### Option 1 - VanillaFixes (Normal Version)</summary>
 
 1. Download the latest VanillaFixes zip from the [releases](https://github.com/hannesmann/vanillafixes/releases) page.
 	- [vanillafixes-1.5.2.zip](https://github.com/hannesmann/vanillafixes/releases/download/v1.5.2/vanillafixes-1.5.2.zip)
 2. Unzip and put all the files in your main TWoW folder.
 
 </details>
+
 <details><summary>
 
-### VanillaFixes (DXVK Version)</summary>
+### Option 2 - VanillaFixes (DXVK Version)</summary>
 
-
-
-> # ⚠ Warning ⚠ 
+> # ⚠ Warning ⚠
+> Some people have reported issues/errors trying to use dxvk with the latest 5000 series cards!!!
 > 🛑 VanillaFixes-DXVK requires a Vulkan 1.3 capable dedicated graphics card!! 🛑
 > 	- Nvidia RTX 2060 or higher. Minimum required driver version 550.54.14. [Nvidia Drivers](https://www.nvidia.com/en-us/drivers/)
 > 	- AMD Radeon RX 5000 or higher. Minimum Adrenalin driver verion 22.1.2. [AMD Radeon Drivers](https://www.amd.com/en/support/download/drivers.html)
@@ -333,23 +338,6 @@ https://github.com/allfoxwy/UnitXP_SP3_Addon
 4. Unzip and open the folder all the way into the x32 folder -> Copy d3d9.dll from the x32 folder to the main TWoW folder. 
 	- If you copied all the files from steps 1-2, then you'll see a popup asking if you want to replace the d3d9.dll file. 
 	- Click "✔️ Replace the files in the destination"
-   
-</details>
-
-<details><summary>
-
-#### Edit DLLS.TXT</summary>
-
-Open **dlls.txt** from the TWoW folder using notepad and edit it like below:
-
-```
-twdiscord.dll
-nampower.dll
-SuperWoWhook.dll
-UnitXP_SP3.dll
-```
-
-</details>
 
 <details><summary>
 
@@ -389,6 +377,25 @@ d3d9.dpiAware = False
 ```
 
 </details>
+
+</details>
+
+<details><summary>
+
+#### Edit DLLS.TXT</summary>
+
+Open **dlls.txt** from the TWoW folder using notepad and edit it like below:
+
+```
+twdiscord.dll
+nampower.dll
+SuperWoWhook.dll
+UnitXP_SP3.dll
+```
+
+</details>
+
+
 
 You are now ready to start the optimized vanilla wow client - **Run Vanillafixes.exe to start the game.** 
 
@@ -442,7 +449,8 @@ https://github.com/Mates1500/VanillaMultiMonitorFix
 ![](https://i.imgur.com/aieolVP.jpeg)
 
 > [!Note]
-> All mpq patches must be placed in the `TurtleWoW\Data` folder. You can multiple graphic mpq patches at the same time. If two mods have the same Patch-X name you will have to rename one of them to another letter not in use.
+> All mpq patches must be placed in the `TurtleWoW\Data` folder. You can use multiple graphic/mod mpq patches at the same time.
+> If you download two mods and they have the same file name, one of them will have to be renamed to another letter that's not in use.
 
 ## Using MPQ Mods with the Launcher
 <details>
@@ -470,7 +478,7 @@ Latest and greatest Turtle HD mod includes updates models for - Characters, NPC'
 
 Size: 2.72 GB
 
-Last Updated: Apr 29, 2025 🟢
+Last Updated: May 11, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1qYRgtJZqm_D39s3ZYdUXT4YgwZLigzZx&export=download&authuser=0)
 
@@ -489,7 +497,7 @@ Watcher's Patch-A contains only HD Character models. It's slimmed down which hel
 
 Size: ~615.1 MB
 
-Last Updated: Apr 4, 2025 🟢
+Last Updated: May 6, 2025 🟢
 
 [Patch-A](https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit)
 
@@ -508,7 +516,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=12120
 
 Size: 758.1 MB
 
-Last Updated: Apr 22, 2025 🟢
+Last Updated: Apr 26, 2025 🟢
 
 [Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
 
@@ -529,7 +537,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=18689
 
 Size: 890.9 MB
 
-Last Updated: Apr 17, 2025 🟢
+Last Updated: May 6, 2025 🟢
 
 👀 [Video Showcase](https://www.youtube.com/@appletrey/videos) 👀
 
