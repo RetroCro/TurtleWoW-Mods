@@ -473,11 +473,11 @@ Latest and greatest Turtle HD mod includes updates models for - Characters, NPC'
 
 **<u>Patch-A.mpq</u>**
 
-Size: 2.72 GB
+Size: 1.74 GB
 
-Last Updated: May 11, 2025 🟢
+Last Updated: May 20, 2025 🟢
 
-[Patch-A](https://drive.usercontent.google.com/download?id=1qYRgtJZqm_D39s3ZYdUXT4YgwZLigzZx&export=download&authuser=0)
+[Patch-A](https://drive.google.com/file/d/1eV7yQDalJucJKoeThVcftX6xEg0m_ou5/view)
 
 https://forum.turtle-wow.org/viewtopic.php?t=18689
 
@@ -512,9 +512,9 @@ https://forum.turtle-wow.org/viewtopic.php?t=12120
 
 **<u>Patch-B.mpq</u>**
 
-Size: 758.1 MB
+Size: 933.8 MB
 
-Last Updated: Apr 26, 2025 🟢
+Last Updated: May 18, 2025 🟢
 
 [Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
 
