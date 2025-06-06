@@ -778,6 +778,15 @@ This can happen for various reasons such as:
  - Shaders enabled at the bottom
 <p align="center"><img src="https://i.imgur.com/AkJu10j.png" width="600"></p>
 
+Things to Try:
+https://github.com/allfoxwy/no1600x1200
+
+```
+Put no1600x1200.dll into game's folder.
+Edit loader list to include no1600x1200.dll. (Usually the list is dlls.txt)
+Start the game and check its Video Options.
+```
+
 </details>
 
 ## I get an Application Error or Critical Error When Trying to Use SuperWoW
