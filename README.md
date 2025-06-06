@@ -389,6 +389,8 @@ nampower.dll
 SuperWoWhook.dll
 UnitXP_SP3.dll
 ```
+If you are using the launcher to setup your mods you may need to also add to the txt file:
+```VfPatcher.dll```
 
 </details>
 
