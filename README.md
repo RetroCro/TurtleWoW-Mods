@@ -936,40 +936,39 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 	
 <summary>Addons List</summary>
 
-- !!inspect
-- !notoggle
-- antispam
-- AutoDecline
-- Bagshui
-- BetterCharacterStats
-- CleveRoidMacros
-- Decursive
-- GryllsExpBar
-- HCQuest
-- HCWarn
-- HealersMate
-- LevelRange-Turtle
-- Magnify
-- MikScrollingBattleText
-- MikScrollingBattleTextOptions
-- NampowerSettings
-- pfQuest
-- pfQuest-turtle
-- pfUI
-- pfUI-addonskinner
-- pfUI-CustomMedia
-- pfUI-eliteoverlay
-- pfUI-fonts
-- pfUI-RainbowHealthBar
-- SilentServer
-- SoloRaidTargetIcons
-- SuperAPI
-- SuperAPI_Castlib
-- TurtleChatColors
-- TurtleHardcoreChatTamer
-- unitscan-turtle-hc
-- UnitXP_SP3_Addon
-- VendorList
+- !notoggle - https://github.com/shirsig/notoggle
+- antispam -https://github.com/shagu/antispam
+- AutoDecline - https://github.com/mrrosh/AutoDecline
+- Bagshui - https://github.com/veechs/Bagshui
+- BetterCharacterStats - https://github.com/pepopo978/BetterCharacterStats
+- CleveRoidMacros - https://github.com/jrc13245/CleveRoidMacros
+- GryllsExpBar - https://github.com/GryllsAddons/GryllsExpBar
+- HCQuest - https://github.com/GryllsAddons/HCQuest
+- HCWarn - https://github.com/GryllsAddons/HCWarn
+- HealersMate - https://github.com/OldManAlpha/HealersMate
+- LevelRange-Turtle - https://github.com/Tenyar97/LevelRange-Turtle
+- Magnify - https://github.com/luskanek/Magnify
+- MikScrollingBattleText - https://github.com/pepopo978/Vanilla_MikScrollingBattleText
+- MikScrollingBattleTextOptions - https://github.com/pepopo978/Vanilla_MikScrollingBattleText
+- NampowerSettings - https://github.com/pepopo978/NampowerSettings
+- pfQuest - https://github.com/shagu/pfQuest
+- pfQuest-turtle - https://github.com/shagu/pfQuest-turtle
+- pfUI - https://github.com/shagu/pfUI
+- pfUI-addonskinner - https://github.com/mrrosh/pfUI-addonskinner
+- pfUI-CustomMedia - https://github.com/mrrosh/pfUI-CustomMedia
+- pfUI-eliteoverlay - https://github.com/antoinechedin/pfUI-eliteoverlay
+- pfUI-fonts - https://github.com/shagu/pfUI-fonts and https://github.com/mrrosh/pfUI-MoreFonts
+- pfUI-RainbowHealthBar - https://github.com/WanLiQiaoXi/pfUI-RainbowHealthBar
+- SilentServer - https://github.com/MarcelineVQ/SilentServer
+- SoloRaidTargetIcons - https://github.com/refaim/SoloRaidTargetIcons
+- SuperAPI - https://github.com/balakethelock/SuperAPI (Requires [SuperWoW](https://github.com/balakethelock/SuperWoW))
+- SuperAPI_Castlib - https://github.com/balakethelock/SuperAPI_Castlib (Requires [SuperWoW](https://github.com/balakethelock/SuperWoW))
+- Rinse - https://github.com/Otari98/Rinse
+- TurtleChatColors - https://github.com/DaMaGepyHUN/TurtleChatColors
+- TurtleHardcoreChatTamer - https://github.com/refaim/TurtleHardcoreChatTamer
+- unitscan-turtle-hc - https://github.com/RetroCro/unitscan-turtle-hc
+- UnitXP_SP3_Addon - https://github.com/allfoxwy/UnitXP_SP3_Addon (Requires [UnitXP_SP3](https://github.com/allfoxwy/UnitXP_SP3))
+- VendorList - https://github.com/MarcelineVQ/VendorList
 
 </details>
 
