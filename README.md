@@ -43,6 +43,7 @@
   - [VanillaFixes](#vanillafixes)
 - [Other Tweaks / Fixes](#other-tweaks--fixes)
   - [Vanilla Multi Monitor Fix](#vanilla-multi-monitor-fix)
+  - [no1600x1200](#no1600x1200)
   - [Increase Addon Script Memory Setting](#increase-addon-script-memory-setting)
 - [⭐Turtle WoW HD Graphics, Textures, and Mods⭐](#turtle-wow-hd-graphics-textures-and-mods)
   - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
@@ -414,7 +415,7 @@ https://github.com/hannesmann/vanillafixes
 
 ## Vanilla Multi Monitor Fix
 > [!Note]
-> This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected with differing supported resolutions.
+> This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected.
 
 <details>
 <summary>Vanilla Multi Monitor Fix Install Guide</summary>
@@ -429,6 +430,20 @@ https://github.com/hannesmann/vanillafixes
 3. Launch the game using VanillaFixes as it load the dll that you uncommented
 
 https://github.com/Mates1500/VanillaMultiMonitorFix
+</details>
+
+## no1600x1200
+> [!Note]
+> This is an experimental fix for Vanilla 1.12 only showing 1600x1200 resolution instead of widescreen or ultrawidescreen.
+
+<details>
+<summary>no1600x1200 Install Guide</summary>
+
+1. Download the [latest zip release](https://github.com/allfoxwy/no1600x1200/releases). 
+2. Copy `no1600x1200.dll` to the TurtleWoW main folder.
+3. Edit `dlls.txt` in the TWoW folder and add to the bottom of the list `no1600x1200.dll`.
+4. Start the game and check its Video Options.
+
 </details>
 
 ## Increase Addon Script Memory Setting
