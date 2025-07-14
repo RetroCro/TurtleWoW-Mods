@@ -88,28 +88,29 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 </summary>
 
 1. Download the game:
+   The ZIP folder contains the FULL GAME. Do not run the Launcher file or it will download TWO copies of the game!!!
 	- https://forum.turtle-wow.org/viewtopic.php?t=7709
 	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
  	- https://eudl.turtle-wow.org/twmoa_1172.zip
 
-2. Unzip somewhere easy to find such as <br>
+3. Unzip somewhere easy to find such as <br>
 	- ```C:\twmoa_1172\twmoa_1172``` or 
 	- ```C:\TurtleWoW``` or 
 	- ```E:\Games```
 
 
-3. Download and install Microsoft Visual C++ Redistributables - x86 and x64
+4. Download and install Microsoft Visual C++ Redistributables - x86 and x64
 	- **Yes, BOTH!! It doesn't matter that you're running 64 bit Windows. Download BOTH!!**
 		- From Microsoft - [vc_redist.x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  and [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 	Or...
  	- ✅Recommended - ["All-In-One" VisualCppRedist_AIO_x86_x64.exe](https://github.com/abbodi1406/vcredist/releases) which has both the x86 and x64 for all major versions.
-4. Update your graphics drivers
+5. Update your graphics drivers
 	- [AMD Graphics Drivers](https://www.amd.com/en/support/download/drivers.html)
 	- [Nvidia Graphics Drivers](https://www.nvidia.com/en-us/drivers/)
 	- [Intel Graphics Drivers](https://www.intel.com/content/www/us/en/search.html#sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])
 	<br>
 
-5. ⚡⚡ **Reboot** after installing the drivers ⚡⚡
+6. ⚡⚡ **Reboot** after installing the drivers ⚡⚡
 </details>
 
 ## Automatically Clear WDB Folder Every Time You Launch Turtle WoW
@@ -723,16 +724,17 @@ https://github.com/MarcelineVQ/turtle-autologin
 # 🆘🆘 Troubleshooting / FAQ 🆘🆘
 
 ## 🔎 How to get Support 🔍
-Post all the relevant info to the discord support channel (link at the top of this guide):
+Post all the relevant info to the [discord support channel](https://discord.com/channels/466622455805378571/691438750185553950):
 
 - Laptop or Desktop - Custom/Prebuild? Model?
 - Graphics Card - Dedicated AMD/Nvidia, Internal/CPU, Combination? Model/Driver.
 - Operating System - Windows, MacOS, Virtual Machine, or some hipster nix distro?
 - Screenshots or video of the issue
-- Your settings - In-Game, Addons, or Config Files?
+- Your settings - In-Game/Config Files?
+- What Addons are you using? 
 - Error Logs
 - What changes/tweaks/mods/etc have you added/modified/removed?
-- How you start the game - Launcher, WoW.exe, VanillaFixes, other?
+- How do you start the game? Using the Launcher? Clicking WoW.exe? Using VanillaFixes? Other?
 - When does the issue occur?
 - What things you've tried so far to fix the issue...
 
@@ -740,17 +742,21 @@ Post all the relevant info to the discord support channel (link at the top of th
 
 ## I am using the launcher and it's not working
 <details>
-<summary>Simple Fix for Launcher Issues</summary>
+<summary>How to get Launcher Support</summary>
 
-My simple fix: **Don't use it until it's more stable**
+The Turtle WoW launcher is brand new and constantly being updated. One of the most common issues is people downloading the FULL GAME zip folder, which is like 10GB, and is ready to go out of the box, no launcher needed.
 
-The Turtle WoW launcher is brand new and constantly being updated. Lots of issues have been reported by users trying to use it in it's most basic default state. My recommendation, at this time, is to bypass the launcher entirely. Stick to what we know works and has been working and we will re-visit using the launcher when it stabilizes Soon™.
+And then they run the Launcher... **If you do this you will be downloading TWO full copies of the game!!**
+
+The Launcher version will install a second copy of the game to *C:\Users\YourAccount\AppData\TurtleWoW\Wow.exe*
+
+So, if you're installing addons and mods and nothing is working then you probably have 2 copies of the game (because you ran the launcher when you didn't need to).
 
 Remember:
-- You should **NOT** be trying to start the game from the launcher if you want to use any of the tweaks above. Yes, you can configure *some*  tweaks through it, but you're supposed to close it once configured and run WoW.exe or VanillaFixes.exe manually to actually start the game. 
+- Post your issue to the [Launcher Support channel](https://discord.com/channels/466622455805378571/1309239046026952795).
+- This guide is for playing TurtleWoW **without** using the launcher - Using either WoW.exe or Vanillafixes.exe to start the game. This guide has some examples for how to setup mods using the launcher, but overall it is written for playing without launcher. 
 - You don't need the launcher to get TurtleWoW updates. They can push updates to you while the game is running. 
-- It's not required to play the game.
-- There's no need to add yet another thing to the mix along with the 20+ other tweaks and mods you probably installed without testing. 
+- The launcher is not required to play the game. 
 
 </details>
 
@@ -781,6 +787,20 @@ Causes:
 <details>
 <summary>Can't Change Game Resolution / Not Showing My Resolution</summary>
 
+<p align="center"><img src="https://i.imgur.com/AkJu10j.png" width="600"></p>
+
+Things to Try:
+https://github.com/allfoxwy/no1600x1200
+
+```
+Put no1600x1200.dll into game's folder.
+Edit loader list to include no1600x1200.dll. (Usually the list is dlls.txt)
+Start the game and check its Video Options.
+```
+If you get an error, continue down to the next section and make sure you configure both the DEP settings and the Windows Security Settings.
+
+Sometimes physically unplugging all extra monitors, rebooting, and then starting the game fixes this issue. After the game has started you can plug the other monitors in and everything seems to work fine after that.
+
 This can happen for various reasons such as:
  - You're running the game from a laptop which has internal graphics and dedicated graphics.
  - You have multiple monitors and/or different resolutions between them. 
@@ -793,16 +813,6 @@ This can happen for various reasons such as:
  - Normal and widescreen resolutions in the dropdown list
  - Monitor detected and the Refresh Rating is not blank.
  - Shaders enabled at the bottom
-<p align="center"><img src="https://i.imgur.com/AkJu10j.png" width="600"></p>
-
-Things to Try:
-https://github.com/allfoxwy/no1600x1200
-
-```
-Put no1600x1200.dll into game's folder.
-Edit loader list to include no1600x1200.dll. (Usually the list is dlls.txt)
-Start the game and check its Video Options.
-```
 
 </details>
 
@@ -816,7 +826,7 @@ Start the game and check its Video Options.
 
 Select Turn on DEP for all programs and services except those I select, and add WoW.exe to the list.
 
-It's very important that you reboot after making this change!
+**It's very important that you reboot after making this change!**
 </details>
 
 ## Virus Warnings
@@ -829,11 +839,14 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
 1. Right Click on the Start button
 2. Select Settings -> Select Update & Security -> Select Windows Security
 3. Select Virus & threat protection -> Manage Settings
-	- Real-time protection: Turn it off
+	- Turn off Real-time protection
+ 	- Turn off Cloud Delivered Protection
+  	- Turn off Automatic Sample
+   	- Turn off Tamper Protection
 4. Go back to Virus & threat protection -> Scroll all the way down to Exclusions -> Click Add an Exclusion
 	- From the dropdown, select FOLDER
 	- For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
-5. Check the Virus and Threat Protection -> Current Threats -> Protection History -> make sure there's no entries saying SuperWoW is blocked.
+5. Check the Virus and Threat Protection -> Current Threats -> Protection History -> make sure there's no threat entries saying SuperWoW is blocked.
 6. Go back and re-do the SuperWoW section once this is setup.
 <p align="center"><img src="https://i.imgur.com/tvxm5xS.png" width="60%"></p>
 
@@ -856,7 +869,7 @@ Third-party software that interacts with D3D11 and/or Vulkan at the API level wi
 - Any overlay provided by game launchers (Steam, Epic Games Store, Uplay, Origin)
 - The **Nvidia GeForce Experience** overlay
 - The RivaTuner Statistics Server overlay
-- Open Broadcaster Software recording
+- Open Broadcaster Software (OBS) recording/streaming software
 - Certain game mods (e.g. FiveM)
 - 
 **DO NOT** replace Windows DLLs in `System32` or `SysWOW64` with DXVK's. This **will** break your Windows install.
@@ -873,6 +886,7 @@ Here's a list of things to check when something isn't working. May or may not be
 
 👏 Probably because you didn't follow the guide from the start and now it's not working? 👏
 
+- Apply the DEP fix and all the Windows Security settings and exclusions posted above.
 - Delete your WDB folder? 
 - Did you install both VCredist x86 and 64 or the All-in-One?
 - Make sure your game isn't saved in a write-protected directory such as Program Files, Downloads, Documents etc. 
@@ -907,7 +921,7 @@ When all else fails - Delete the whole TWoW folder, download a fresh CLEAN copy,
 	- cpu.log
 	- twloader.log
 - There are log files in the TWoW\Errors folder -> Open the txt file and scroll to the bottom. You might see some clues there but often times it's pretty cryptic.
-	- When your game crashes a log file is put in the Errors folder and will be named similar to `2025-01-01 22.02.09 Crash.txt`
+	- When your game crashes a log file is put in the Errors folder and will be named similar to `2025-01-01 22.02.09 Crash.txt`. A DMP file with the same name will be created. You may need to provide both of these files to the support team.
 
 </details>
 
@@ -988,6 +1002,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 </details>
 
 # My config files
+This is a backup of my Config.wtf file after I've setup all the tweaks above. You should NOT copy this! You can use it as a reference.
 - [config.wtf](https://gist.githubusercontent.com/RetroCro/62cd73d9bbc64d365e0de444c6289823/raw/324c4fbb0e266688439c0c27888cf117e977d719/turtle-wow-config.wtf)
 
 
