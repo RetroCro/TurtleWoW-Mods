@@ -281,10 +281,6 @@ Without UnitXP SP3             |  With UnitXP SP3
 <details>
 <summary>UnitXP Service Pack 3 Install Guide</summary><br>
 
-Without UnitXP SP3             |  With UnitXP SP3
-:-------------------------:|:-------------------------:
-![](https://static.wikia.nocookie.net/turtle-wow/images/1/12/Without_unitxp_at_scholomance_entrance.jpg/revision/latest/scale-to-width-down/1000?cb=20240916144846)  |  ![](https://static.wikia.nocookie.net/turtle-wow/images/f/f3/UnitXP_hide_under_bridge_mobs_nameplate.jpg/revision/latest/scale-to-width-down/1000?cb=20240916145022)
-
 1. Download the latest [UnitXP-SP3-bare.zip](https://github.com/allfoxwy/UnitXP_SP3/releases) from the releases page.
 	- Unzip and put the UnitXP_SP3.dll in your main TWoW folder.
 	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1172\Interface\AddOns\UnitXP_SP3_Addon
