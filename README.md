@@ -237,7 +237,8 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 
 **😱❌ Game crashing when trying to use SuperWoW? ❌⚠️**
 
-	- See FAQ below: [SuperWoW Application/Critical Error](#i-get-an-application-error-or-critical-error-when-trying-to-use-superwow) and [SuperWoW Windows Security Settings](#virus-warnings) 🫡
+See FAQ sections: [SuperWoW Application/Critical Error](#i-get-an-application-error-or-critical-error-when-trying-to-use-superwow) and [SuperWoW Windows Security Settings](#virus-warnings) 🫡
+
 
 [SuperWoW](https://github.com/balakethelock/SuperWoW)
 
