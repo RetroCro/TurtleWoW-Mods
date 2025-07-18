@@ -204,7 +204,9 @@ What are the commands?
 
 <br>Option 3 is the newest way which can be done using the official TWoW Launcher. Be aware, the launcher is brand new and in rapid development. I would suggest using option 1 or 2 until the launcher is in a more stable state.
 
-The new launcher has most, but not all, of the important Tweaks built in. After you configure these settings you can close the launcher. Do not start the game from the launcher if you plan to use any of the other tweaks below.
+The new launcher has most, but not all, of the important Tweaks built in. After you configure these settings you can close the launcher. Do not start the game from the launcher if you plan to use any of the other tweaks below. 
+
+⚠️ ⚠️ DO NOT CHANGE THE RENDER DISTANCE (Default 777) or your game will have graphical glitches!!! ⚠️ ⚠️
 
 <p align="center"><img src="https://github.com/user-attachments/assets/647ce5d2-6d24-445e-bcc9-d802ab247530" height="300"></p>
 
