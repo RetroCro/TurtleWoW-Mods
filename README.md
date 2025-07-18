@@ -93,10 +93,10 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
  	- https://eudl.turtle-wow.org/twmoa_1172.zip
 
-2. You also need to download the latest Turtle WoW.exe and Patch-7.mpq files.
-   	- Download the latest patch from - https://eudl.turtle-wow.org/twpatch_files.zip
-   	- Unzip and copy WoW.exe from the patch file folder into your main TWoW folder.
-   	- Copy patch-7.mpq from the twpatch folder to your TWoW\Data folder. The Data folder should have files like 
+2. You also need to download the latest Turtle WoW patch files.
+   	- Download the latest twpatch_files.zip from - https://eudl.turtle-wow.org/twpatch_files.zip
+   	- Unzip and copy WoW.exe from the twpatch_files folder into your main TWoW folder.
+   	- Copy patch-7.mpq from the twpatch_files\Data folder to your TWoW\Data folder.
 
 4. The game files should all be unzipped into a folder that is easy to find such as <br>
 	- ```C:\twmoa_1172``` or 
