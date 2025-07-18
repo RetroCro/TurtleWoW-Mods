@@ -93,6 +93,9 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
  	- https://eudl.turtle-wow.org/twmoa_1172.zip
 
+2. You also need to download Patch-7.mpq. Replace your WoW.exe and put the patch-7.mpq file into your TWoW\Data folder.
+   	- https://eudl.turtle-wow.org/twpatch_files.zip
+
 3. Unzip somewhere easy to find such as <br>
 	- ```C:\twmoa_1172\twmoa_1172``` or 
 	- ```C:\TurtleWoW``` or 
