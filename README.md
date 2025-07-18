@@ -236,7 +236,7 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 
 
 **😱❌ Game crashing when trying to use SuperWoW? ❌⚠️**
-See [Troubleshooting / FAQ](#troubleshooting--faq) 🫡
+See [Troubleshooting / FAQ](#-troubleshooting--faq-) 🫡
 
 [SuperWoW](https://github.com/balakethelock/SuperWoW)
 
