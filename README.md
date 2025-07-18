@@ -93,27 +93,29 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
  	- https://eudl.turtle-wow.org/twmoa_1172.zip
 
-2. You also need to download Patch-7.mpq. Replace your WoW.exe and put the patch-7.mpq file into your TWoW\Data folder.
-   	- https://eudl.turtle-wow.org/twpatch_files.zip
+2. You also need to download the latest Turtle WoW.exe and Patch-7.mpq files.
+   	- Download the latest patch from - https://eudl.turtle-wow.org/twpatch_files.zip
+   	- Unzip and copy WoW.exe from the patch file folder into your main TWoW folder.
+   	- Copy patch-7.mpq from the twpatch folder to your TWoW\Data folder. The Data folder should have files like 
 
-3. Unzip somewhere easy to find such as <br>
-	- ```C:\twmoa_1172\twmoa_1172``` or 
+4. The game files should all be unzipped into a folder that is easy to find such as <br>
+	- ```C:\twmoa_1172``` or 
 	- ```C:\TurtleWoW``` or 
-	- ```E:\Games```
+	- ```C:\TWoW```
+ 	- ⚠️ DO NOT use or run TWoW from your Downloads, Desktop, or Documents folders as these are protected folders under Windows (Controlled Folder Access, part of Windows Security) and you might run into weird permissions errors further down when trying to setup mods. 
 
-
-4. Download and install Microsoft Visual C++ Redistributables - x86 and x64
+5. Download and install Microsoft Visual C++ Redistributables - x86 and x64
 	- **Yes, BOTH!! It doesn't matter that you're running 64 bit Windows. Download BOTH!!**
 		- From Microsoft - [vc_redist.x86](https://aka.ms/vs/17/release/vc_redist.x86.exe)  and [vc_redist.x64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 	Or...
  	- ✅Recommended - ["All-In-One" VisualCppRedist_AIO_x86_x64.exe](https://github.com/abbodi1406/vcredist/releases) which has both the x86 and x64 for all major versions.
-5. Update your graphics drivers
+6. Update your graphics drivers
 	- [AMD Graphics Drivers](https://www.amd.com/en/support/download/drivers.html)
 	- [Nvidia Graphics Drivers](https://www.nvidia.com/en-us/drivers/)
 	- [Intel Graphics Drivers](https://www.intel.com/content/www/us/en/search.html#sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])
 	<br>
 
-6. ⚡⚡ **Reboot** after installing the drivers ⚡⚡
+7. ⚡⚡ **Reboot** after installing the drivers ⚡⚡
 </details>
 
 ## Automatically Clear WDB Folder Every Time You Launch Turtle WoW
