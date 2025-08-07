@@ -30,6 +30,13 @@
 > They have a forum and discord channel dedicated to mods where you can get help from other users.
 
 
+<h2 align="center">Check out my new Turtle WoW Launcher Install Video!!</h2>
+
+<a href="https://youtu.be/A6FdCHgxTwI">
+  <img src="https://i.imgur.com/J32LML0.jpeg" alt="Click me!" />
+</a>
+
+
 <!-- ToC begin -->
 <a id="toc"></a>
 
