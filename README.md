@@ -988,7 +988,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 - HCQuest - https://github.com/GryllsAddons/HCQuest
 - HCWarn - https://github.com/GryllsAddons/HCWarn
 - HealersMate - https://github.com/OldManAlpha/HealersMate
-- LevelRange-Turtle - https://github.com/Tenyar97/LevelRange-Turtle
+- LevelRange-Turtle - https://github.com/Spartelfant/LevelRange-Turtle
 - Magnify - https://github.com/luskanek/Magnify
 - MikScrollingBattleText - https://github.com/pepopo978/Vanilla_MikScrollingBattleText
 - MikScrollingBattleTextOptions - https://github.com/pepopo978/Vanilla_MikScrollingBattleText
