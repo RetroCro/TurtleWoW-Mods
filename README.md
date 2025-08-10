@@ -66,6 +66,7 @@
   - [Darker Nights](#darker-nights)
   - [Pink Herbs](#pink-herbs)
   - [Turtle Auto Login](#turtle-auto-login)
+  - [How to Enable Bigger Mouse Cursor](#how-to-enable-bigger-mouse-cursor)
 - [🆘🆘 Troubleshooting / FAQ 🆘🆘](#-troubleshooting--faq-)
   - [🔎 How to get Support 🔍](#-how-to-get-support-)
   - [I am using the launcher and it's not working](#i-am-using-the-launcher-and-its-not-working)
@@ -730,6 +731,48 @@ https://github.com/MarcelineVQ/turtle-autologin
 2. Place MPQ file inside your `TurtleWoW\Data` folder.
 
 [Original by Haaxor1689](https://github.com/Haaxor1689/turtle-autologin)
+
+</details>
+
+## How to Enable Bigger Mouse Cursor
+
+> [!Note]
+> Two options. Pros and Cons of Each:
+
+> DXVK version only supports 1x, 2x, and 4x sized cursors of 128 pixel size. The larger you go the more pixelated it looks. Does NOT require Hardware Cursor to be enabled in game. 
+> YoloMouse allows much bigger cursor size and it looks HD not pixelated but you MUST enable Hardware Cursor in game. (This is what I use)
+
+<details>
+<summary>🖲️ Option 1 - Using Custom DXVK</summary>
+
+1. Open Turtle WoW Launcher > Click Mods at the Top > Enable Vanillafixes and DXVK
+2. Apply the Launcher updates and close the launcher.
+3. Download the modified DXVK that enables bigger mouse cursor - [d3d9.dll.zip](https://github.com/allfoxwy/dxvk/releases/tag/v23)
+4. Unzip and paste the dll into your main TWoW Folder. Overwrite the existing one.
+5. From your main TWoW folder, Open file `dxvk.conf` with notepad and add/edit an entry `d3d9.enlargeHardwareCursor = 2` (Only sizes allowed are 1, 2, and 4)
+6. Save the conf.dxvk file > Restart Launcher > Start Turtle WoW
+
+[allfoxwy/dxvk - Github](https://github.com/allfoxwy/dxvk)
+
+</details>
+
+<details>
+<summary>🖱️ Option 2 - HD Cursors with YoloMouse</summary>
+
+1. For YoloMouse to work you MUST have "Hardware Cursor" ENABLED in the game settings
+2. [Download YoloMouse from GitHub](https://github.com/PandaTeemo/YoloMouse/releases/download/0.11.3/YoloMouse64.msi)
+3. Install YoloMouse (Default settings are fine)
+4. Copy Custom Cursors to `C:\Program Files\YoloMouse\Cursors\Default` (Overwrite/Backup the old ones)
+5. Right click > Exit the YoloMouse icon by your clock
+6. Restart YoloMouse so it loads the new cursors (Right Click > Run as Administrator)
+7. Start Turtle WoW and look below to set it up.
+
+How to use YoloMouse:
+1. Repeat pressing `CTRL ALT 1`, `CTRL ALT 2`, `CTRL ALT 3` (1,2,3 to changes cursor styles and colors)
+2. Repeat pressing `CTRL ALT -`, `CTRL ALT +` (Minus or Plus) to change cursor size bigger/smaller
+3. `CTRL ALT 0` to reset cursor and size back to default
+
+[YoloMouse](https://github.com/PandaTeemo/YoloMouse)
 
 </details>
 
