@@ -760,6 +760,7 @@ https://github.com/MarcelineVQ/turtle-autologin
 
 1. For YoloMouse to work you MUST have "Hardware Cursor" ENABLED in the game settings
 <p align="center"><img src="https://i.imgur.com/uN8qObD.png"></p>
+
 2. [Download YoloMouse from GitHub](https://github.com/PandaTeemo/YoloMouse/releases/download/0.11.3/YoloMouse64.msi)
 3. Install YoloMouse (Default settings are fine)
 4. Copy Custom Cursors to `C:\Program Files\YoloMouse\Cursors\Default` (Overwrite/Backup the old ones)
