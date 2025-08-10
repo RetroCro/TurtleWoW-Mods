@@ -738,7 +738,6 @@ https://github.com/MarcelineVQ/turtle-autologin
 
 > [!Note]
 > Two options. Pros and Cons of Each:
-
 > DXVK version only supports 1x, 2x, and 4x sized cursors of 128 pixel size. The larger you go the more pixelated it looks. Does NOT require Hardware Cursor to be enabled in game. 
 > YoloMouse allows much bigger cursor size and it looks HD not pixelated but you MUST enable Hardware Cursor in game. (This is what I use)
 
