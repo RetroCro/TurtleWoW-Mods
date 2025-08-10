@@ -761,15 +761,22 @@ https://github.com/MarcelineVQ/turtle-autologin
 1. For YoloMouse to work you MUST have "Hardware Cursor" ENABLED in the game settings
 2. [Download YoloMouse from GitHub](https://github.com/PandaTeemo/YoloMouse/releases/download/0.11.3/YoloMouse64.msi)
 3. Install YoloMouse (Default settings are fine)
-4. Copy Custom Cursors to `C:\Program Files\YoloMouse\Cursors\Default` (Overwrite/Backup the old ones)
-5. Right click > Exit the YoloMouse icon by your clock
-6. Restart YoloMouse so it loads the new cursors (Right Click > Run as Administrator)
-7. Start Turtle WoW and look below to set it up.
+5. Copy Custom Cursors to `C:\Program Files\YoloMouse\Cursors\Default` (Overwrite/Backup the old ones)
+6. Right click > Exit the YoloMouse icon by your clock
+7. Restart YoloMouse so it loads the new cursors (Right Click > Run as Administrator)
+8. Start Turtle WoW and look below to set it up.
 
 How to use YoloMouse:
 1. Repeat pressing `CTRL ALT 1`, `CTRL ALT 2`, `CTRL ALT 3` (1,2,3 to changes cursor styles and colors)
 2. Repeat pressing `CTRL ALT -`, `CTRL ALT +` (Minus or Plus) to change cursor size bigger/smaller
 3. `CTRL ALT 0` to reset cursor and size back to default
+
+Here are two custom HD cursors you can add to YoloMouse
+<p align="center"><img src="https://i.imgur.com/sdhlElJ.png"></p>
+
+[Cursor 0](https://github.com/RetroCro/TurtleWoW-Mods/raw/refs/heads/main/Archive/0.cur)
+
+[Cursor 1](https://github.com/RetroCro/TurtleWoW-Mods/raw/refs/heads/main/Archive/1.cur)
 
 [YoloMouse](https://github.com/PandaTeemo/YoloMouse)
 
