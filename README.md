@@ -97,9 +97,7 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 
 1. Download the game:
    The ZIP folder contains the FULL GAME. Do not run the Launcher file or it will download TWO copies of the game!!!
-	- https://forum.turtle-wow.org/viewtopic.php?t=7709
-	- https://turtle-eu.b-cdn.net/twmoa_1172.zip
- 	- https://eudl.turtle-wow.org/twmoa_1172.zip
+	- https://eudl.turtle-wow.org/Patch1.18.0.zip
 
 2. You also need to download the latest Turtle WoW patch files.
    	- Download the latest twpatch_files.zip from - https://eudl.turtle-wow.org/twpatch_files.zip
