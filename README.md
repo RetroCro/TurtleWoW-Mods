@@ -1,5 +1,5 @@
 
-<h1 align="center" style="border-bottom: none;">Turtle WoW 1.17.2<br>HD Graphics, Client Mods, Fixes, and Tweaks</h1>
+<h1 align="center" style="border-bottom: none;">Turtle WoW 1.18<br>HD Graphics, Client Mods, Fixes, and Tweaks</h1>
 	<img align="left" src="https://turtle-wow.org/build/assets/web_logo-zTY2oemL.png" alt="Turtle WoW" width="30%">
 <div id="toc">
   <ul align="center" style="list-style: none">
@@ -95,10 +95,17 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 # ➡️➡️STEP 1 - START HERE⬅️⬅️
 </summary>
 
-1. Download the game:
+1a. Download the FULL GAME ZIP (STANDALONE NON-LAUNCHER VERSION):
    The ZIP folder contains the FULL GAME. You need to download the 1.17.2 zip below and then the newest 1.18 patch files. Copy the patch files into the 1172 folder. The full-all-in-one 1.18 zip doesnt exist yet.
 	- https://eudl.turtle-wow.org/twmoa_1172.zip 
-	- https://eudl.turtle-wow.org/Patch1.18.0.zip
+	- [1.18 patch-8 files](https://eudl.turtle-wow.org/Patch1.18.0.zip)
+	- [1.18 patch-9 files](https://cdn.discordapp.com/attachments/1309239046026952795/1406715624801177702/patch-9.mpq?ex=68a37984&is=68a22804&hm=e20730e7ff2754dfe8699479edd412050a2097f567fee64a2e02d733e6045847&)
+
+1b. If you want to use the Launcher instead:
+	- [TurtleWoW_2.2.3_x64-setup.exe](https://cdn.discordapp.com/attachments/1309239046026952795/1406709591483351253/TurtleWoW_2.2.3_x64-setup.exe?ex=68a373e6&is=68a22266&hm=33eaed72b1dd6dd60f931aeb4fce176fb47d08ea372a19157b6797cac5f73f8c&)
+ 	- If you have issues updating Patch-8 or Patch-8 using the launcher here are links to download them manually:
+ 		- [1.18 patch-8 files](https://eudl.turtle-wow.org/Patch1.18.0.zip)
+ 		- [1.18 patch-9 files](https://cdn.discordapp.com/attachments/1309239046026952795/1406715624801177702/patch-9.mpq?ex=68a37984&is=68a22804&hm=e20730e7ff2754dfe8699479edd412050a2097f567fee64a2e02d733e6045847&)
 
 3. You also need to download the latest Turtle WoW patch files.
    	- Download the latest twpatch_files.zip from - https://eudl.turtle-wow.org/twpatch_files.zip
