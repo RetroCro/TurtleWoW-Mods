@@ -96,10 +96,11 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 </summary>
 
 1. Download the game:
-   The ZIP folder contains the FULL GAME. Do not run the Launcher file or it will download TWO copies of the game!!!
+   The ZIP folder contains the FULL GAME. You need to download the 1.17.2 zip below and then the newest 1.18 patch files. Copy the patch files into the 1172 folder. The full-all-in-one 1.18 zip doesnt exist yet.
+	- https://eudl.turtle-wow.org/twmoa_1172.zip 
 	- https://eudl.turtle-wow.org/Patch1.18.0.zip
 
-2. You also need to download the latest Turtle WoW patch files.
+3. You also need to download the latest Turtle WoW patch files.
    	- Download the latest twpatch_files.zip from - https://eudl.turtle-wow.org/twpatch_files.zip
    	- Unzip and copy WoW.exe from the twpatch_files folder into your main TWoW folder.
    	- Copy patch-7.mpq from the twpatch_files\Data folder to your TWoW\Data folder.
