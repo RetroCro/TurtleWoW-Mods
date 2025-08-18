@@ -96,10 +96,8 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 </summary>
 
 1. Download the FULL GAME ZIP (STANDALONE NON-LAUNCHER VERSION):
-   The ZIP folder contains the FULL GAME. You need to download the 1.17.2 zip below and then the newest 1.18 patch files. Copy the patch files into the 1172 folder. The full-all-in-one 1.18 zip doesnt exist yet.
-	- https://eudl.turtle-wow.org/twmoa_1172.zip 
-	- [1.18 patch-8 files](https://eudl.turtle-wow.org/Patch1.18.0.zip)
-	- [1.18 patch-9 files](https://cdn.discordapp.com/attachments/1309239046026952795/1406715624801177702/patch-9.mpq?ex=68a37984&is=68a22804&hm=e20730e7ff2754dfe8699479edd412050a2097f567fee64a2e02d733e6045847&)
+   The ZIP folder contains the FULL GAME.
+	- http://eudl.turtle-wow.org/twmoa_1180.zip
 
 2. If you want to use the Launcher instead:
 	- [TurtleWoW_2.2.3_x64-setup.exe](https://cdn.discordapp.com/attachments/1309239046026952795/1406709591483351253/TurtleWoW_2.2.3_x64-setup.exe?ex=68a373e6&is=68a22266&hm=33eaed72b1dd6dd60f931aeb4fce176fb47d08ea372a19157b6797cac5f73f8c&)
