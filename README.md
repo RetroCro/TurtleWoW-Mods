@@ -49,6 +49,7 @@
   - [UnitXP Service Pack 3](#unitxp-service-pack-3)
   - [VanillaFixes](#vanillafixes)
 - [Other Tweaks / Fixes](#other-tweaks--fixes)
+  - [PerfBoost](#perfboost)
   - [no1600x1200](#no1600x1200)
   - [Vanilla Multi Monitor Fix](#vanilla-multi-monitor-fix)
   - [Increase Addon Script Memory Setting](#increase-addon-script-memory-setting)
@@ -430,6 +431,27 @@ https://github.com/hannesmann/vanillafixes
 
 # Other Tweaks / Fixes
 
+## PerfBoost
+> [!Note]
+> A performance optimization DLL for World of Warcraft 1.12.1 that provides advanced render distance controls to improve FPS in crowded areas and in raids.
+> Features -
+> Selective Unit Rendering: Control render distances for different types of units (players, pets, trash mobs, corpses)
+> Context-Aware Settings: Different render distances for combat vs non-combat, and city vs outdoor areas
+> Smart Exceptions: Always render raid-marked units, PvP enemies, and other important targets
+> Performance Optimized: Uses fast distance approximation and frame-based caching for minimal overhead
+
+<details>
+<summary>PerfBoost Install Guide</summary>
+
+1. Download the [latest perf_boost.dll release](https://github.com/pepopo978/perf_boost/releases). 
+2. Copy `perf_boost.dll` to the TurtleWoW main folder.
+3. Edit `dlls.txt` in the TWoW folder and add to the bottom of the list `perf_boost.dll`.
+4. Download the latest [Perf_Boost settings addon](https://github.com/pepopo978/PerfBoostSettings/archive/refs/heads/master.zip).
+5. Unzip the PerfBoostSettings-master folder. Open the unzipped folder and rename PerfBoostSettings-master to PerfBoostSettings.
+6. Copy PerfBoostSettings folder to TWoW\Interface\Addons folder
+
+</details>
+
 ## no1600x1200
 > [!Note]
 > This is an experimental fix for Vanilla 1.12 only showing 1600x1200 resolution instead of widescreen or ultrawidescreen.
@@ -499,22 +521,23 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 
 > [!Note]
 > Patch-A replaces playable races with their Legion HD models or other downported models from newer expansions.
+> The HD mods are not fully updated for 1.18. You may experience crashes in main cities.
 
-### 🔥Option 1 - Turtle HD Patch-A - NEW RELEASE!🔥
+### 🔥Option 1 - HD Mod for 1.18.0!🔥
 <details>
-<summary>Option 1 - Patch-A by Falarson+NeyMey with fixes from Watchers3D</summary>
-
-Latest and greatest Turtle HD mod includes updates models for - Characters, NPC's, Creatures, Mounts, and More!
+<summary>Option 1 - HD Mod by Oran1</summary>
 
 **<u>Patch-A.mpq</u>**
 
-Size: 1.74 GB
+Size: 934~ MB
 
-Last Updated: May 20, 2025 🟢
+Last Updated: Aug 21, 2025 🟢
 
-[Patch-A](https://drive.google.com/file/d/1eV7yQDalJucJKoeThVcftX6xEg0m_ou5/view)
+[Patch-A](https://www.mediafire.com/file/y3totvs48l04fpr/patch-A.mpq/file)
 
-https://forum.turtle-wow.org/viewtopic.php?t=18689
+[Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
+
+https://forum.turtle-wow.org/viewtopic.php?t=21192
 
 </details>
 
@@ -527,11 +550,11 @@ Watcher's Patch-A contains only HD Character models. It's slimmed down which hel
 
 **<u>Watcher's (Slim) - Patch-A</u>**
 
-Size: ~615.1 MB
+Size: ~614 MB
 
-Last Updated: May 6, 2025 🟢
+Last Updated: Aug 19, 2025 🟢
 
-[Patch-A](https://drive.google.com/file/d/1h0zP5SD0qhm63gZO6Jf1NL1n863U2eOh/edit)
+[Patch-A](https://drive.usercontent.google.com/download?id=1LEkT9cfwUi5LSSVS_gJ3ifO57zKY17Q3&export=download&authuser=0)
 
 https://forum.turtle-wow.org/viewtopic.php?t=12120
 
