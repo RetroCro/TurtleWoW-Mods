@@ -51,7 +51,6 @@
 - [Other Tweaks / Fixes](#other-tweaks--fixes)
   - [PerfBoost](#perfboost)
   - [no1600x1200](#no1600x1200)
-  - [Vanilla Multi Monitor Fix](#vanilla-multi-monitor-fix)
   - [Increase Addon Script Memory Setting](#increase-addon-script-memory-setting)
 - [⭐Turtle WoW HD Graphics, Textures, and Mods⭐](#turtle-wow-hd-graphics-textures-and-mods)
   - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
@@ -436,8 +435,11 @@ https://github.com/hannesmann/vanillafixes
 > A performance optimization DLL for World of Warcraft 1.12.1 that provides advanced render distance controls to improve FPS in crowded areas and in raids.
 > Features -
 > Selective Unit Rendering: Control render distances for different types of units (players, pets, trash mobs, corpses)
+> 
 > Context-Aware Settings: Different render distances for combat vs non-combat, and city vs outdoor areas
+> 
 > Smart Exceptions: Always render raid-marked units, PvP enemies, and other important targets
+> 
 > Performance Optimized: Uses fast distance approximation and frame-based caching for minimal overhead
 
 <details>
@@ -467,24 +469,6 @@ https://github.com/hannesmann/vanillafixes
 
 </details>
 
-## Vanilla Multi Monitor Fix
-> [!Note]
-> This is a DLL hook based fix for WoW 1.12 client misbehaving when you have multiple monitors connected.
-
-<details>
-<summary>Vanilla Multi Monitor Fix Install Guide</summary>
-
-1. Download the latest [VanillaMultiMonitorFix release.zip](https://github.com/Mates1500/VanillaMultiMonitorFix/releases) from the releases page.
-	- Unzip and put VanillaMultiMonitorFix.dll in your main TWoW folder.
-	- Edit dlls.txt from your main TWoW folder and and remove the # comment from line 6 or where it says: 
-	  ```
-	  VanillaMultiMonitorFix.dll
-	  ```
-2. Set `VMMFix_preferred_monitor.txt`'s contents to your desired WoW monitor's index, as shown by running `ShowAllDisplayDevices.exe`.
-3. Launch the game using VanillaFixes as it load the dll that you uncommented
-
-https://github.com/Mates1500/VanillaMultiMonitorFix
-</details>
 
 ## Increase Addon Script Memory Setting
 <details>
