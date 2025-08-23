@@ -1044,7 +1044,6 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 - AutoDecline - https://github.com/mrrosh/AutoDecline
 - Bagshui - https://github.com/veechs/Bagshui
 - BetterCharacterStats - https://github.com/pepopo978/BetterCharacterStats
-- CleveRoidMacros - https://github.com/jrc13245/CleveRoidMacros
 - GryllsExpBar - https://github.com/GryllsAddons/GryllsExpBar
 - HCQuest - https://github.com/GryllsAddons/HCQuest
 - HCWarn - https://github.com/GryllsAddons/HCWarn
@@ -1066,6 +1065,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 - SoloRaidTargetIcons - https://github.com/refaim/SoloRaidTargetIcons
 - SuperAPI - https://github.com/balakethelock/SuperAPI (Requires [SuperWoW](https://github.com/balakethelock/SuperWoW))
 - SuperAPI_Castlib - https://github.com/balakethelock/SuperAPI_Castlib (Requires [SuperWoW](https://github.com/balakethelock/SuperWoW))
+- SuperCleveRoidMacros - https://github.com/jrc13245/SuperCleveRoidMacros
 - Rinse - https://github.com/Otari98/Rinse
 - TurtleChatColors - https://github.com/DaMaGepyHUN/TurtleChatColors
 - TurtleHardcoreChatTamer - https://github.com/refaim/TurtleHardcoreChatTamer
