@@ -407,7 +407,7 @@ nampower.dll
 SuperWoWhook.dll
 UnitXP_SP3.dll
 ```
-If you are using the launcher to setup your mods you may need to also add to the txt file:
+If you are using the launcher to setup your mods you will need to also add to the dlls.txt file:
 ```VfPatcher.dll```
 
 </details>
@@ -509,19 +509,19 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 
 ### 🔥Option 1 - HD Mod for 1.18.0!🔥
 <details>
-<summary>Option 1 - HD Mod by Oran1</summary>
+<summary>Option 1 - HD Mod by Stormhand81</summary>
 
 **<u>Patch-A.mpq</u>**
 
 Size: 1.8 GB (Patch-A), 934 MB (Patch-B)
 
-Last Updated: Aug 21, 2025 🟢
+Last Updated: Aug 26, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1kwu5k38PpvpWoRvjVUhIQ_sNlHtuyeLm&export=download&authuser=0)
 
 [Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
 
-https://forum.turtle-wow.org/viewtopic.php?p=148026&sid=4186beeb01517e0712aa36f021e233a5#p148026
+https://forum.turtle-wow.org/viewtopic.php?t=21355
 
 </details>
 
