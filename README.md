@@ -106,11 +106,10 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
  		- [1.18 patch-9 files](https://cdn.discordapp.com/attachments/1309239046026952795/1406715624801177702/patch-9.mpq?ex=68a37984&is=68a22804&hm=e20730e7ff2754dfe8699479edd412050a2097f567fee64a2e02d733e6045847&)
 
 3. If you are doing the non-launcher version - 
-   	- Unzip patch 8 and 9 folders and copy WoW.exe from the into your main TWoW folder. 
-   	- Copy patch-8.mpq and patch-9.mpq your main TWoW\Data folder.
+   	- Make sure Patch-8 and Patch-9 exist in your TWoW\Data folder, otherwise get them from above. 
 
 4. The game files should all be unzipped into a folder that is easy to find such as <br>
-	- ```C:\twmoa_1172``` or 
+	- ```C:\twmoa_1180``` or 
 	- ```C:\TurtleWoW``` or 
 	- ```C:\TWoW```
  	- ⚠️ DO NOT use or run TWoW from your Downloads, Desktop, or Documents folders as these are protected folders under Windows (Controlled Folder Access, part of Windows Security) and you might run into weird permissions errors further down when trying to setup mods. 
@@ -162,7 +161,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=539
 I will list three ways to apply VanillaTweaks. Options 1 and 2 are my recommended ways of going about it. Options 2 can be used to push the vanilla client to it's limits (see screenshots above).
 
 <details>
-<summary>Option 1 - Apply Manually using Drag and Drop (EASY)</summary>
+<summary>Option 1 [NON LAUNCHER] - Apply Manually using Drag and Drop (EASY)</summary>
 <br>
 
 This is the default and recommended way to apply VanillaTweaks. 
@@ -177,7 +176,7 @@ This is the default and recommended way to apply VanillaTweaks.
 </details>
 
 <details>
-<summary>Option 2 - Apply Custom Settings using Command Line (HARD)</summary>
+<summary>Option 2 [NON LAUNCHER] - Apply Custom Settings using Command Line (HARD)</summary>
 
 <br>
 
@@ -211,7 +210,7 @@ What are the commands?
 </details>
 
 <details>
-<summary>Option 3 - Apply Using The Launcher (EASY)</summary>
+<summary>Option 3 [LAUNCHER] - Apply Using The Launcher (EASY)</summary>
 
 <br>Option 3 is the newest way which can be done using the official TWoW Launcher. Be aware, the launcher is brand new and in rapid development. I would suggest using option 1 or 2 until the launcher is in a more stable state.
 
@@ -233,18 +232,21 @@ The new launcher has most, but not all, of the important Tweaks built in. After 
 <summary>SuperWoW Install Guide</summary><br>
 
 1. Download the [latest release zip file](https://github.com/balakethelock/SuperWoW/releases/tag/Release). 
-2. Put SuperWoWhook.dll and the other files into your main TWoW folder.
+2. Put SuperWoWhook.dll into your main TWoW folder.
 3. [Download](https://github.com/balakethelock/SuperAPI/archive/refs/heads/master.zip) the optional compatibility addon, [SuperAPI](https://github.com/balakethelock/SuperAPI), which will add a minimap icon allowing you to change SuperWoW settings. 
-	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI
+	- Unzip and put the SuperAPI folder in your Interface\Addons folder: twmoa_1180\Interface\AddOns\SuperAPI
 	- Be sure to remove the "-master" from the folder name
 	
 	<p align="center"><img src="https://i.imgur.com/PWVPBaN.png" width="30%"></p><br>
 
 4. [SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib) (Optional) - Adds castbars to nameplates. If you have latest version of PfUI you won't need this addon.
-   - [Download SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip)
+	- [Download SuperAPI_Castlib](https://github.com/balakethelock/SuperAPI_Castlib/archive/refs/heads/master.zip)
 	- Unzip and put the SuperAPI_Castlib folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\SuperAPI_Castlib
 	- Be sure to remove the "-master" from the folder name
 
+5. If you use the launcher you can click the Addons tab at the top, then at the bottom click the Add new addon button and put in these links:
+	- Paste this link into the launcher popup: https://github.com/balakethelock/SuperAPI.git 
+	- Paste this link into the launcher popup: https://github.com/balakethelock/SuperAPI_Castlib.git
 
 **😱❌ Game crashing when trying to use SuperWoW? ❌⚠️**
 
@@ -283,6 +285,8 @@ We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampow
    	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
    	<p align="center"><img src="https://i.imgur.com/OcKJG3S.png" width="40%"></p>
+4. If using the launcher just enable nampower at the top of the Launcher Mods section.
+5. Then paste this link into the launcher addons popup: https://github.com/pepopo978/NampowerSettings.git
 
 [Pepo's Fork](https://github.com/pepopo978/nampower)
 
@@ -303,8 +307,9 @@ Without UnitXP SP3             |  With UnitXP SP3
 
 1. Download the latest [UnitXP-SP3-bare.zip](https://github.com/allfoxwy/UnitXP_SP3/releases) from the releases page.
 	- Unzip and put the UnitXP_SP3.dll in your main TWoW folder.
-	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1172\Interface\AddOns\UnitXP_SP3_Addon
+	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1180\Interface\AddOns\UnitXP_SP3_Addon
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
+2. If using the launcher you can just enable UnitXP in the Mods section of the Launcher and then paste this link in the addons popup: https://github.com/allfoxwy/UnitXP_SP3_Addon.git
 
 <p align="center"><img src="https://i.imgur.com/R9DQZ9L.png" width="50%"></p>
 
@@ -331,6 +336,7 @@ https://github.com/allfoxwy/UnitXP_SP3_Addon
 1. Download the latest VanillaFixes zip from the [releases](https://github.com/hannesmann/vanillafixes/releases) page.
 	- [vanillafixes-1.5.2.zip](https://github.com/hannesmann/vanillafixes/releases/download/v1.5.2/vanillafixes-1.5.2.zip)
 2. Unzip and put all the files in your main TWoW folder.
+3. If using the launcher, you can just enable vanillafixes and/or DXVK in the mods section.
 
 </details>
 
