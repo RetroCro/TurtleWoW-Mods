@@ -519,13 +519,13 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 
 **<u>Patch-A.mpq</u>**
 
-Size: 1.8 GB (Patch-A), 934 MB (Patch-B)
+Size: 2~ GB (Patch-A), 786~ MB (Patch-B)
 
 Last Updated: Aug 26, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1kwu5k38PpvpWoRvjVUhIQ_sNlHtuyeLm&export=download&authuser=0)
 
-[Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
+[Patch-B](https://drive.usercontent.google.com/download?id=1rAHddfqM9QzVwpaSOAgjZu8WaL6EjvDG&export=download&authuser=0)
 
 https://forum.turtle-wow.org/viewtopic.php?t=21355
 
