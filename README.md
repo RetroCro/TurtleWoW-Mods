@@ -581,15 +581,15 @@ https://forum.turtle-wow.org/viewtopic.php?t=18689
 
 **<u>Patch-W.mpq</u>**
 
-Size: 890.9 MB
+Size: 1.2~ GB
 
-Last Updated: Jun 11, 2025 🟢
+Last Updated: Aug 17, 2025 🟢
 
 👀 [Video Showcase](https://www.youtube.com/@appletrey/videos) 👀
 
 Custom and improved HD models. 
 
-[Patch-W](https://drive.google.com/file/d/1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR/view)
+[Patch-W](https://drive.usercontent.google.com/download?id=1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR&export=download&authuser=0)
 
 
 https://forum.turtle-wow.org/viewtopic.php?t=16720
