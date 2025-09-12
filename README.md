@@ -55,7 +55,6 @@
 - [⭐Turtle WoW HD Graphics, Textures, and Mods⭐](#turtle-wow-hd-graphics-textures-and-mods)
   - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
   - [💥HD Character Models💥](#hd-character-models)
-  - [🏜️NeyMey's Environment HD Retexture🏜️](#%EF%B8%8Fneymeys-environment-hd-retexture%EF%B8%8F)
   - [Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor](#appletreys-classiic-hd-patch---updated-items-buildings-structures-weapons-and-armor)
   - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
 - [Other Mods](#other-mods)
@@ -517,15 +516,13 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 <details>
 <summary>Option 1 - HD Mod by Stormhand81</summary>
 
-**<u>Patch-A.mpq</u>**
+**<u>Patch-A.mpq and Patch-B.mpq</u>**
 
-Size: 2~ GB (Patch-A), 786~ MB (Patch-B)
+Size: 2~ GB (Patch-A), 935~ MB (Patch-B)
 
-Last Updated: Aug 26, 2025 🟢
+Last Updated: Sept 11, 2025 🟢
 
-[Patch-A](https://drive.usercontent.google.com/download?id=1kwu5k38PpvpWoRvjVUhIQ_sNlHtuyeLm&export=download&authuser=0)
-
-[Patch-B](https://drive.usercontent.google.com/download?id=1rAHddfqM9QzVwpaSOAgjZu8WaL6EjvDG&export=download&authuser=0)
+[Download Patch-A and Patch-B](https://www.mediafire.com/folder/5mmfwak33ld2o/World_of_Warcraft_-_Turtle_HD_Patches)
 
 https://forum.turtle-wow.org/viewtopic.php?t=21355
 
@@ -542,31 +539,11 @@ Watcher's Patch-A contains only HD Character models. It's slimmed down which hel
 
 Size: ~614 MB
 
-Last Updated: Aug 19, 2025 🟢
+Last Updated: Sept 09, 2025 🟢
 
-[Patch-A](https://drive.usercontent.google.com/download?id=1LEkT9cfwUi5LSSVS_gJ3ifO57zKY17Q3&export=download&authuser=0)
+[Patch-A](https://drive.usercontent.google.com/download?id=1JiNLvI-26tcj5SV6M2AwucPt4V9Q6lF7&export=download&authuser=0)
 
 https://forum.turtle-wow.org/viewtopic.php?t=12120
-
-</details>
-
-## 🏜️NeyMey's Environment HD Retexture🏜️
-
-> [!Note]
-> Contains an extensive collection HD textures for things like grass, environments and buildings, etc.
-
-<details>
-<summary>Patch-B - NeyMey's HD Environment</summary>
-
-**<u>Patch-B.mpq</u>**
-
-Size: 933.8 MB
-
-Last Updated: May 18, 2025 🟢
-
-[Patch-B](https://drive.usercontent.google.com/download?id=14gLQgWeubG6_UR29VZ-ITGnlAC_XMHnV&export=download&authuser=0)
-
-https://forum.turtle-wow.org/viewtopic.php?t=18689
 
 </details>
 
