@@ -96,13 +96,10 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 
 1. Download the FULL GAME ZIP (STANDALONE NON-LAUNCHER VERSION):
    The ZIP folder contains the FULL GAME.
-	- http://eudl.turtle-wow.org/twmoa_1180.zip
+	- [http://eudl.turtle-wow.org/twmoa_1180.zip](https://eudl.turtle-wow.org/twmoa_1180.zip)
 
 2. If you want to use the Launcher instead:
-	- [TurtleWoW_2.2.3_x64-setup.exe](https://cdn.discordapp.com/attachments/1309239046026952795/1406709591483351253/TurtleWoW_2.2.3_x64-setup.exe?ex=68a373e6&is=68a22266&hm=33eaed72b1dd6dd60f931aeb4fce176fb47d08ea372a19157b6797cac5f73f8c&)
- 	- If you have issues updating Patch-8 or Patch-8 using the launcher here are links to download them manually:
- 		- [1.18 patch-8 files](https://cdn.discordapp.com/attachments/1309239046026952795/1406717582274203818/patch-8.mpq?ex=68a96a17&is=68a81897&hm=f86b8e64bdfbfa3732ca5460b66ecfc2f2ac01e0cc2123da5fbaf0004c7b8b35&)
- 		- [1.18 patch-9 files](https://cdn.discordapp.com/attachments/1309239046026952795/1406715624801177702/patch-9.mpq?ex=68a37984&is=68a22804&hm=e20730e7ff2754dfe8699479edd412050a2097f567fee64a2e02d733e6045847&)
+	- [TurtleWoW_Launcher Download](https://launcher.turtle-wow.org/api/launcher/TurtleWoW.exe?download=bunny)
 
 3. If you are doing the non-launcher version - 
    	- Make sure Patch-8 and Patch-9 exist in your TWoW\Data folder, otherwise get them from above. 
