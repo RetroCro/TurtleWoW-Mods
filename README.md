@@ -301,7 +301,7 @@ Without UnitXP SP3             |  With UnitXP SP3
 <details>
 <summary>UnitXP Service Pack 3 Install Guide</summary><br>
 
-1. Download the latest [UnitXP-SP3-bare.zip](https://github.com/allfoxwy/UnitXP_SP3/releases) from the releases page.
+1. Download the latest [UnitXP_SP3 zip](https://github.com/jrc13245/UnitXP_SP3/releases/tag/UnitXP_SP3_v52) from the releases page.
 	- Unzip and put the UnitXP_SP3.dll in your main TWoW folder.
 	- Copy the UnitXP_SP3_Addon folder to your Interface\Addons folder: twmoa_1180\Interface\AddOns\UnitXP_SP3_Addon
 	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
@@ -313,8 +313,7 @@ If you set up everything correctly you will see this configuration icon:
 
 <p align="center"><img src="https://i.imgur.com/xlenKVI.png" width="40%"></p>
 
-https://github.com/allfoxwy/UnitXP_SP3<br>
-https://github.com/allfoxwy/UnitXP_SP3_Addon
+https://github.com/jrc13245/UnitXP_SP3
 
 </details>
 
