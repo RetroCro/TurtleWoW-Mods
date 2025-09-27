@@ -1020,7 +1020,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 - !notoggle - https://github.com/shirsig/notoggle
 - antispam -https://github.com/shagu/antispam
 - AutoDecline - https://github.com/mrrosh/AutoDecline
-- Bagshui - https://github.com/veechs/Bagshui
+- Bagshui - https://github.com/Skillkrote/Bagshui
 - BetterCharacterStats - https://github.com/pepopo978/BetterCharacterStats
 - GryllsExpBar - https://github.com/GryllsAddons/GryllsExpBar
 - HCQuest - https://github.com/GryllsAddons/HCQuest
@@ -1030,6 +1030,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
 - Magnify - https://github.com/luskanek/Magnify
 - MikScrollingBattleText - https://github.com/jrc13245/Vanilla_MikScrollingBattleText
 - MikScrollingBattleTextOptions - https://github.com/jrc13245/Vanilla_MikScrollingBattleText
+- MinimapButtonBag - https://github.com/McPewPew/MinimapButtonBag
 - NampowerSettings - https://github.com/pepopo978/NampowerSettings
 - pfQuest - https://github.com/shagu/pfQuest
 - pfQuest-turtle - https://github.com/shagu/pfQuest-turtle
