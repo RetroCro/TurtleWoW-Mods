@@ -273,20 +273,21 @@ See FAQ sections: [SuperWoW Application/Critical Error](#i-get-an-application-er
 <details>
 <summary>Nampower Install Guide</summary><br>
 
-We will utilize [Pepo's version of nampower](https://github.com/pepopo978/nampower) which has even more client fixes such as spell queuing, automatic retry on error, and quickcasting.
+We will utilize [Nampower](https://gitea.com/avitasia/nampower) which has client fixes such as spell queuing, automatic retry on error, and quickcasting.
 
-1. Download the [latest nampower.dll from the release](https://github.com/pepopo978/nampower/releases) page.
+1. Download the [latest nampower.dll from the releases](https://gitea.com/avitasia/nampower/releases) page.
 2. Put nampower.dll in your main TWoW folder.
-3. Download the optional [NampowerSettings](https://github.com/pepopo978/NampowerSettings/archive/refs/heads/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
+3. Download the optional [NampowerSettings](https://gitea.com/avitasia/NampowerSettings/archive/master.zip) compatibility addon. This will add a minimap icon allowing you to change various nampower settings.
    	- Unzip and put the NampowerSettings folder in your Interface\Addons folder: twmoa_1172\Interface\AddOns\NampowerSettings
    	- Be sure to remove the "-master" from the folder name. The folder path should look similar to the image below:
    	<p align="center"><img src="https://i.imgur.com/OcKJG3S.png" width="40%"></p>
 4. If using the launcher just enable nampower at the top of the Launcher Mods section.
 5. Then paste this link into the launcher addons popup: https://github.com/pepopo978/NampowerSettings.git
 
-[Pepo's Fork](https://github.com/pepopo978/nampower)
+Latest version can be found at: https://gitea.com/avitasia
 
-[Original nampower](https://github.com/namreeb/nampower)
+[Pepo's Fork (OLD)](https://github.com/pepopo978/nampower)
+[Original nampower(OLD)](https://github.com/namreeb/nampower)
 
 </details>
 
