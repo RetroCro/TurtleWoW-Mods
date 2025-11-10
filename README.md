@@ -446,10 +446,10 @@ https://github.com/hannesmann/vanillafixes
 <details>
 <summary>PerfBoost Install Guide</summary>
 
-1. Download the [latest perf_boost.dll release](https://github.com/pepopo978/perf_boost/releases). 
+1. Download the [latest perf_boost.dll release](https://gitea.com/avitasia/perf_boost/releases). 
 2. Copy `perf_boost.dll` to the TurtleWoW main folder.
 3. Edit `dlls.txt` in the TWoW folder and add to the bottom of the list `perf_boost.dll`.
-4. Download the latest [Perf_Boost settings addon](https://github.com/pepopo978/PerfBoostSettings/archive/refs/heads/master.zip).
+4. Download the latest [Perf_Boost settings addon](https://gitea.com/avitasia/PerfBoostSettings/archive/master.zip).
 5. Unzip the PerfBoostSettings-master folder. Open the unzipped folder and rename PerfBoostSettings-master to PerfBoostSettings.
 6. Copy PerfBoostSettings folder to TWoW\Interface\Addons folder
 
