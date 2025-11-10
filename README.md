@@ -511,7 +511,7 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 <details>
 	
 <summary>Option 1 - HD Mod by Stormhand81</summary>
-
+<br>
 
 🧙‍♂️ PATCH-A: Player Characters & NPCs
 https://www.mediafire.com/file/yno9a9htkeimxgr/Patch-A.mpq/file
@@ -534,6 +534,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=21355
 
 ### Option 2 - Watcher's - HD Character Models Only
 <details>
+<br>
 
 <summary>Option 2 - Watcher's (Slim) Patch-A</summary>
 
@@ -543,7 +544,7 @@ Watcher's Patch-A contains only HD Character models. It's slimmed down which hel
 
 Size: ~614 MB
 
-Last Updated: Sept 09, 2025 🟢
+Last Updated: Nov 6, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1JiNLvI-26tcj5SV6M2AwucPt4V9Q6lF7&export=download&authuser=0)
 
@@ -576,16 +577,6 @@ Custom and improved HD models.
 https://forum.turtle-wow.org/viewtopic.php?t=16720
 
 </details>
-
-## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc
-> [!Note]
-> This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
-
-[Patch-H](https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0)
-
-https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
-
-
 
 
 # Other Mods
@@ -1013,13 +1004,22 @@ SET weatherDensity "0"
 
 # 🛑 Unsupported / Out of Date Client Mods 🛑
 
-<h2>Redmagejoe's Turtle HD</h2>
-**>>> WARNING THIS IS NO LONGER SUPPORTED <<<**
-**THIS PROJECT IS CURRENTLY NOT UPDATED FOR PATCH 1.17.2!**
-
-If you used this in the past you will need to remove the MPQ files!!!
+## Redmagejoe's Turtle HD
+> [!Warning]
+> THIS PROJECT IS NO LONGER UPDATED. PLEASE USE STORMHAND'S HD MOD ABOVE!!!
 
 https://forum.turtle-wow.org/viewtopic.php?p=115958#p115958
+
+## Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc
+> [!Warning]
+> THIS DOODAD MOD IS NOW MAINTAINED BY STORMHAND. SCROLL BACK UP TO THE HD SECTION!!
+> This mod backports some assets from retail but with a bigger emphasis on overhauling ground clutter and tilesets. 
+
+[Patch-H](https://drive.usercontent.google.com/download?id=1vqpkGn9PDRHAvGAn9hAuEuijbhEspljf&export=download&authuser=0)
+
+https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
+
+
 
 # Addons I Use
 <details>
