@@ -512,13 +512,19 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 <details>
 <summary>Option 1 - HD Mod by Stormhand81</summary>
 
-**<u>Patch-A.mpq and Patch-B.mpq</u>**
+🧙‍♂️ PATCH-A: Player Characters & NPCs
+https://www.mediafire.com/file/yno9a9htkeimxgr/Patch-A.mpq/file
 
-Size: 2~ GB (Patch-A), 935~ MB (Patch-B)
+🏰 PATCH-B: Buildings
+https://www.mediafire.com/file/3f31m3oug3wocrq/Patch-B.mpq/file
 
-Last Updated: Sept 11, 2025 🟢
+🌿 PATCH-D: Doodads
+https://www.mediafire.com/file/33g9gjebqrmmj2a/Patch-E.mpq/file
 
-[Download Patch-A and Patch-B](https://www.mediafire.com/folder/5mmfwak33ld2o/World_of_Warcraft_-_Turtle_HD_Patches)
+🌄 PATCH-E: Environment
+https://www.mediafire.com/file/33g9gjebqrmmj2a/Patch-E.mpq/file
+
+Last Updated: Nov 10, 2025 🟢
 
 https://forum.turtle-wow.org/viewtopic.php?t=21355
 
