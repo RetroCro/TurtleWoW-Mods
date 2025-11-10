@@ -505,12 +505,13 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 <p align="center"><img src="https://i.imgur.com/JdMaqso.jpeg"></p>
 
 > [!Note]
-> Patch-A replaces playable races with their Legion HD models or other downported models from newer expansions.
-> The HD mods are not fully updated for 1.18. You may experience crashes in main cities.
+> Download the MPQ file and put it in your TWoW/Data folder. If you use the launcher you must also go to the Mods tab at the top of the launcher and enable custom MPQ's near the bottom.
 
 ### 🔥Option 1 - HD Mod for 1.18.0!🔥
 <details>
+	
 <summary>Option 1 - HD Mod by Stormhand81</summary>
+
 
 🧙‍♂️ PATCH-A: Player Characters & NPCs
 https://www.mediafire.com/file/yno9a9htkeimxgr/Patch-A.mpq/file
@@ -533,6 +534,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=21355
 
 ### Option 2 - Watcher's - HD Character Models Only
 <details>
+
 <summary>Option 2 - Watcher's (Slim) Patch-A</summary>
 
 Watcher's Patch-A contains only HD Character models. It's slimmed down which helps reduce the number of potential crashes. Gets updated pretty frequently so I would consider this a safe pick if you just want HD character models.
