@@ -510,20 +510,63 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 ### 🔥Option 1 - HD Mod for 1.18.0!🔥
 <details>
 	
-<summary>Option 1 - HD Mod by Stormhand81</summary>
+<summary>Option 1 - HD Patch: Reforged by Stormhand81</summary>
 <br>
 
+VanillaHelpers Mod – MANDATORY
+
+The VanillaHelpers mod by Isfir is required. Without it, the HD Patch will not function.
+
+Follow these steps:
+
+- Download VanillaHelpers.dll from:
+🔗 https://github.com/isfir/VanillaHelpers/releases
+
+- Copy the dll into your main World of Warcraft folder.
+
+- Put the dll name in the dlls.txt file or if you use the launcher activate it through the MODS tab.
+
 🧙‍♂️ PATCH-A: Player Characters & NPCs
-https://www.mediafire.com/file/yno9a9htkeimxgr/Patch-A.mpq/file
+Download Link: https://www.mediafire.com/file/yno9a9htkeimxgr/Patch-A.mpq/file
 
 🏰 PATCH-B: Buildings
-https://www.mediafire.com/file/3f31m3oug3wocrq/Patch-B.mpq/file
+Download Link: https://www.mediafire.com/file/3f31m3oug3wocrq/Patch-B.mpq/file
+
+🐉 PATCH-C: Creatures
+Download Link: https://www.mediafire.com/file/00l85reelat91kv/Patch-C.mpq/file
 
 🌿 PATCH-D: Doodads
-https://www.mediafire.com/file/33g9gjebqrmmj2a/Patch-E.mpq/file
+Download Link: https://www.mediafire.com/file/et71nipmrz8k554/Patch-D.mpq/file
 
 🌄 PATCH-E: Environment
-https://www.mediafire.com/file/33g9gjebqrmmj2a/Patch-E.mpq/file
+Download Link: https://www.mediafire.com/file/33g9gjebqrmmj2a/Patch-E.mpq/file
+
+⚔️ PATCH-G: Gear & Weapons
+Download Link: https://www.mediafire.com/file/qu7ty0e75vk9roj/Patch-G.mpq/file
+
+🧭 PATCH-I: Interface
+Download Link: https://www.mediafire.com/file/a0zywdwfy7kic4o/Patch-I.mpq/file
+
+💃 PATCH-L: A Little Extra for Females (Optional big booty patch)
+Download Link: https://www.mediafire.com/file/cpmb9pt5ifzcymp/Patch-L.mpq/file
+
+🗺️ PATCH-M: Maps & Loading Screens
+Download Link: https://www.mediafire.com/file/tbnbyg0lntd7utx/Patch-M.mpq/file
+
+🌑 PATCH-N: Darker Nights (Optional)
+Download Link: https://www.mediafire.com/file/9zgbg74avr3051z/Patch-N.mpq/file
+
+🔥 PATCH-O: Raid Visuals Mod (Optional)
+This is the compatible version of Marceline’s Turtle WoW Raid Visuals Mod. - Patch-O.mpq
+IMPORTANT: this patch is totally OPTIONAL, and you only need it when you also use Patch-C, otherwise, use Patch-O from original Marceline's post.
+Download Link: https://www.mediafire.com/file/l0fpmrrdthng8wz/Patch-O.mpq/file
+
+🎵 PATCH-S: Sounds & Music
+Download Link: https://www.mediafire.com/file/ma81gpkvvndbnlb/Patch-S.mpq/file
+
+💎 PATCH-U: Ultra HD Character Textures & Gear
+Download Link: https://www.mediafire.com/file/4t3xslqq4b669bg/Patch-U.mpq/file
+Must use Patch-A and G if you want to use this one!
 
 Last Updated: Nov 10, 2025 🟢
 
