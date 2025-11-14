@@ -360,34 +360,53 @@ https://codeberg.org/konaka/UnitXP_SP3
 Open **dxvk.conf** from the TWoW folder using notepad and edit it like below:
 
 ```
-# DXVK configuration for World of Warcraft
+# --- Logging ---
+dxvk.logLevel = none                  # Disable logging
 
-# Set Asynchronus computations via DXVK to address 
-# potential microstuttering and other graphical issues
-dxvk.enableAsync = True
-dxvk.gplAsyncCache = True
+# --- Async & Pipeline ---
+dxvk.enableAsync = true             # General async operations
+dxvk.gplAsyncCache = true          # Async pipeline compilation
+dxvk.numCompilerThreads = 4           # Less memory pressure
+dxvk.trackPipelineLifetime = false   # Reduces VRAM usage
+dxvk.enableGraphicsPipelineLibrary = false  # Avoids large VRAM cache overhead
+dxvk.pipelineCache = true              # Reuse pipelines between sessions
+dxvk.maxDynamicPipelineMemory = 32    # MB cap for transient pipeline data
 
-# Uncomment to set framerate limit
-d3d9.maxFrameRate = 244
+# --- Presentation & Latency ---
+dxvk.presentInterval = 0               # Uncapped framerate
+dxvk.tearFree = false                  # Reduces latency
+dxvk.numBackBuffers = 2               # Lower swapchain memory usage
+dxvk.maxFrameLatency = 1              # Minimize input lag
+dxvk.allowFse = true                 # Reduce stuttering
+dxvk.asyncPresent = true              # Lower latency
+dxvk.syncGpu = false                  # Reduces buffering RAM use
+dxvk.forceNoFlushing = true          # Lower CPU & RAM overhead
+dxvk.useRelaxedBarriers = true        # Slightly lighter on VRAM
 
-# Uncomment to force borderless fullscreen
-d3d9.enableDialogMode = True
+# --- D3D9 Tweaks (WoW-specific) ---
+d3d9.maxFrameLatency = 1             # Minimize input lag
+d3d9.cursor = 1                     # Software cursor
+d3d9.enableDialogMode = true        # Fixes alt-tabbing issues
+d3d9.samplerAnisotropy = 8            # Still sharp, but less memory for mipmaps
+d3d9.samplerLodBias = -0.2          # Slightly sharper textures
+d3d9.clampNegativeLodBias = true   # Prevents LOD bias exploits
+d3d9.floatEmulation = relaxed      # Better performance with minor precision loss
+d3d9.strictPow = false               # Avoids slow shader paths
+d3d9.allowLockFlagReadonly = true  # Reduces stalls on texture updates
+d3d9.textureMemory = 192              # Keeps texture cache reasonable
+d3d9.dpiAware = false                 # Fixes UI scaling issues
+d3d9.memoryTrackTest = false        # Lowers overhead
+d3d9.deferSurfaceCreation = true  # Reduces initial memory spike
 
-# Enable GPL if supported to reduce stuttering (NVIDIA 473.33+, AMD 24.6.1+)
-dxvk.enableGraphicsPipelineLibrary = Auto
-# Track pipeline lifetimes to reduce memory usage
-dxvk.trackPipelineLifetime = True
-# Limit compiler threads to reduce memory usage
-dxvk.numCompilerThreads = 4
+# --- Memory & Cache ---
+dxvk.enableStateCache = true     # Reuse state objects between sessions
+dxvk.enableShaderCache = true   # Reuse compiled shaders between sessions
+dxvk.preferDeviceLocalMemory = false  # Prevents full VRAM saturation
+dxvk.enableMemoryBudget = false       # Let driver manage allocations
+dxvk.maxDeviceMemoryAllocation = 256  # MB limit per large heap block
 
-# Disabled because VanillaFixes sets process DPI awareness
-d3d9.dpiAware = False
-
-# If you want to show detailed GPU graphs and data in-game uncomment the line below.  
-# dxvk.hud = fps,frametimes,gpuload,memory,scale=0.75,opacity=0.5
-
-# If you just want a basic FPS counter uncomment this next line.
-# dxvk.hud = fps,scale=0.75,opacity=0.5
+# --- NVAPI / Optional ---
+dxvk.nvapiHack = false               # Disable NVAPI hacks
 ```
 
 </details>
