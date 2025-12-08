@@ -196,8 +196,12 @@ Option 2 is for advanced use cases when you want to set a custom value for one o
 5. Select "Open PowerShell window here"
 6. Type out your command and press enter. Example below using the previous use case:
 ``` .\vanilla-tweaks.exe --fov 3.14 --maxcameradistance 100 WoW.exe```
-1. For this example the max camera distance tweak requires one last command that has to be typed in game. So after patching WoW.exe, you'll need to start the game and open the chat box and type this command in order to fully apply the max camera distance change:2
-```/console CameraDistanceMax 100``` 
+7. For this example the max camera distance tweak requires one last command that has to be typed in game. So after patching WoW.exe, you'll need to start the game and open the chat box and type this command in order to fully apply the max camera distance change:2
+```/console CameraDistanceMax 100```
+8. More examples:
+   ```.\vanilla-tweaks.exe --farclip 3000 --fov 3.14 --maxcameradistance 100 --no-soundchannels --no-quickloot wow.exe```
+   
+   ```.\vanilla-tweaks.exe --no-frilldistance --nameplatedistance 100 --frilldistance 100 --no-quickloot wow.exe```
 
 What are the commands?
 	- Type ``` .\vanilla-tweaks.exe --help```
