@@ -813,7 +813,7 @@ https://github.com/MarcelineVQ/turtle-autologin
 
 1. Open Turtle WoW Launcher > Click Mods at the Top > Enable Vanillafixes and DXVK
 2. Apply the Launcher updates and close the launcher.
-3. Download the modified DXVK that enables bigger mouse cursor - [d3d9.dll.zip](https://github.com/allfoxwy/dxvk/releases/tag/v23)
+3. Download the modified DXVK that enables bigger mouse cursor - [d3d9.dll](https://github.com/RetroCro/TurtleWoW-Mods/raw/refs/heads/main/Archive/d3d9.dll)
 4. Unzip and paste the dll into your main TWoW Folder. Overwrite the existing one.
 5. From your main TWoW folder, Open file `dxvk.conf` with notepad and add/edit an entry `d3d9.enlargeHardwareCursor = 2` (Only sizes allowed are 1, 2, and 4)
 6. Save the conf.dxvk file > Restart Launcher > Start Turtle WoW
