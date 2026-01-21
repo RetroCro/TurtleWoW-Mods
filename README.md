@@ -819,7 +819,7 @@ https://github.com/MarcelineVQ/turtle-autologin
 6. Here is a sample [DXVK.conf](https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Archive/dxvk.conf).
 7. Save the conf.dxvk file > Restart Launcher > Start Turtle WoW
 
-[allfoxwy/dxvk - Github](https://github.com/allfoxwy/dxvk)
+[Discord post - Bigger cursor AND GPL Async](https://discord.com/channels/466622455805378571/1158807751850475690/1446454317920948357)
 
 </details>
 
