@@ -1,21 +1,21 @@
 
 <h1 align="center" style="border-bottom: none;">Turtle WoW 1.18<br>HD Graphics, Client Mods, Fixes, and Tweaks</h1>
-	<img align="left" src="https://turtle-wow.org/build/assets/web_logo-zTY2oemL.png" alt="Turtle WoW" width="30%">
+	<img align="left" src="https://turtlecraft.gg/build/assets/web_logo-zTY2oemL.png" alt="Turtle WoW" width="30%">
 <div id="toc">
   <ul align="center" style="list-style: none">
     <summary>
 <p align="center">
-	🐢 　<a href="https://turtle-wow.org/">Turtle WoW — Mysteries of Azerorth↗️</a> 　🐢
+	🐢 　<a href="https://turtlecraft.gg/">Turtle WoW — Mysteries of Azerorth↗️</a> 　🐢
   <br>
   <br>
 	<p align="left">
-		🖥️ <a href="https://forum.turtle-wow.org/viewtopic.php?t=7709">Download Turtle WoW</a><br>
-		🏹 <a href="https://github.com/othneildrew/Best-README-Template">Turtle WoW - Community Wiki</a><br>
+		🖥️ <a href="https://eudl.turtlecraft.gg/twmoa_1180.zip">Download Turtle WoW</a><br>
+		🏹 <a href="https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki">Turtle WoW - Community Wiki</a><br>
 		🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a><br>
 		⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a><br>
 		⚗️ <a href="https://turtle-wow.fandom.com/wiki/Client_Mods">Turtle WoW - Client Mods</a><br>
 		🔊 <a href="https://turtle-wow.fandom.com/wiki/Sound_Mods">Turtle WoW - Sound Mods</a><br>
-		🪓 <a href="https://forum.turtle-wow.org/viewforum.php?f=29&sid=d8169699dbac9a393102f4478d15fd4b">Turtle WoW - Modding Forum</a><br>
+		🪓 <a href="https://forum.turtlecraft.gg/viewforum.php?f=29">Turtle WoW - Modding Forum</a><br>
 		⌨ <a href="https://discord.com/channels/466622455805378571/1158807751850475690">Turtle WoW Discord - Mod Support Channel</a><br>
 </p>
     </summary>
@@ -55,7 +55,7 @@
 - [⭐Turtle WoW HD Graphics, Textures, and Mods⭐](#turtle-wow-hd-graphics-textures-and-mods)
   - [Using MPQ Mods with the Launcher](#using-mpq-mods-with-the-launcher)
   - [💥HD Character Models💥](#hd-character-models)
-  - [Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor](#appletreys-classiic-hd-patch---updated-items-buildings-structures-weapons-and-armor)
+  - [Appletrey's CLASSIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor](#appletreys-classic-hd-patch---updated-items-buildings-structures-weapons-and-armor)
   - [Vidooo's Alt HD - HD Tilesets, ground clutter, frill doodads, trees, bushes, etc](#vidooos-alt-hd---hd-tilesets-ground-clutter-frill-doodads-trees-bushes-etc)
 - [Other Mods](#other-mods)
   - [Pretty Night Sky](#pretty-night-sky)
@@ -96,10 +96,10 @@ The vanilla client is very old. Simple quality of life things like auto loot do 
 
 1. Download the FULL GAME ZIP (STANDALONE NON-LAUNCHER VERSION):
    The ZIP folder contains the FULL GAME.
-	- [http://eudl.turtle-wow.org/twmoa_1180.zip](https://eudl.turtle-wow.org/twmoa_1180.zip)
+	- [https://eudl.turtlecraft.gg/twmoa_1180.zip](https://eudl.turtlecraft.gg/twmoa_1180.zip)
 
 2. If you want to use the Launcher instead:
-	- [TurtleWoW_Launcher Download](https://launcher.turtle-wow.org/api/launcher/TurtleWoW.exe?download=bunny)
+	- [Turtle WoW Launcher Download](https://launcher.turtlecraft.gg/api/launcher/TurtleWoW.exe?download=bunny)
 
 3. If you are doing the non-launcher version - 
    	- Make sure Patch-8 and Patch-9 exist in your TWoW\Data folder, otherwise get them from above. 
@@ -142,7 +142,7 @@ The steps below will prevent the WDB folder from ever being created so you never
 
 <p align="center"><img src="https://i.imgur.com/P5VCRFs.png" height="400"></p>
 
-https://forum.turtle-wow.org/viewtopic.php?t=539
+https://forum.turtlecraft.gg/viewtopic.php?t=539
 </details>
 
 ## Vanilla Tweaks
@@ -177,9 +177,9 @@ This is the default and recommended way to apply VanillaTweaks.
 <br>
 
 > ## ⚠ Warning ⚠
-> If you don't know what you're doing this can really break your game! Make sure you read the help printout and documentation when messing with these settings. 
+> Use the default options unless you know what you're doing.
 
-Option 2 is for advanced use cases when you want to set a custom value for one or more tweaks.<br>
+Option 2 is for advanced use cases when you want to set a custom value for one or more tweaks. Read the help printout and documentation when messing with these settings. <br>
 
 
 > ### 📜 Example
@@ -290,8 +290,9 @@ We will utilize [Nampower](https://gitea.com/avitasia/nampower) which has client
 
 Latest version can be found at: https://gitea.com/avitasia
 
-[Pepo's Fork (OLD)](https://github.com/pepopo978/nampower)
-[Original nampower(OLD)](https://github.com/namreeb/nampower)
+[Nampower](https://gitea.com/avitasia/nampower)
+[OLD!! Pepo's Fork OLD!!](https://github.com/pepopo978/nampower)
+[OLD!! Original nampower OLD!!](https://github.com/namreeb/nampower)
 
 </details>
 
@@ -364,53 +365,40 @@ https://codeberg.org/konaka/UnitXP_SP3
 Open **dxvk.conf** from the TWoW folder using notepad and edit it like below:
 
 ```
-# --- Logging ---
-dxvk.logLevel = none                  # Disable logging
+# Turtle WoW (1.12) - DXVK 2.7.1
+# VSync-driven preset (no RTSS, no VRR)
+# Prioritizes visual smoothness over minimum latency.
 
-# --- Async & Pipeline ---
-dxvk.enableAsync = true             # General async operations
-dxvk.gplAsyncCache = true          # Async pipeline compilation
-dxvk.numCompilerThreads = 4           # Less memory pressure
-dxvk.trackPipelineLifetime = false   # Reduces VRAM usage
-dxvk.enableGraphicsPipelineLibrary = false  # Avoids large VRAM cache overhead
-dxvk.pipelineCache = true              # Reuse pipelines between sessions
-dxvk.maxDynamicPipelineMemory = 32    # MB cap for transient pipeline data
+# Disable logging
+dxvk.logLevel = none
 
-# --- Presentation & Latency ---
-dxvk.presentInterval = 0               # Uncapped framerate
-dxvk.tearFree = false                  # Reduces latency
-dxvk.numBackBuffers = 2               # Lower swapchain memory usage
-dxvk.maxFrameLatency = 1              # Minimize input lag
-dxvk.allowFse = true                 # Reduce stuttering
-dxvk.asyncPresent = true              # Lower latency
-dxvk.syncGpu = false                  # Reduces buffering RAM use
-dxvk.forceNoFlushing = true          # Lower CPU & RAM overhead
-dxvk.useRelaxedBarriers = true        # Slightly lighter on VRAM
+# Presentation
+# -1 lets the application decide VSync behavior.
+# Use this for classic VSync-driven pacing.
+d3d9.presentInterval = -1
 
-# --- D3D9 Tweaks (WoW-specific) ---
-d3d9.maxFrameLatency = 1             # Minimize input lag
-d3d9.cursor = 1                     # Software cursor
-d3d9.enableDialogMode = true        # Fixes alt-tabbing issues
-d3d9.samplerAnisotropy = 8            # Still sharp, but less memory for mipmaps
-d3d9.samplerLodBias = -0.2          # Slightly sharper textures
-d3d9.clampNegativeLodBias = true   # Prevents LOD bias exploits
-d3d9.floatEmulation = relaxed      # Better performance with minor precision loss
-d3d9.strictPow = false               # Avoids slow shader paths
-d3d9.allowLockFlagReadonly = true  # Reduces stalls on texture updates
-d3d9.textureMemory = 192              # Keeps texture cache reasonable
-d3d9.dpiAware = false                 # Fixes UI scaling issues
-d3d9.memoryTrackTest = false        # Lowers overhead
-d3d9.deferSurfaceCreation = true  # Reduces initial memory spike
+# Frame latency
+# Allow a small amount of pipeline slack to avoid VSync-induced stutter.
+d3d9.maxFrameLatency = 2
 
-# --- Memory & Cache ---
-dxvk.enableStateCache = true     # Reuse state objects between sessions
-dxvk.enableShaderCache = true   # Reuse compiled shaders between sessions
-dxvk.preferDeviceLocalMemory = false  # Prevents full VRAM saturation
-dxvk.enableMemoryBudget = false       # Let driver manage allocations
-dxvk.maxDeviceMemoryAllocation = 256  # MB limit per large heap block
+# Exclusive Fullscreen
+# Optional but recommended for consistent VSync behavior, disable if you have alt-tab issues.
+dxvk.allowFse = False
 
-# --- NVAPI / Optional ---
-dxvk.nvapiHack = false               # Disable NVAPI hacks
+# Limit shader compiler threads to reduce peak memory usage and avoid crashes in 32-bit D3D9 titles
+dxvk.numCompilerThreads = 2
+
+# Track pipeline lifetimes automatically (recommended for 32-bit applications)
+dxvk.trackPipelineLifetime = True
+
+# Enable Graphics Pipeline Library when supported to reduce stutter
+dxvk.enableGraphicsPipelineLibrary = Auto
+
+# Visual stability
+d3d9.clampNegativeLodBias = True
+
+# HUD (0=off)
+dxvk.hud = 0
 ```
 
 </details>
@@ -530,13 +518,13 @@ The launcher supports loading extra mpq's from the Data folder. Maybe you don't 
 > [!Note]
 > Download the MPQ file and put it in your TWoW/Data folder. If you use the launcher you must also go to the Mods tab at the top of the launcher and enable custom MPQ's near the bottom.
 
-### 🔥Option 1 - HD Mod for 1.18.0!🔥
+### 🔥HD Mod for 1.18.0!🔥
 <details>
 	
 <summary>Option 1 - HD Patch: Reforged by Stormhand81</summary>
 <br>
 
-VanillaHelpers Mod – MANDATORY
+VanillaHelpers.dll Mod = MANDATORY
 
 The VanillaHelpers mod by Isfir is required. Without it, the HD Patch will not function.
 
@@ -551,62 +539,49 @@ Follow these steps:
 
 🧙‍♂️ PATCH-A: Player Characters & NPCs
 
-Download Link: https://www.mediafire.com/file/yno9a9htkeimxgr/Patch-A.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-A.mpq
 
 🏰 PATCH-B: Buildings
 
-Download Link: https://www.mediafire.com/file/3f31m3oug3wocrq/Patch-B.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-B.mpq
 
 🐉 PATCH-C: Creatures
 
-Download Link: https://www.mediafire.com/file/00l85reelat91kv/Patch-C.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-C.mpq
 
 🌿 PATCH-D: Doodads
 
-Download Link: https://www.mediafire.com/file/et71nipmrz8k554/Patch-D.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-D.mpq
 
 🌄 PATCH-E: Environment
 
-Download Link: https://www.mediafire.com/file/33g9gjebqrmmj2a/Patch-E.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-E.mpq
 
 ⚔️ PATCH-G: Gear & Weapons
 
-Download Link: https://www.mediafire.com/file/qu7ty0e75vk9roj/Patch-G.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-G.mpq
 
 🧭 PATCH-I: Interface
 
-Download Link: https://www.mediafire.com/file/a0zywdwfy7kic4o/Patch-I.mpq/file
-
-💃 PATCH-L: A Little Extra for Females (Optional big booty patch)
-
-Download Link: https://www.mediafire.com/file/cpmb9pt5ifzcymp/Patch-L.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-I.mpq
 
 🗺️ PATCH-M: Maps & Loading Screens
 
-Download Link: https://www.mediafire.com/file/tbnbyg0lntd7utx/Patch-M.mpq/file
-
-🌑 PATCH-N: Darker Nights (Optional)
-
-Download Link: https://www.mediafire.com/file/9zgbg74avr3051z/Patch-N.mpq/file
-
-🔥 PATCH-O: Raid Visuals Mod (Optional)
-
-This is the compatible version of Marceline’s Turtle WoW Raid Visuals Mod. - Patch-O.mpq
-IMPORTANT: this patch is totally OPTIONAL, and you only need it when you also use Patch-C, otherwise, use Patch-O from original Marceline's post.
-Download Link: https://www.mediafire.com/file/l0fpmrrdthng8wz/Patch-O.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-M.mpq
 
 🎵 PATCH-S: Sounds & Music
 
-Download Link: https://www.mediafire.com/file/ma81gpkvvndbnlb/Patch-S.mpq/file
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-S.mpq
 
-💎 PATCH-U: Ultra HD Character Textures & Gear
+✨ PATCH-V: Spell Visual Effects
 
-Download Link: https://www.mediafire.com/file/4t3xslqq4b669bg/Patch-U.mpq/file
-Must use Patch-A and G if you want to use this one!
+Download Link: https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-V.mpq
 
-Last Updated: Nov 10, 2025 🟢
+Last Updated: Feb 05, 2026 🟢
 
-https://forum.turtle-wow.org/viewtopic.php?t=21355
+https://forum.turtlecraft.gg/viewtopic.php?t=21355
+
+https://projectreforged.github.io/
 
 </details>
 
@@ -627,33 +602,20 @@ Last Updated: Nov 6, 2025 🟢
 
 [Patch-A](https://drive.usercontent.google.com/download?id=1JiNLvI-26tcj5SV6M2AwucPt4V9Q6lF7&export=download&authuser=0)
 
-https://forum.turtle-wow.org/viewtopic.php?t=12120
+https://forum.turtlecraft.gg/viewtopic.php?t=12120
 
 </details>
 
-## Appletrey's CLASSIIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor
+## Appletrey's CLASSIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor
 <img src="https://i.imgur.com/fLXq9bg.jpeg" width="50%"><img src="https://i.imgur.com/ZdZ0wr5.png" width="50%">
 
 > [!Note]
 > Custom M2 Items and Environments, Massive Gear overhauls, WMO Buildings updated. Model, vehicles, structures updated. Custom outpost spikes, walls, gates, and so much more.
 
-<details>
-<summary>Patch-W - Appletrey's CLASSIIC HD Patch</summary>
-
-**<u>Patch-W.mpq</u>**
-
-Size: 1.2~ GB
-
-Last Updated: Aug 17, 2025 🟢
-
-👀 [Video Showcase](https://www.youtube.com/@appletrey/videos) 👀
-
-Custom and improved HD models. 
-
-[Patch-W](https://drive.usercontent.google.com/download?id=1t0R4iq7HtINE192pP1xvkKVBCu9Tt5CR&export=download&authuser=0)
+This Mod is now included inthe  Reforged HD modpack. Scroll up!
 
 
-https://forum.turtle-wow.org/viewtopic.php?t=16720
+https://forum.turtlecraft.gg/viewtopic.php?t=16720
 
 </details>
 
@@ -674,7 +636,7 @@ Demo Video - Flight from Undercity to Tarren Mill:
 
 You might try renaming this to Patch-Y or another letter near the end of alphabet since other HD mods can overwrite this one.
 
-https://forum.turtle-wow.org/viewtopic.php?t=10776
+https://forum.turtlecraft.gg/viewtopic.php?t=10776
 
 </details>
 
@@ -703,7 +665,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=10776
 05 - Grey/Blonde: [(Download Link)](https://mega.nz/file/wyw1nDjC#42nWx-WRjdmVoVjZftUM5zv0ahB5MthO9x1LYqDawkM)  
 [![Image](https://i.imgur.com/tAKONKZ.jpeg)](https://i.imgur.com/tAKONKZ.jpeg)
 
-https://forum.turtle-wow.org/viewtopic.php?t=16108
+https://forum.turtlecraft.gg/viewtopic.php?t=16108
 
 </details>
 
@@ -720,9 +682,10 @@ https://forum.turtle-wow.org/viewtopic.php?t=16108
 
 [Patch-W](https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view)
 
+
 You probably want to rename this to Patch-X or Patch-Y as other HD mods can overwrite it such as Appletrey's CLASSIIC HD Patch.
 
-https://forum.turtle-wow.org/viewtopic.php?t=16918
+https://forum.turtlecraft.gg/viewtopic.php?t=16918
 
 </details>
 
@@ -744,9 +707,11 @@ https://forum.turtle-wow.org/viewtopic.php?t=16918
 
 [Patch-Y](https://drive.google.com/file/d/14aHvyfr_ACL-UURbNa_fXRPcfQZoIw8n/view?usp=sharing)
 
+You can also download [Reforged HD's Patch-E](https://projectreforged.github.io/downloads/index.html) which contains Fog Pushback.
+
 > A few other mods also use Patch-Y for their name so you may need to rename this mpq to another unused letter
 
-https://forum.turtle-wow.org/viewtopic.php?t=10982
+https://forum.turtlecraft.gg/viewtopic.php?t=10982
 
 </details>
 
@@ -756,7 +721,7 @@ https://forum.turtle-wow.org/viewtopic.php?t=10982
 
 I tested this only briefly for 1.18 to make sure it wouldnt instantly crash me and it didn't. I didn't test enough to say how well it works but I am leaving the download here for now. 
 - Darker Nights mod loses the dark effect when it rains. The ambient brightness is only set for default weather.
-- [Download Darker Nights 1.8](https://forum.turtle-wow.org/viewtopic.php?t=22135)
+- [Download Darker Nights 1.8](https://forum.turtlecraft.gg/viewtopic.php?t=22135)
 
 
 ## Pink Herbs
@@ -769,7 +734,7 @@ I tested this only briefly for 1.18 to make sure it wouldnt instantly crash me a
 
 <p align="center"><img src="https://github.com/RetroCro/TurtleWoW-Mods/blob/main/Pictures/PinkHerbs.jpg" width="40%"></p>
 
-[Patch-J](https://forum.turtle-wow.org/viewtopic.php?t=12005)
+[Patch-J](https://forum.turtlecraft.gg/viewtopic.php?t=12005)
 
 </details>
 
@@ -975,6 +940,7 @@ You will need to add exclusions/exceptions to your AV software for the main Turt
  	- Turn off Cloud Delivered Protection
   	- Turn off Automatic Sample
    	- Turn off Tamper Protection
+   	- This is just temporary while we install SuperWoW. These will automatically re-enable later and that's fine.
 4. Go back to Virus & threat protection -> Scroll all the way down to Exclusions -> Click Add an Exclusion
 	- From the dropdown, select FOLDER
 	- For the path select the main TWoW folder (example: C:\twmoa_1172\twmoa_1172)
@@ -1004,7 +970,7 @@ Third-party software that interacts with D3D11 and/or Vulkan at the API level wi
 - Open Broadcaster Software (OBS) recording/streaming software
 - Certain game mods (e.g. FiveM)
 - 
-**DO NOT** replace Windows DLLs in `System32` or `SysWOW64` with DXVK's. This **will** break your Windows install.
+**DO NOT** replace Windows DLLs in `System32` or `SysWOW64` with DXVK's. This **will** break your Windows install. Only put DXVK dlls in your TWoW folder.
 
 Make sure to use the 32-bit DLLs for 32-bit games. Windows applications will never load DLLs of the wrong architecture.
 
@@ -1060,7 +1026,7 @@ When all else fails - Delete the whole TWoW folder, download a fresh CLEAN copy,
 ## My PC is Garbage/I need max performance config
 <details>
 	
-<summary>config.wtf settings to try</summary>
+<summary>config.wtf settings to reduce</summary>
 
 ```
 SET DistCull "1"
