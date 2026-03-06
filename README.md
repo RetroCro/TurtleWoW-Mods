@@ -585,35 +585,13 @@ https://projectreforged.github.io/
 
 </details>
 
-
-### Option 2 - Watcher's - HD Character Models Only
-<details>
-<br>
-
-<summary>Option 2 - Watcher's (Slim) Patch-A</summary>
-
-Watcher's Patch-A contains only HD Character models. It's slimmed down which helps reduce the number of potential crashes. Gets updated pretty frequently so I would consider this a safe pick if you just want HD character models.
-
-**<u>Watcher's (Slim) - Patch-A</u>**
-
-Size: ~614 MB
-
-Last Updated: Nov 6, 2025 🟢
-
-[Patch-A](https://drive.usercontent.google.com/download?id=1JiNLvI-26tcj5SV6M2AwucPt4V9Q6lF7&export=download&authuser=0)
-
-https://forum.turtlecraft.gg/viewtopic.php?t=12120
-
-</details>
-
 ## Appletrey's CLASSIC HD Patch - Updated Items, Buildings, Structures, Weapons, and Armor
 <img src="https://i.imgur.com/fLXq9bg.jpeg" width="50%"><img src="https://i.imgur.com/ZdZ0wr5.png" width="50%">
 
 > [!Note]
 > Custom M2 Items and Environments, Massive Gear overhauls, WMO Buildings updated. Model, vehicles, structures updated. Custom outpost spikes, walls, gates, and so much more.
 
-This Mod is now included inthe  Reforged HD modpack. Scroll up!
-
+This Mod is now included in the Reforged HD modpack. Scroll up!
 
 https://forum.turtlecraft.gg/viewtopic.php?t=16720
 
@@ -682,8 +660,7 @@ https://forum.turtlecraft.gg/viewtopic.php?t=16108
 
 [Patch-W](https://drive.google.com/file/d/1xRx9OrznbgbE1uBae3H3OGke9UoXtzmU/view)
 
-
-You probably want to rename this to Patch-X or Patch-Y as other HD mods can overwrite it such as Appletrey's CLASSIIC HD Patch.
+[Reforged HD Patch-E](https://pub-0f05631d243e4046993fc02ca7be9542.r2.dev/patches/Patch-E.mpq) also contains Epoch Water and other Environment improvements.
 
 https://forum.turtlecraft.gg/viewtopic.php?t=16918
 
