@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: HCWarn
+## Author: Grylls
+## Notes: Helps prevent accidental flagging and warns when PvP flagged
+## Version: 6
+## SavedVariables: HCWarn_Settings
+
+HCWarn.lua
