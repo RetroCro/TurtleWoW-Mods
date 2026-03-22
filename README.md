@@ -1052,7 +1052,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 - !notoggle - https://github.com/shirsig/notoggle
 - antispam -https://github.com/shagu/antispam
 - AutoDecline - https://github.com/mrrosh/AutoDecline
-- Bagshui - https://github.com/Skillkrote/Bagshui
+- Bagshui - https://github.com/NiclasEriksen/Bagshui
 - BetterCharacterStats - https://github.com/pepopo978/BetterCharacterStats
 - GryllsExpBar - https://github.com/GryllsAddons/GryllsExpBar
 - HCQuest - https://github.com/GryllsAddons/HCQuest
