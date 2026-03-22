@@ -1066,7 +1066,7 @@ https://forum.turtle-wow.org/viewtopic.php?p=111831#p111831
 - NampowerSettings - https://github.com/pepopo978/NampowerSettings
 - pfQuest - https://github.com/shagu/pfQuest
 - pfQuest-turtle - https://github.com/shagu/pfQuest-turtle
-- pfUI - https://github.com/shagu/pfUI
+- pfUI - https://github.com/me0wg4ming/pfUI/tree/master
 - pfUI-addonskinner - https://github.com/mrrosh/pfUI-addonskinner
 - pfUI-CustomMedia - https://github.com/mrrosh/pfUI-CustomMedia
 - pfUI-eliteoverlay - https://github.com/antoinechedin/pfUI-eliteoverlay
