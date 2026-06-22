@@ -1,3 +1,35 @@
+<h1 align="center" style="border-bottom: none;">Capybara <s>Turtle</s> WoW 1.18<br>HD Graphics, Client Mods, Fixes, and Tweaks</h1>
+ <img align="left" src="https://i.imgur.com/ycsv3Sa.png" alt="Turtle WoW" width="30%">
+<div id="toc">
+  <ul align="center" style="list-style: none">
+    <summary>
+<p align="center">
+ 🐢 　<a href="http://capycraft.io/">Capybara WoW Homepage (USA IP Blocked. Must use VPN!!)</a> 　🐢
+  <br>
+  <br>
+ <p align="left">
+  💾 <a href="https://gofile.io/d/dgmBN7">>>> Download CapyWoW Client with HD Textures and all mods pre-installed! <<<</a><br>
+  🖥️ <a href="https://gofile.io/d/d3tX8m">>>> Download pre-configured CapyWoW Client (Barebone)  <<<</a><br>
+  ⌨ <a href="https://discord.gg/cCkmfPPtE">CapyWoW English Community Discord</a><br><br>
+  🏹 <a href="https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki">Turtle WoW - Community Wiki</a><br>
+  🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a><br>
+  ⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a><br>
+  ⚗️ <a href="https://turtle-wow.fandom.com/wiki/Client_Mods">Turtle WoW - Client Mods</a><br>
+  🔊 <a href="https://turtle-wow.fandom.com/wiki/Sound_Mods">Turtle WoW - Sound Mods</a><br>
+
+</p>
+    </summary>
+  </ul>
+</div>
+  <br clear="left">
+
+> [!IMPORTANT]  
+> <b>What is Capybara WoW? It's a new SEA/APAC private server that is a 1 for 1 copy of TurtleWoW. They have the same exact client/server files that TWoW used. It picks up exactly where TWoW ended. It's based in Hong Kong with pings around 200ms from North America.</b>
+
+> [!WARNING]
+> The information here is a work in progress and may not be current. You should always check the source links for updates or ask in the English discord.<br>
+> Capybara WoW does not officially support any HD or client mods so you will not be able to receive "official" support for issues caused by using these mods.
+
 ## Table of Contents
 
 - [➡️➡️STEP 1 - START HERE⬅️⬅️](#step-1-start-here)
@@ -35,38 +67,6 @@
 - [My config files](#my-config-files)
 
 
-
-<h1 align="center" style="border-bottom: none;">Capybara <s>Turtle</s> WoW 1.18<br>HD Graphics, Client Mods, Fixes, and Tweaks</h1>
- <img align="left" src="https://i.imgur.com/ycsv3Sa.png" alt="Turtle WoW" width="30%">
-<div id="toc">
-  <ul align="center" style="list-style: none">
-    <summary>
-<p align="center">
- 🐢 　<a href="http://capycraft.io/">Capybara WoW Homepage (USA IP Blocked. Must use VPN!!)</a> 　🐢
-  <br>
-  <br>
- <p align="left">
-  💾 <a href="https://gofile.io/d/dgmBN7">>>> Download CapyWoW Client with HD Textures and all mods pre-installed! <<<</a><br>
-  🖥️ <a href="https://gofile.io/d/d3tX8m">>>> Download pre-configured CapyWoW Client (Barebone)  <<<</a><br>
-  ⌨ <a href="https://discord.gg/cCkmfPPtE">CapyWoW English Community Discord</a><br><br>
-  🏹 <a href="https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki">Turtle WoW - Community Wiki</a><br>
-  🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a><br>
-  ⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a><br>
-  ⚗️ <a href="https://turtle-wow.fandom.com/wiki/Client_Mods">Turtle WoW - Client Mods</a><br>
-  🔊 <a href="https://turtle-wow.fandom.com/wiki/Sound_Mods">Turtle WoW - Sound Mods</a><br>
-
-</p>
-    </summary>
-  </ul>
-</div>
-  <br clear="left">
-
-> [!IMPORTANT]  
-> <b>What is Capybara WoW? It's a new SEA/APAC private server that is a 1 for 1 copy of TurtleWoW. They have the same exact client/server files that TWoW used. It picks up exactly where TWoW ended. It's based in Hong Kong with pings around 200ms from North America.</b>
-
-> [!WARNING]
-> The information here is a work in progress and may not be current. You should always check the source links for updates or ask in the English discord.<br>
-> Capybara WoW does not officially support any HD or client mods so you will not be able to receive "official" support for issues caused by using these mods.
 
 # ➡️➡️STEP 1 - START HERE⬅️⬅️
 
