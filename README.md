@@ -8,9 +8,10 @@
   <br>
   <br>
  <p align="left">
-  💾 <a href="https://gofile.io/d/dgmBN7"> Download CapyWoW Client with HD Textures and all mods pre-installed! </a><br>
-  🖥️ <a href="https://gofile.io/d/d3tX8m"Download pre-configured CapyWoW Client (Barebone)</a><br><br>
+  💾 <b><a href="https://gofile.io/d/dgmBN7">Download CapyWoW Client with HD Textures and all mods pre-installed!</a></b><br>
+  🖥️ <a href="https://gofile.io/d/d3tX8m">Download pre-configured CapyWoW Client (Barebone)</a><br>
   ⌨ <a href="https://discord.gg/cCkmfPPtE">CapyWoW English Community Discord</a><br><br>
+
   🏹 <a href="https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki">Turtle WoW - Community Wiki</a><br>
   🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a><br>
   ⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a><br>
