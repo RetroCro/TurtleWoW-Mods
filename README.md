@@ -8,16 +8,16 @@
   <br>
   <br>
  <p align="left">
-  💾 <b><a href="https://gofile.io/d/dgmBN7">**Download CapyWoW Client with HD Textures and all mods pre-installed!**</a></b><br>
+  💾 <b><a href="https://gofile.io/d/dgmBN7">**Download CapyWoW with HD + DLL Mods pre-installed!**</a></b><br>
 
-  🖥️ <a href="https://gofile.io/d/d3tX8m"> Download CapyWoW Client without HD (Barebone) </a><br>
+  🖥️ <a href="https://gofile.io/d/d3tX8m"> Download CapyWoW without HD (Barebone) </a><br>
 
   ⌨ <a href="https://discord.gg/cCkmfPPtE">CapyWoW English Community Discord</a><br>
 
-  🏹 <a href="https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki">Turtle WoW - Community Wiki</a>
-  🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a>
-  ⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a>
-  ⚗️ <a href="https://turtle-wow.fandom.com/wiki/Client_Mods">Turtle WoW - Client Mods</a>
+  🏹 <a href="https://turtle-wow.fandom.com/wiki/Turtle_WoW_Wiki">Turtle WoW - Community Wiki</a><br>
+  🗡 <a href="https://turtle-wow.fandom.com/wiki/Addons">Turtle WoW - Addons</a><br>
+  ⚔ <a href="https://turtle-wow.fandom.com/wiki/Client_Fixes_and_Tweaks">Turtle WoW - Client Fixes and Tweaks</a><br>
+  ⚗️ <a href="https://turtle-wow.fandom.com/wiki/Client_Mods">Turtle WoW - Client Mods</a><br>
   🔊 <a href="https://turtle-wow.fandom.com/wiki/Sound_Mods">Turtle WoW - Sound Mods</a><br>
 
 </p>
