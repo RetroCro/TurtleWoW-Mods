@@ -8,7 +8,7 @@
   <br>
   <br>
  <p align="left">
-  💾 <b><a href="https://gofile.io/d/dgmBN7">**Download CapyWoW with HD + DLL Mods pre-installed!**</a></b><br>
+  💾 <b><a href="https://gofile.io/d/YvYbqt">**Download CapyWoW with HD + DLL Mods pre-installed!**</a></b><br>
 
   🖥️ <a href="https://gofile.io/d/d3tX8m"> Download CapyWoW without HD (Barebone) </a><br>
 
@@ -78,7 +78,7 @@
 1. Download the FULL GAME ZIP - STANDALONE, NON-LAUNCHER VERSION:
    Loaded with performance, client, and language fixes out of the box
 
-- [Download CapyWoW pre-configured with HD Textures + Mods + Extras!!](https://gofile.io/d/dgmBN7)
+- [Download CapyWoW pre-configured with HD Textures + Mods + Extras!!](https://gofile.io/d/YvYbqt)
 - [Download CapyWoW basic version without HD.](https://gofile.io/d/d3tX8m)
 
 - Do you still have TWoW installed? You can use the TWoW client to log into CapyWoW since they use the same files. You will need to update your [config.wtf](https://raw.githubusercontent.com/RetroCro/TurtleWoW-Mods/refs/heads/main/Archive/Config.wtf) and [realmlist](https://raw.githubusercontent.com/RetroCro/TurtleWoW-Mods/refs/heads/main/Archive/realmlist.wtf) files. You should be able to login after updating those two files.
