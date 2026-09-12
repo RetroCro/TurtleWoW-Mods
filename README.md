@@ -784,7 +784,7 @@ This version is newer and has more features than the original. It does requires 
 
 <p align="center"><img src="https://i.imgur.com/uN8qObD.png"></p>
 
-2. [Download YoloMouse from GitHub](https://github.com/PandaTeemo/YoloMouse/releases/download/0.11.3/YoloMouse64.msi)
+2. [Download YoloMouse from GitHub](https://github.com/RetroCro/TurtleWoW-Mods/raw/refs/heads/main/Archive/YoloMouse64.msi)
 3. Install YoloMouse (Default settings are fine)
 4. Copy Custom Cursors to `C:\Program Files\YoloMouse\Cursors\Default` (Overwrite/Backup the old ones)
 5. Right click > Exit the YoloMouse icon by your clock
